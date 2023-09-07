@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1693767096
-ModificationTime: 1694100218
+ModificationTime: 1694103015
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -62,7 +62,7 @@ Grid
  -38 437 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 29
+BeginChars: 256 30
 
 StartChar: o
 Encoding: 111 111 0
@@ -804,6 +804,30 @@ SplineSet
  102 407 102 403 102 398 c 0
  102 162 115 116 198 116 c 4
  282 116 298 174 298 412 c 27
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: A
+Encoding: 65 65 29
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+184 682 m 5
+ 143 272 l 5
+ 230 272 l 5
+ 184 682 l 5
+127 799 m 5
+ 230 799 l 5
+ 398 0 l 5
+ 287 0 l 5
+ 243 191 l 5
+ 134 191 l 5
+ 102 0 l 5
+ 0 0 l 5
+ 127 799 l 5
 EndSplineSet
 Validated: 1
 EndChar
