@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1693767096
-ModificationTime: 1694182180
+ModificationTime: 1694184530
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -68,7 +68,7 @@ Grid
  0 799 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 43
+BeginChars: 256 44
 
 StartChar: o
 Encoding: 111 111 0
@@ -993,8 +993,33 @@ EndSplineSet
 Validated: 1
 EndChar
 
+StartChar: P
+Encoding: 80 80 37
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+106 698 m 0
+ 106 452 l 19
+ 128 452 140 452 191 452 c 7
+ 249 452 304 515 304 582 c 7
+ 304 645 252 699 191 699 c 7
+ 146 699 148 698 106 698 c 0
+237 368 m 15
+ 122 368 103 368 103 368 c 1
+ 103 0 l 1
+ 0 0 l 1
+ 0 798 l 1
+ 0 798 82 798 237 798 c 23
+ 318 798 398 691 398 582 c 7
+ 398 475 318 368 237 368 c 15
+EndSplineSet
+Validated: 1
+EndChar
+
 StartChar: T
-Encoding: 84 84 37
+Encoding: 84 84 38
 Width: 498
 Flags: HW
 LayerCount: 2
@@ -1014,7 +1039,7 @@ Validated: 1
 EndChar
 
 StartChar: F
-Encoding: 70 70 38
+Encoding: 70 70 39
 Width: 498
 Flags: HW
 LayerCount: 2
@@ -1036,7 +1061,7 @@ Validated: 1
 EndChar
 
 StartChar: X
-Encoding: 88 88 39
+Encoding: 88 88 40
 Width: 498
 Flags: HW
 LayerCount: 2
@@ -1060,7 +1085,7 @@ Validated: 1
 EndChar
 
 StartChar: Y
-Encoding: 89 89 40
+Encoding: 89 89 41
 Width: 498
 Flags: HW
 LayerCount: 2
@@ -1081,7 +1106,7 @@ Validated: 1
 EndChar
 
 StartChar: Q
-Encoding: 81 81 41
+Encoding: 81 81 42
 Width: 498
 Flags: HW
 LayerCount: 2
@@ -1112,24 +1137,27 @@ Validated: 1
 EndChar
 
 StartChar: U
-Encoding: 85 85 42
+Encoding: 85 85 43
 Width: 498
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-0 800 m 0
- 0 838 102 837 97 800 c 0
- 97 797 93 503 93 337 c 0
+0 753 m 2
+ 0 819 25 828 50 828 c 0
+ 74 828 99 820 99 810 c 0
+ 99 806 93 599 93 414 c 0
  93 163 125 116 200 116 c 0
- 275 116 307 164 307 337 c 0
- 307 504 302 797 302 800 c 0
- 298 837 396 837 397 800 c 0
- 398 755 398 337 398 337 c 0
- 398 16 295 0 197 0 c 0
- 104 0 0 15 0 337 c 0
- 0 337 0 753 0 800 c 0
+ 275 116 307 164 307 408 c 0
+ 307 557 301 804 301 808 c 0
+ 301 818 324 828 348 828 c 0
+ 372 828 397 818 398 776 c 0
+ 398 755 398 337 398 337 c 2
+ 398 16 295 0 198 0 c 0
+ 104 0 0 15 0 337 c 2
+ 0 753 l 2
 EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
