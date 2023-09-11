@@ -51,11 +51,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 63
+BeginChars: 256 64
 
 StartChar: o
 Encoding: 111 111 0
@@ -1562,6 +1562,7 @@ SplineSet
  0 595 l 5
  0 718 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: two
@@ -1583,6 +1584,32 @@ SplineSet
  390 104 l 1
  390 0 l 1
  0 0 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: three
+Encoding: 51 51 63
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+303 401 m 5
+ 358 355 396 279 396 215 c 4
+ 396 99 312 0 213 0 c 4
+ 137 0 49 72 1 174 c 5
+ 101 174 l 5
+ 129 122 174 86 210 86 c 4
+ 259 86 302 141 302 204 c 4
+ 302 286 255 321 206 405 c 5
+ 255 473 304 514 304 583 c 4
+ 304 654 261 699 191 699 c 4
+ 160 699 121 675 98 641 c 5
+ 98 641 31 641 0 641 c 5
+ 1 642 79 800 191 800 c 4
+ 304 800 398 693 398 565 c 4
+ 398 514 358 445 303 401 c 5
 EndSplineSet
 Validated: 1
 EndChar
