@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1693767096
-ModificationTime: 1694432685
+ModificationTime: 315532800
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 60
+BeginChars: 256 61
 
 StartChar: o
 Encoding: 111 111 0
@@ -149,14 +149,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-192 659 m 0
- 223 653 248 627 248 594 c 0
- 248 556 219 524 181 524 c 0
- 177 524 172 524 168 525 c 0
- 140 530 116 552 116 586 c 0
- 116 588 116 590 116 592 c 0
- 119 628 144 660 180 660 c 0
- 184 660 188 660 192 659 c 0
+192 659 m 4
+ 223 653 248 627 248 594 c 4
+ 248 556 219 524 181 524 c 4
+ 177 524 172 524 168 525 c 4
+ 140 530 116 552 116 586 c 4
+ 116 588 116 590 116 592 c 4
+ 119 628 144 660 180 660 c 4
+ 184 660 188 660 192 659 c 4
 0 357 m 1
  0 457 l 1
  198 457 l 2
@@ -1466,7 +1466,7 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 57
 Width: 498
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1476,6 +1476,7 @@ SplineSet
  248 1 l 5
  -30 801 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bar
@@ -1507,10 +1508,36 @@ LayerCount: 2
 Fore
 SplineSet
 368 801 m 1
- 253 801 l 1
- -30 1 l 1
  90 1 l 5
+ -30 1 l 1
+ 253 801 l 1
  368 801 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: exclam
+Encoding: 33 33 60
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+217 239 m 0
+ 262 229 297 188 297 139 c 0
+ 297 84 253 36 198 36 c 0
+ 190 36 183 35 173 37 c 0
+ 135 45 99 78 99 132 c 0
+ 99 132 99 135 99 141 c 0
+ 103 196 145 240 194 240 c 0
+ 201 240 207 241 217 239 c 0
+63 532 m 0
+ 34 585 0 661 -0 711 c 0
+ 0 779 63 799 189 799 c 3
+ 334 799 398 773 398 704 c 0
+ 398 653 362 577 330 525 c 0
+ 230 364 298 294 197 294 c 3
+ 100 294 160 359 63 532 c 0
 EndSplineSet
 EndChar
 EndChars
