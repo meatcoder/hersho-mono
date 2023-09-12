@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 73
+BeginChars: 256 74
 
 StartChar: o
 Encoding: 111 111 0
@@ -1848,7 +1848,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 72
 Width: 498
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1882,6 +1882,43 @@ SplineSet
  238 161 l 5
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: percent
+Encoding: 37 37 73
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+337 146 m 0
+ 337 188 310 217 278 217 c 0
+ 244 217 219 187 219 146 c 0
+ 219 105 247 78 278 78 c 0
+ 309 78 337 103 337 146 c 0
+181 656 m 0
+ 181 698 154 727 122 727 c 0
+ 88 727 63 697 63 656 c 0
+ 63 615 91 588 122 588 c 0
+ 153 588 181 613 181 656 c 0
+3 656 m 0
+ 3 740 54 798 122 798 c 0
+ 190 798 241 740 241 656 c 0
+ 241 641 239 627 236 614 c 1
+ 309 802 l 1
+ 398 802 l 1
+ 183 234 l 1
+ 204 268 238 288 278 288 c 0
+ 346 288 397 230 397 146 c 0
+ 397 62 346 0 278 0 c 0
+ 211 0 159 62 159 146 c 0
+ 159 158 160 169 162 180 c 1
+ 94 1 l 1
+ 0 1 l 1
+ 219 569 l 1
+ 198 533 163 510 122 510 c 0
+ 55 510 3 572 3 656 c 0
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
