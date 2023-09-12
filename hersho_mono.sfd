@@ -222,6 +222,7 @@ SplineSet
  153 391 131 363 131 333 c 3
  131 306 155 280 192 280 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: v
@@ -534,26 +535,24 @@ EndChar
 StartChar: u
 Encoding: 117 117 19
 Width: 498
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-397 0 m 1
- 297 0 l 1
- 297 25 l 1
- 269 12 227 0 190 0 c 0
- 189 0 59 4 0 106 c 1
- 0 483 l 1
- 100 483 l 1
- 100 133 l 2
- 100 125 137 91 191 91 c 0
- 239 91 297 101 297 139 c 1
- 297 139 l 1
- 297 139 298 176 298 483 c 1
- 398 483 l 1
- 398 321 398 160 397 0 c 1
+397 0 m 5
+ 298 0 l 5
+ 298 25 l 5
+ 270 12 213 0 176 0 c 7
+ 140 0 1 31 1 133 c 6
+ 0 483 l 5
+ 100 483 l 5
+ 100 140 l 6
+ 100 140 123 92 200 92 c 7
+ 278 92 298 139 298 139 c 6
+ 298 483 l 5
+ 398 483 l 5
+ 398 321 398 160 397 0 c 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: l
