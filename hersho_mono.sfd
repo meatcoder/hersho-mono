@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 79
+BeginChars: 256 81
 
 StartChar: o
 Encoding: 111 111 0
@@ -2021,6 +2021,41 @@ SplineSet
  250 242 l 25
  0 369 l 29
  0 480 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: period
+Encoding: 46 46 79
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+103 93 m 3
+ 103 142 151 189 200 189 c 3
+ 249 189 295 144 295 95 c 3
+ 295 46 251 -1 202 -1 c 3
+ 153 -1 103 44 103 93 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: comma
+Encoding: 44 44 80
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+103 93 m 4
+ 103 142 151 189 200 189 c 4
+ 249 189 295 144 295 95 c 4
+ 295 56 266 18 230 4 c 5
+ 178 -118 l 5
+ 78 -116 l 5
+ 123 40 l 5
+ 111 56 103 74 103 93 c 4
 EndSplineSet
 EndChar
 EndChars
