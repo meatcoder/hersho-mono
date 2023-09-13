@@ -535,7 +535,7 @@ EndChar
 StartChar: u
 Encoding: 117 117 19
 Width: 498
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1507,27 +1507,21 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 60
 Width: 498
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-217 239 m 0
- 262 229 297 188 297 139 c 0
- 297 84 253 36 198 36 c 0
- 190 36 183 35 173 37 c 0
- 135 45 99 78 99 132 c 0
- 99 132 99 135 99 141 c 0
- 103 196 145 240 194 240 c 0
- 201 240 207 241 217 239 c 0
-63 532 m 0
- 34 585 0 661 -0 711 c 0
- 0 779 63 799 189 799 c 3
- 334 799 398 773 398 704 c 0
- 398 653 362 577 330 525 c 0
- 230 364 298 294 197 294 c 3
- 100 294 160 359 63 532 c 0
+105 93 m 3
+ 105 142 153 189 202 189 c 3
+ 251 189 297 144 297 95 c 7
+ 297 46 253 -1 204 -1 c 3
+ 155 -1 105 44 105 93 c 3
+145 800 m 1
+ 260 800 l 1
+ 260 271 l 1
+ 145 271 l 1
+ 145 800 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: one
