@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 89
+BeginChars: 256 91
 
 StartChar: o
 Encoding: 111 111 0
@@ -2224,6 +2224,56 @@ SplineSet
  -55 -106 l 1
  -55 0 l 1
  439 0 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: asterisk
+Encoding: 42 42 89
+Width: 498
+Flags: W
+VStem: 169 55<86 289 396 566>
+LayerCount: 2
+Fore
+SplineSet
+169 566 m 1
+ 224 566 l 1
+ 224 392 l 1
+ 359 504 l 1
+ 398 450 l 1
+ 260 343 l 1
+ 391 261 l 1
+ 348 204 l 1
+ 224 292 l 1
+ 224 86 l 1
+ 169 86 l 1
+ 169 289 l 1
+ 45 196 l 1
+ 3 251 l 1
+ 137 342 l 1
+ 0 437 l 1
+ 38 493 l 1
+ 169 396 l 1
+ 169 566 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: asciicircum
+Encoding: 94 94 90
+Width: 498
+Flags: HW
+HStem: 470 329
+LayerCount: 2
+Fore
+SplineSet
+0 470 m 29
+ 195 801 l 29
+ 398 470 l 29
+ 290 470 l 29
+ 196 639 l 29
+ 112 470 l 29
+ 0 470 l 29
 EndSplineSet
 Validated: 1
 EndChar
