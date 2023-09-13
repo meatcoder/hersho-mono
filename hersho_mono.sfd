@@ -54,15 +54,8 @@ FitToEm: 0
 WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
-Grid
-94 799 m 5
- 228 800 l 5
- 207 501 l 5
- 113 501 l 5
- 94 799 l 5
-EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 83
+BeginChars: 256 85
 
 StartChar: o
 Encoding: 111 111 0
@@ -2104,6 +2097,51 @@ SplineSet
  113 501 l 5
  19 501 l 5
  0 799 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: colon
+Encoding: 58 58 83
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+103 361 m 3
+ 103 410 151 457 200 457 c 3
+ 249 457 295 412 295 363 c 3
+ 295 314 251 267 202 267 c 3
+ 153 267 103 312 103 361 c 3
+103 112 m 3
+ 103 161 151 208 200 208 c 3
+ 249 208 295 163 295 114 c 3
+ 295 65 251 18 202 18 c 3
+ 153 18 103 63 103 112 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: semicolon
+Encoding: 59 59 84
+Width: 498
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+103 111 m 4
+ 103 160 151 207 200 207 c 4
+ 249 207 295 162 295 113 c 4
+ 295 74 266 36 230 22 c 5
+ 178 -100 l 5
+ 78 -98 l 5
+ 123 58 l 5
+ 111 74 103 92 103 111 c 4
+103 361 m 7
+ 103 410 151 457 200 457 c 7
+ 249 457 295 412 295 363 c 7
+ 295 314 251 267 202 267 c 7
+ 153 267 103 312 103 361 c 7
 EndSplineSet
 Validated: 1
 EndChar
