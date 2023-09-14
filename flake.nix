@@ -20,6 +20,7 @@
             hersho_mono_shell = pkgs.mkShell {
               buildInputs = with pkgs; [
                 fontforge-gtk
+                font-manager
               ];
             };
           };
