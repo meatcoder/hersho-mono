@@ -2221,22 +2221,22 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 82
 Width: 600
-Flags: HW
+Flags: W
 HStem: 501 298
-VStem: 246 94<501 600.667> 410 94<501 600.667>
+VStem: 112 94<501 596.136> 392 94<501 605.3>
 LayerCount: 2
 Fore
 SplineSet
-353 799 m 5
- 487 800 l 5
- 466 501 l 5
- 372 501 l 5
- 353 799 l 5
-113 799 m 5
- 247 800 l 5
- 226 501 l 5
- 132 501 l 5
- 113 799 l 5
+372 799 m 5
+ 506 800 l 5
+ 486 501 l 5
+ 392 501 l 5
+ 372 799 l 5
+94 799 m 5
+ 228 800 l 5
+ 206 501 l 5
+ 112 501 l 5
+ 94 799 l 5
 EndSplineSet
 Validated: 1
 EndChar
