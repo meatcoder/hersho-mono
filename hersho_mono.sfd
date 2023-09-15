@@ -1587,7 +1587,7 @@ SplineSet
  255.5 390 l 1
  344.5 390 l 5
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: slash
@@ -2197,7 +2197,7 @@ SplineSet
  236.5 40 l 5
  224.5 56 216.5 74 216.5 93 c 4
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: quotesingle
@@ -2221,22 +2221,22 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 82
 Width: 600
-Flags: W
+Flags: HW
 HStem: 501 298
-VStem: 170 94<501 600.667> 334 94<501 600.667>
+VStem: 246 94<501 600.667> 410 94<501 600.667>
 LayerCount: 2
 Fore
 SplineSet
-315 799 m 5
- 449 800 l 5
- 428 501 l 5
- 334 501 l 5
- 315 799 l 5
-151 799 m 5
- 285 800 l 5
- 264 501 l 5
- 170 501 l 5
- 151 799 l 5
+353 799 m 5
+ 487 800 l 5
+ 466 501 l 5
+ 372 501 l 5
+ 353 799 l 5
+113 799 m 5
+ 247 800 l 5
+ 226 501 l 5
+ 132 501 l 5
+ 113 799 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2287,7 +2287,7 @@ SplineSet
  408.5 314 364.5 267 315.5 267 c 3
  266.5 267 216.5 312 216.5 361 c 3
 EndSplineSet
-Validated: 524289
+Validated: 1
 EndChar
 
 StartChar: plus
