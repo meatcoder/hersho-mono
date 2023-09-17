@@ -45,7 +45,7 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: ISO8859-1
+Encoding: Custom
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 256 250
+BeginChars: 258 252
 
 StartChar: o
 Encoding: 111 111 0
@@ -3216,22 +3216,22 @@ EndChar
 StartChar: dieresis
 Encoding: 168 168 167
 Width: 600
-Flags: HW
+Flags: W
 HStem: 549 190<106.473 220.378 382.718 495.419>
 VStem: 66 192<588.011 698.711> 342 192<589.011 699.711>
 LayerCount: 2
 Fore
 SplineSet
-342 644 m 3
- 342 693 390 740 438 740 c 3
- 488 740 534 695 534 646 c 3
- 534 597 490 549 440 549 c 3
- 392 549 342 595 342 644 c 3
-66 643 m 3
- 66 692 114 739 164 739 c 3
- 212 739 258 694 258 645 c 3
- 258 596 214 549 166 549 c 3
- 116 549 66 594 66 643 c 3
+325 644 m 7
+ 325 673 354 702 383 702 c 7
+ 413 702 440 674 440 645 c 7
+ 440 616 414 587 384 587 c 7
+ 355 587 325 615 325 644 c 7
+160 644 m 7
+ 160 673 188 701 218 701 c 7
+ 247 701 275 674 275 645 c 7
+ 275 616 249 587 220 587 c 7
+ 190 587 160 615 160 644 c 7
 EndSplineSet
 Validated: 1
 EndChar
@@ -3333,9 +3333,18 @@ EndChar
 StartChar: acute
 Encoding: 180 180 176
 Width: 600
-Flags: W
+Flags: HW
+HStem: 501 298
+VStem: 199 202
 LayerCount: 2
 Fore
+SplineSet
+267 801 m 1
+ 401 801 l 1
+ 293 501 l 1
+ 199 501 l 1
+ 267 801 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -3370,8 +3379,23 @@ StartChar: cedilla
 Encoding: 184 184 180
 Width: 600
 Flags: W
+HStem: -200 26<260.724 338.398> -20 20G<296 328> -20 20G<296 328>
+VStem: 348 26<-163.958 -111.261>
 LayerCount: 2
 Fore
+SplineSet
+292 -174 m 3xd0
+ 316 -174 348 -172 348 -133 c 3
+ 348 -106 281 -81 281 -80 c 2
+ 301 0 l 1
+ 328 0 l 1
+ 312 -68 l 2
+ 312 -68 374 -95 374 -133 c 3
+ 374 -149 367 -200 292 -200 c 3
+ 264 -200 238 -175 219 -159 c 1
+ 236 -140 l 1
+ 259 -160 272 -174 292 -174 c 3xd0
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -3479,7 +3503,7 @@ EndChar
 StartChar: Adieresis
 Encoding: 196 196 190
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
 Validated: 1
@@ -3767,9 +3791,11 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 222
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 250 776 N 1 0 0 1 5.5 -47 2
+Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3830,9 +3856,11 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 229
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 250 776 N 1 0 0 1 0 -11 2
+Refer: 14 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3866,9 +3894,11 @@ EndChar
 StartChar: idieresis
 Encoding: 239 239 233
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 250 776 S 1 0 0 1 -78 -47 2
+Refer: 251 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3929,9 +3959,11 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 240
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 250 776 N 1 0 0 1 0 -47 2
+Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3983,9 +4015,11 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 246
 Width: 600
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 250 776 N 1 0 0 1 0 -44 2
+Refer: 19 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4010,9 +4044,58 @@ EndChar
 StartChar: ydieresis
 Encoding: 255 255 249
 Width: 600
-Flags: W
+Flags: H
 LayerCount: 2
 Fore
+Refer: 250 776 S 1 0 0 1 -8.5 -44 2
+Refer: 18 121 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: diaeresiscomb
+Encoding: 256 776 250
+Width: 600
+Flags: HW
+HStem: 549 190<106.473 220.378 382.718 495.419>
+VStem: 66 192<588.011 698.711> 342 192<589.011 699.711>
+LayerCount: 2
+Fore
+SplineSet
+325 644 m 7
+ 325 673 354 702 383 702 c 7
+ 413 702 440 674 440 645 c 7
+ 440 616 414 587 384 587 c 7
+ 355 587 325 615 325 644 c 7
+160 644 m 7
+ 160 673 188 701 218 701 c 7
+ 247 701 275 674 275 645 c 7
+ 275 616 249 587 220 587 c 7
+ 190 587 160 615 160 644 c 7
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: dotlessi
+Encoding: 257 305 251
+Width: 600
+Flags: W
+HStem: 1 100<347 499> 357 100<101 249>
+VStem: 249 100<101 357>
+LayerCount: 2
+Fore
+SplineSet
+101 357 m 1
+ 101 457 l 1
+ 299 457 l 2
+ 327 457 349 435 349 407 c 0
+ 348 181 347 115 347 101 c 1
+ 499 101 l 1
+ 499 1 l 1
+ 296 1 l 2
+ 268 1 246 23 246 51 c 0
+ 249 357 l 1
+ 101 357 l 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
