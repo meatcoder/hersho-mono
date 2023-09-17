@@ -3303,8 +3303,30 @@ StartChar: plusminus
 Encoding: 177 177 175
 Width: 600
 Flags: W
+HStem: 129 113<101 499> 465 106<101 248 354 499>
+VStem: 248 106<343 465 571 696>
 LayerCount: 2
 Fore
+SplineSet
+101 242 m 1
+ 499 242 l 1
+ 499 129 l 1
+ 101 129 l 1
+ 101 242 l 1
+248 696 m 1
+ 354 696 l 1
+ 354 571 l 1
+ 499 571 l 1
+ 499 465 l 1
+ 354 465 l 1
+ 354 343 l 1
+ 248 343 l 1
+ 248 465 l 1
+ 101 465 l 1
+ 101 571 l 1
+ 248 571 l 1
+ 248 696 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
