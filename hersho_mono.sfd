@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 262 257
+BeginChars: 264 259
 
 StartChar: o
 Encoding: 111 111 0
@@ -3549,23 +3549,27 @@ StartChar: cedilla
 Encoding: 184 184 179
 Width: 600
 VWidth: 1000
-Flags: W
-HStem: -200 26<260.724 338.398> -20 20G<296 328> -20 20G<296 328>
-VStem: 348 26<-163.958 -111.261>
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-292 -174 m 3xd0
- 316 -174 348 -172 348 -133 c 3
- 348 -106 281 -81 281 -80 c 2
- 301 0 l 1
- 328 0 l 1
- 312 -68 l 2
- 312 -68 374 -95 374 -133 c 3
- 374 -149 367 -200 292 -200 c 3
- 264 -200 238 -175 219 -159 c 1
- 236 -140 l 1
- 259 -160 272 -174 292 -174 c 3xd0
+384 -133 m 0
+ 384 -152 374 -205 292 -205 c 0
+ 262 -205 236 -188 218 -172 c 0
+ 214 -169 215 -168 205 -160 c 1
+ 235 -126 l 1
+ 245 -135 246 -135 251 -140 c 0
+ 270 -157 279 -164 292 -164 c 0
+ 317 -164 338 -163 338 -133 c 0
+ 338 -118 297 -98 282 -91 c 0
+ 276 -88 271 -86 271 -80 c 2
+ 271 -79 l 1
+ 293 5 l 1
+ 297 5 l 1
+ 334 5 l 1
+ 341 5 l 1
+ 324 -63 l 1
+ 342 -72 384 -97 384 -133 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -3669,9 +3673,11 @@ StartChar: Atilde
 Encoding: 195 195 187
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 N 1 0 0 1 -20.5 648 2
+Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3711,9 +3717,11 @@ StartChar: Ccedilla
 Encoding: 199 199 191
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 258 807 S 1 0 0 1 -17 -1.16667 2
+Refer: 49 67 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3827,9 +3835,11 @@ StartChar: Ntilde
 Encoding: 209 209 201
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 S 1 0 0 1 0 639 2
+Refer: 33 78 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3873,9 +3883,11 @@ StartChar: Otilde
 Encoding: 213 213 205
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 N 1 0 0 1 -1 648 2
+Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3939,11 +3951,12 @@ StartChar: Ucircumflex
 Encoding: 219 219 211
 Width: 600
 VWidth: 1000
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 Refer: 256 770 S 1 0 0 1 -0.5 403 2
 Refer: 44 85 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Udieresis
@@ -4030,9 +4043,11 @@ StartChar: atilde
 Encoding: 227 227 219
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 N 1 0 0 1 5.5 329 2
+Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4072,9 +4087,13 @@ StartChar: ccedilla
 Encoding: 231 231 223
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
+HStem: -204 41<253.267 334.463> 0 130<253.259 377.455> 362 118<253.689 379.919>
+VStem: 101 107<174.876 314.878> 336 46<-161.564 -108.282>
 LayerCount: 2
 Fore
+Refer: 258 807 S 1 0 0 1 -2 -0.166667 2
+Refer: 15 99 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4188,9 +4207,11 @@ StartChar: ntilde
 Encoding: 241 241 233
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 N 1 0 0 1 0 332 2
+Refer: 1 110 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4234,9 +4255,11 @@ StartChar: otilde
 Encoding: 245 245 237
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 257 771 N 1 0 0 1 0 329 2
+Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4516,6 +4539,59 @@ SplineSet
  298 546 l 29
  213 470 l 25
  101 470 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: tildecomb
+Encoding: 262 771 257
+Width: 600
+VWidth: 1000
+Flags: W
+HStem: 223 106<337.912 449.342> 321 107<151.586 264.088>
+LayerCount: 2
+Fore
+SplineSet
+499 397 m 1x80
+ 499 291 l 1
+ 499 291 441 223 400 223 c 27x80
+ 321 223 281 321 202 321 c 27
+ 160 321 101 253 101 253 c 1
+ 101 359 l 1
+ 101 359 160 428 202 428 c 27x40
+ 281 428 321 329 400 329 c 27
+ 441 329 499 397 499 397 c 1x80
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: cedillacmb
+Encoding: 263 807 258
+Width: 600
+VWidth: 1000
+Flags: HW
+HStem: -205 41<255.267 336.463>
+VStem: 338 46<-162.564 -109.282>
+LayerCount: 2
+Fore
+SplineSet
+384 -133 m 0
+ 384 -152 374 -205 292 -205 c 0
+ 262 -205 236 -188 218 -172 c 0
+ 214 -169 215 -168 205 -160 c 1
+ 235 -126 l 1
+ 245 -135 246 -135 251 -140 c 0
+ 270 -157 279 -164 292 -164 c 0
+ 317 -164 338 -163 338 -133 c 0
+ 338 -118 297 -98 282 -91 c 0
+ 276 -88 271 -86 271 -80 c 2
+ 271 -79 l 1
+ 293 0 l 5
+ 297 0 l 5
+ 334 0 l 5
+ 341 0 l 5
+ 324 -63 l 1
+ 342 -72 384 -97 384 -133 c 0
 EndSplineSet
 Validated: 1
 EndChar
