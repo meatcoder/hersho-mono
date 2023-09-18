@@ -55,7 +55,7 @@ WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 260 255
+BeginChars: 262 257
 
 StartChar: o
 Encoding: 111 111 0
@@ -3580,18 +3580,8 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: onequarter
-Encoding: 188 188 181
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
 StartChar: onehalf
-Encoding: 189 189 182
+Encoding: 189 189 181
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3601,7 +3591,7 @@ Validated: 1
 EndChar
 
 StartChar: threequarters
-Encoding: 190 190 183
+Encoding: 190 190 182
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3611,7 +3601,7 @@ Validated: 1
 EndChar
 
 StartChar: questiondown
-Encoding: 191 191 184
+Encoding: 191 191 183
 Width: 600
 VWidth: 1000
 Flags: HW
@@ -3641,41 +3631,42 @@ Validated: 1
 EndChar
 
 StartChar: Agrave
-Encoding: 192 192 185
+Encoding: 192 192 184
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -74.5 287 2
+Refer: 253 768 N 1 0 0 1 -74.5 287 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Aacute
-Encoding: 193 193 186
+Encoding: 193 193 185
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 33.5 287 2
+Refer: 250 769 N 1 0 0 1 33.5 287 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Acircumflex
-Encoding: 194 194 187
+Encoding: 194 194 186
 Width: 600
-VWidth: 1000
-Flags: W
+Flags: H
 LayerCount: 2
 Fore
+Refer: 256 770 N 1 0 0 1 -20.5 401 2
+Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Atilde
-Encoding: 195 195 188
+Encoding: 195 195 187
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3685,19 +3676,19 @@ Validated: 1
 EndChar
 
 StartChar: Adieresis
-Encoding: 196 196 189
+Encoding: 196 196 188
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 -20.5 284 2
+Refer: 248 776 N 1 0 0 1 -20.5 284 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Aring
-Encoding: 197 197 190
+Encoding: 197 197 189
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3707,7 +3698,7 @@ Validated: 1
 EndChar
 
 StartChar: AE
-Encoding: 198 198 191
+Encoding: 198 198 190
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3717,7 +3708,7 @@ Validated: 1
 EndChar
 
 StartChar: Ccedilla
-Encoding: 199 199 192
+Encoding: 199 199 191
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3727,99 +3718,103 @@ Validated: 1
 EndChar
 
 StartChar: Egrave
-Encoding: 200 200 193
+Encoding: 200 200 192
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 S 1 0 0 1 -28 288 2
+Refer: 253 768 S 1 0 0 1 -28 288 2
 Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Eacute
-Encoding: 201 201 194
+Encoding: 201 201 193
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 63 288 2
+Refer: 250 769 N 1 0 0 1 63 288 2
 Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Ecircumflex
-Encoding: 202 202 195
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: Edieresis
-Encoding: 203 203 196
+Encoding: 202 202 194
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 S 1 0 0 1 15 285 2
+Refer: 256 770 S 1 0 0 1 4 402 2
+Refer: 30 69 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Edieresis
+Encoding: 203 203 195
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 248 776 S 1 0 0 1 15 285 2
 Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Igrave
-Encoding: 204 204 197
+Encoding: 204 204 196
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -54 289 2
+Refer: 253 768 N 1 0 0 1 -54 289 2
 Refer: 32 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Iacute
-Encoding: 205 205 198
+Encoding: 205 205 197
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 289 2
+Refer: 250 769 N 1 0 0 1 54 289 2
 Refer: 32 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Icircumflex
-Encoding: 206 206 199
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: Idieresis
-Encoding: 207 207 200
+Encoding: 206 206 198
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 0 286 2
+Refer: 256 770 N 1 0 0 1 0 403 2
+Refer: 32 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Idieresis
+Encoding: 207 207 199
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 248 776 N 1 0 0 1 0 286 2
 Refer: 32 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Eth
-Encoding: 208 208 201
+Encoding: 208 208 200
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3829,7 +3824,7 @@ Validated: 1
 EndChar
 
 StartChar: Ntilde
-Encoding: 209 209 202
+Encoding: 209 209 201
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3839,41 +3834,43 @@ Validated: 1
 EndChar
 
 StartChar: Ograve
-Encoding: 210 210 203
+Encoding: 210 210 202
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -55 287 2
+Refer: 253 768 N 1 0 0 1 -55 287 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Oacute
-Encoding: 211 211 204
+Encoding: 211 211 203
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 53 287 2
+Refer: 250 769 N 1 0 0 1 53 287 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Ocircumflex
-Encoding: 212 212 205
+Encoding: 212 212 204
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 256 770 N 1 0 0 1 -1 401 2
+Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Otilde
-Encoding: 213 213 206
+Encoding: 213 213 205
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3883,19 +3880,19 @@ Validated: 1
 EndChar
 
 StartChar: Odieresis
-Encoding: 214 214 207
+Encoding: 214 214 206
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 -1 284 2
+Refer: 248 776 N 1 0 0 1 -1 284 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: multiply
-Encoding: 215 215 208
+Encoding: 215 215 207
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3905,7 +3902,7 @@ Validated: 1
 EndChar
 
 StartChar: Oslash
-Encoding: 216 216 209
+Encoding: 216 216 208
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3915,65 +3912,66 @@ Validated: 1
 EndChar
 
 StartChar: Ugrave
-Encoding: 217 217 210
+Encoding: 217 217 209
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 S 1 0 0 1 -47.5 289 2
+Refer: 253 768 S 1 0 0 1 -47.5 289 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Uacute
-Encoding: 218 218 211
+Encoding: 218 218 210
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 57.5 289 2
+Refer: 250 769 N 1 0 0 1 57.5 289 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Ucircumflex
-Encoding: 219 219 212
+Encoding: 219 219 211
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HWO
 LayerCount: 2
 Fore
-Validated: 1
+Refer: 256 770 S 1 0 0 1 -0.5 403 2
+Refer: 44 85 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Udieresis
-Encoding: 220 220 213
+Encoding: 220 220 212
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 S 1 0 0 1 6.5 286 2
+Refer: 248 776 S 1 0 0 1 6.5 286 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Yacute
-Encoding: 221 221 214
+Encoding: 221 221 213
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 288 2
+Refer: 250 769 N 1 0 0 1 54 288 2
 Refer: 42 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Thorn
-Encoding: 222 222 215
+Encoding: 222 222 214
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3983,7 +3981,7 @@ Validated: 1
 EndChar
 
 StartChar: germandbls
-Encoding: 223 223 216
+Encoding: 223 223 215
 Width: 600
 VWidth: 1000
 Flags: W
@@ -3993,41 +3991,43 @@ Validated: 1
 EndChar
 
 StartChar: agrave
-Encoding: 224 224 217
+Encoding: 224 224 216
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -48.5 -32 2
+Refer: 253 768 N 1 0 0 1 -48.5 -32 2
 Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: aacute
-Encoding: 225 225 218
+Encoding: 225 225 217
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 59.5 -44 2
+Refer: 250 769 N 1 0 0 1 59.5 -44 2
 Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: acircumflex
-Encoding: 226 226 219
+Encoding: 226 226 218
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 256 770 N 1 0 0 1 5.5 82 2
+Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: atilde
-Encoding: 227 227 220
+Encoding: 227 227 219
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4037,19 +4037,19 @@ Validated: 1
 EndChar
 
 StartChar: adieresis
-Encoding: 228 228 221
+Encoding: 228 228 220
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 5.5 -47 2
+Refer: 248 776 N 1 0 0 1 5.5 -47 2
 Refer: 16 97 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: aring
-Encoding: 229 229 222
+Encoding: 229 229 221
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4059,7 +4059,7 @@ Validated: 1
 EndChar
 
 StartChar: ae
-Encoding: 230 230 223
+Encoding: 230 230 222
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4069,7 +4069,7 @@ Validated: 1
 EndChar
 
 StartChar: ccedilla
-Encoding: 231 231 224
+Encoding: 231 231 223
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4079,99 +4079,103 @@ Validated: 1
 EndChar
 
 StartChar: egrave
-Encoding: 232 232 225
+Encoding: 232 232 224
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -54 4 2
+Refer: 253 768 N 1 0 0 1 -54 4 2
 Refer: 14 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: eacute
-Encoding: 233 233 226
+Encoding: 233 233 225
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 -8 2
+Refer: 250 769 N 1 0 0 1 54 -8 2
 Refer: 14 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: ecircumflex
-Encoding: 234 234 227
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: edieresis
-Encoding: 235 235 228
+Encoding: 234 234 226
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 0 -11 2
+Refer: 256 770 N 1 0 0 1 0 118 2
+Refer: 14 101 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: edieresis
+Encoding: 235 235 227
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 248 776 N 1 0 0 1 0 -11 2
 Refer: 14 101 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: igrave
-Encoding: 236 236 229
+Encoding: 236 236 228
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -55 -32 2
-Refer: 250 305 N 1 0 0 1 0 0 3
+Refer: 253 768 N 1 0 0 1 -55 -32 2
+Refer: 249 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: iacute
-Encoding: 237 237 230
+Encoding: 237 237 229
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 53 -44 2
-Refer: 250 305 N 1 0 0 1 0 0 3
+Refer: 250 769 N 1 0 0 1 53 -44 2
+Refer: 249 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: icircumflex
-Encoding: 238 238 231
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: idieresis
-Encoding: 239 239 232
+Encoding: 238 238 230
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 S 1 0 0 1 -78 -47 2
-Refer: 250 305 N 1 0 0 1 0 0 3
+Refer: 256 770 N 1 0 0 1 -1 82 2
+Refer: 249 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: idieresis
+Encoding: 239 239 231
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 248 776 S 1 0 0 1 -78 -47 2
+Refer: 249 305 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: eth
-Encoding: 240 240 233
+Encoding: 240 240 232
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4181,7 +4185,7 @@ Validated: 1
 EndChar
 
 StartChar: ntilde
-Encoding: 241 241 234
+Encoding: 241 241 233
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4191,41 +4195,43 @@ Validated: 1
 EndChar
 
 StartChar: ograve
-Encoding: 242 242 235
+Encoding: 242 242 234
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -54 -32 2
+Refer: 253 768 N 1 0 0 1 -54 -32 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: oacute
-Encoding: 243 243 236
+Encoding: 243 243 235
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 -44 2
+Refer: 250 769 N 1 0 0 1 54 -44 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: ocircumflex
-Encoding: 244 244 237
+Encoding: 244 244 236
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 256 770 N 1 0 0 1 0 82 2
+Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: otilde
-Encoding: 245 245 238
+Encoding: 245 245 237
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4235,19 +4241,19 @@ Validated: 1
 EndChar
 
 StartChar: odieresis
-Encoding: 246 246 239
+Encoding: 246 246 238
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 0 -47 2
+Refer: 248 776 N 1 0 0 1 0 -47 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: divide
-Encoding: 247 247 240
+Encoding: 247 247 239
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4257,7 +4263,7 @@ Validated: 1
 EndChar
 
 StartChar: oslash
-Encoding: 248 248 241
+Encoding: 248 248 240
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4267,65 +4273,67 @@ Validated: 1
 EndChar
 
 StartChar: ugrave
-Encoding: 249 249 242
+Encoding: 249 249 241
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 254 768 N 1 0 0 1 -54 -29 2
+Refer: 253 768 N 1 0 0 1 -54 -29 2
 Refer: 19 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: uacute
-Encoding: 250 250 243
+Encoding: 250 250 242
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 -41 2
+Refer: 250 769 N 1 0 0 1 54 -41 2
 Refer: 19 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: ucircumflex
-Encoding: 251 251 244
-Width: 600
-VWidth: 1000
-Flags: W
-LayerCount: 2
-Fore
-Validated: 1
-EndChar
-
-StartChar: udieresis
-Encoding: 252 252 245
+Encoding: 251 251 243
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 0 -44 2
+Refer: 256 770 N 1 0 0 1 0 85 2
+Refer: 19 117 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: udieresis
+Encoding: 252 252 244
+Width: 600
+VWidth: 1000
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 248 776 N 1 0 0 1 0 -44 2
 Refer: 19 117 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: yacute
-Encoding: 253 253 246
+Encoding: 253 253 245
 Width: 600
 VWidth: 1000
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 251 769 S 1 0 0 1 53.5 -41 2
+Refer: 250 769 S 1 0 0 1 53.5 -41 2
 Refer: 18 121 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: thorn
-Encoding: 254 254 247
+Encoding: 254 254 246
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4335,19 +4343,19 @@ Validated: 1
 EndChar
 
 StartChar: ydieresis
-Encoding: 255 255 248
+Encoding: 255 255 247
 Width: 600
 VWidth: 1000
 Flags: H
 LayerCount: 2
 Fore
-Refer: 249 776 S 1 0 0 1 -8.5 -44 2
+Refer: 248 776 S 1 0 0 1 -8.5 -44 2
 Refer: 18 121 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: diaeresiscomb
-Encoding: 256 776 249
+Encoding: 256 776 248
 Width: 600
 VWidth: 1000
 Flags: HW
@@ -4371,7 +4379,7 @@ Validated: 1
 EndChar
 
 StartChar: dotlessi
-Encoding: 257 305 250
+Encoding: 257 305 249
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4396,7 +4404,7 @@ Validated: 1
 EndChar
 
 StartChar: acutecomb
-Encoding: 258 769 251
+Encoding: 258 769 250
 Width: 600
 VWidth: 1000
 Flags: W
@@ -4415,29 +4423,29 @@ Validated: 1
 EndChar
 
 StartChar: Ydieresis
-Encoding: 178 376 252
+Encoding: 178 376 251
 Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 249 776 N 1 0 0 1 0 285 2
+Refer: 248 776 N 1 0 0 1 0 285 2
 Refer: 42 89 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: Zacute
-Encoding: 179 377 253
+Encoding: 179 377 252
 Width: 600
 Flags: H
 LayerCount: 2
 Fore
-Refer: 251 769 N 1 0 0 1 54 288 2
+Refer: 250 769 N 1 0 0 1 54 288 2
 Refer: 35 90 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: gravecomb
-Encoding: 259 768 254
+Encoding: 259 768 253
 Width: 600
 VWidth: 1000
 Flags: HW
@@ -4451,6 +4459,63 @@ SplineSet
  307 584 l 1
  199 801 l 1
  333 801 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: fraction
+Encoding: 260 8260 254
+Width: 600
+VWidth: 1000
+Flags: W
+HStem: 1 21G<101 227.95> 1 21G<101 227.95> 781 20G<376.925 499>
+LayerCount: 2
+Fore
+SplineSet
+499 801 m 1xa0
+ 221 1 l 5
+ 101 1 l 1
+ 384 801 l 1
+ 499 801 l 1xa0
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: Scaron
+Encoding: 160 352 255
+Width: 600
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+106 1077 m 25
+ 218 1077 l 25
+ 297 994 l 5
+ 396 1077 l 25
+ 504 1077 l 25
+ 297 872 l 5
+ 106 1077 l 25
+EndSplineSet
+Refer: 31 83 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: circumflexcmb
+Encoding: 261 770 256
+Width: 600
+VWidth: 1000
+Flags: HW
+HStem: 470 331
+LayerCount: 2
+Fore
+SplineSet
+101 470 m 25
+ 296 663 l 25
+ 499 470 l 25
+ 391 470 l 25
+ 298 546 l 29
+ 213 470 l 25
+ 101 470 l 25
 EndSplineSet
 Validated: 1
 EndChar
