@@ -51,7 +51,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -3654,9 +3654,11 @@ StartChar: Aacute
 Encoding: 193 193 186
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 251 769 N 1 0 0 1 33.5 287 2
+Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3736,9 +3738,11 @@ StartChar: Eacute
 Encoding: 201 201 194
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 251 769 N 1 0 0 1 63 288 2
+Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3778,9 +3782,11 @@ StartChar: Iacute
 Encoding: 205 205 198
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 251 769 N 1 0 0 1 54 289 2
+Refer: 32 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3798,9 +3804,11 @@ StartChar: Idieresis
 Encoding: 207 207 200
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 249 776 N 1 0 0 1 0 286 2
+Refer: 32 73 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -3838,9 +3846,11 @@ StartChar: Oacute
 Encoding: 211 211 204
 Width: 600
 VWidth: 1000
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
+Refer: 251 769 N 1 0 0 1 53 287 2
+Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
