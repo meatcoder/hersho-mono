@@ -40,14 +40,22 @@ fi
 echo "Patching font with nerd font glyphs..."
 fontforge --script ./font-patcher --complete "$OUT_FONT_FILE"
 
+# Generate preview image for nerd font
+echo "Generating preview image for fonts..."
+for font in ./*.otf; do
+    fontimage "$font"
+done
+
 # Copy output fonts to fonts directory
-echo "Copying output fonts to fonts directory..."
+echo "Copying output to fonts directory..."
 mkdir -p ../fonts
 cp ./*.otf ../fonts
+cp ./*.png ../fonts
 
 # print success message and cleanup
 echo "Cleaning up..."
 rm ./*.otf
 rm ./*.sfd
+rm ./*.png
 
 echo "Yay! Build complete."
