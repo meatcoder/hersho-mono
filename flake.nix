@@ -21,6 +21,7 @@
               buildInputs = with pkgs; [
                 fontforge-gtk
                 font-manager
+                shellcheck
               ];
             };
           };
