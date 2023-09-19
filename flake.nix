@@ -22,6 +22,8 @@
                 fontforge-gtk
                 font-manager
                 shellcheck
+                curl
+                unzip
               ];
             };
           };
