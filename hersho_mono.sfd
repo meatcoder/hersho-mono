@@ -3823,15 +3823,32 @@ SplineSet
  422 279 422 164 422 51 c 0
  422 41 440 -17 454 -27 c 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: paragraph
 Encoding: 182 182 177
 Width: 500
 VWidth: 833
-Flags: W
+Flags: HW
+HStem: 0 21G<347 416> 0 21G<347 416> 606 59<281 347>
+VStem: 84 197<384.118 567.495> 211 70<0 305> 347 69<0 606>
 LayerCount: 2
 Fore
+SplineSet
+211 305 m 1x6c
+ 178 305 l 2
+ 128 305 84 408 84 485 c 3
+ 84 560 150 665 218 665 c 0
+ 347 665 416 665 416 665 c 1
+ 416 0 l 1
+ 347 0 l 1xb4
+ 347 606 l 1
+ 281 606 l 1
+ 281 0 l 1
+ 211 0 l 1
+ 211 305 l 1x6c
+EndSplineSet
 Validated: 1
 EndChar
 
