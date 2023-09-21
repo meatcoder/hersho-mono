@@ -4421,10 +4421,24 @@ StartChar: multiply
 Encoding: 215 215 207
 Width: 500
 VWidth: 833
-Flags: W
+Flags: HW
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+66 472 m 1
+ 162 472 l 1
+ 246 343 l 1
+ 338 472 l 1
+ 434 472 l 1
+ 304 282 l 1
+ 426 71 l 1
+ 342 71 l 1
+ 248 229 l 1
+ 154 71 l 1
+ 66 71 l 1
+ 184 282 l 1
+ 66 472 l 1
+EndSplineSet
 EndChar
 
 StartChar: Oslash
@@ -4908,9 +4922,27 @@ Encoding: 247 247 239
 Width: 500
 VWidth: 833
 Flags: W
+HStem: 72 96<211.894 288.723> 238 89<84 416> 377 95<211.954 288.783>
+VStem: 202 96<81.8944 158.444 387.274 462.448>
 LayerCount: 2
 Fore
-Validated: 1
+SplineSet
+202 120 m 3
+ 202 144 226 168 250 168 c 3
+ 275 168 298 145 298 121 c 3
+ 298 97 276 72 251 72 c 3
+ 227 72 202 96 202 120 c 3
+202 425 m 3
+ 202 449 226 472 251 472 c 3
+ 275 472 298 450 298 426 c 3
+ 298 402 276 377 252 377 c 3
+ 227 377 202 401 202 425 c 3
+416 327 m 1
+ 416 238 l 1
+ 84 238 l 1
+ 84 327 l 1
+ 416 327 l 1
+EndSplineSet
 EndChar
 
 StartChar: oslash
