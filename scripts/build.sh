@@ -27,9 +27,10 @@ OUT_FONT_FILE="HershoMono-Regular.otf"
 ../scripts/generate_otf.sh "$SRC_FONT_FILE" "$OUT_FONT_FILE"
 
 # Setup nerd font patcher if it doesn't already exist
+PATCHER_VERSION="3.0.2"
 if [ ! -x font-patcher ]; then
     echo "Setting up nerd font patcher..."
-    curl -O -L https://github.com/ryanoasis/nerd-fonts/releases/latest/download/FontPatcher.zip
+    curl -O -L "https://github.com/ryanoasis/nerd-fonts/releases/download/v${PATCHER_VERSION}/FontPatcher.zip"
     unzip FontPatcher.zip
     rm FontPatcher.zip
 else
