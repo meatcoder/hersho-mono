@@ -41,6 +41,25 @@ Hersho Mono thrives on the collaboration of the open-source community. Whether y
     git push origin new-feature-branch
 6. **Open a Pull Request**: Go to the [Hersho Mono repo](https://github.com/meatcoder/hersho-mono) to create a PR.
 
+## Development Notes
+
+We've adopted Nix to manage and automatically set up our development environment. This helps ensure a consistent development experience, regardless of the underlying system.
+
+### Authoring the Font
+
+Hersho Mono is crafted using FontForge, a powerful font editor. Once you set up the environment using the steps provided in the subsequent section, FontForge gets automatically installed. For those keen on learning more or exploring advanced features, delve into the [FontForge documentation](https://fontforge.org/docs/).
+
+### Bypassing Nix
+
+While we strongly recommend the use of Nix for an effortless setup, you have the flexibility to bypass it. If you opt for manual setup, ensure the following tools are installed on your system:
+
+- FontForge
+- Curl
+- Bash
+
+It's important to note that these requirements might evolve over time. For the most up-to-date list of tools and dependencies, always refer to the Nix configuration files in the repository. They serve as the definitive reference.
+
+
 ## Development Environment Setup
 
 To contribute to the development of Hersho Mono, setting up the right environment is crucial.
