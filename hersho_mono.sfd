@@ -4032,9 +4032,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 260 778 N 1 0 0 1 -40 134 2
+Refer: 260 778 N 1 0 0 1 -22 134 2
 Refer: 29 65 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: AE
