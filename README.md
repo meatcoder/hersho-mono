@@ -4,6 +4,11 @@ Hersho Mono is an open-source, monospace font designed specifically for the term
 
 This font is very much a work in progress. It is currently usable but unfinished. Yhe plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
 
+## Design Inspirations
+
+Hersho Mono draws its roots from the pixel-perfect bitmap fonts that graced 1980's personal computers. These fonts, known for their unmistakable charm and simplicity, were emblematic of an era of burgeoning personal computing.
+
+In crafting Hersho Mono, we've reimagined these classics, stripping them of their serifs while preserving their character and spirit. The result is a modern interpretation that blends old-school computing aesthetics with contemporary design sensibilities. It's a tribute to the past, refined for the needs of today's coders and terminal enthusiasts.
 
 ## Features
 
