@@ -16,7 +16,7 @@ jobs:
       - name: Setup nix
         uses: cachix/install-nix-action@v22
 
-      - name: Setup otf files caching
+      - name: OTF files caching
         uses: actions/cache@v2
         with:
           path: fonts
