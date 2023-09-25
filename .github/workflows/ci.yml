@@ -16,6 +16,14 @@ jobs:
       - name: Setup nix
         uses: cachix/install-nix-action@v22
 
+      - name: Setup otf files caching
+        uses: actions/cache@v2
+        with:
+          path: fonts
+          key: otf-${{ hashFiles('**/hersho_mono.sfd') }}
+          restore-keys: |
+            otf-
+
       - name: Build font
         run: nix develop --command ./scripts/build.sh
 
