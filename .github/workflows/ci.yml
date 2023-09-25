@@ -17,4 +17,4 @@ jobs:
         uses: cachix/install-nix-action@v22
 
       - name: Build font
-        run: ./scripts/build.sh
+        run: nix develop --command ./scripts/build.sh
