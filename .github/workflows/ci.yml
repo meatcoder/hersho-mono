@@ -18,3 +18,6 @@ jobs:
 
       - name: Build font
         run: nix develop --command ./scripts/build.sh
+
+      - name: Lint unpatched font
+        run: nix develop --command fontlint fonts/HershoMono-Regular.png
