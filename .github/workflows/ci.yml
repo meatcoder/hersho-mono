@@ -25,7 +25,10 @@ jobs:
             otf-
 
       - name: Build font
-        run: nix develop --command ./scripts/build.sh
+        run: |
+          if [[ ! -f fonts/HershoMono-Regular.otf ]]; then
+            nix develop --command ./scripts/build.sh
+          fi
 
       - name: Lint unpatched font
         run: nix develop --command fontlint fonts/HershoMono-Regular.otf
