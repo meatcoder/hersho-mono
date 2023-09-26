@@ -2,7 +2,11 @@
 
 Hersho Mono is an open-source, monospace font designed specifically for the terminal and coding environments. Prioritizing legibility and minimized eye strain, it stands as an experiment to develop a font in the open, akin to software, with the community's collaborative input.
 
-This font is very much a work in progress. It is currently usable but unfinished. The plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
+The font was created primarily for the designer's personal use. It stems from his desire to have a font that looks and works exactly the way he wants and that he can modify freely.
+
+It is very much a work in progress. It is currently usable but unfinished. The plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
+
+## Sample
 
 ![Font Preview](https://github.com/meatcoder/hersho-mono/releases/latest/download/HershoMonoNF-Regular.png)
 
@@ -10,7 +14,7 @@ This font is very much a work in progress. It is currently usable but unfinished
 
 Hersho Mono draws its roots from the pixel-perfect bitmap fonts that graced 1980's personal computers. These fonts, known for their unmistakable charm and simplicity, were emblematic of an era of burgeoning personal computing.
 
-In crafting Hersho Mono, we've reimagined these classics, stripping them of their serifs while preserving their character and spirit. The result is a modern interpretation that blends old-school computing aesthetics with contemporary design sensibilities. It's a tribute to the past, refined for the needs of today's coders and terminal enthusiasts.
+In crafting Hersho Mono, the designer reimagined these classics, stripping them of their serifs while preserving their character and spirit. The result is a modern interpretation that blends old-school computing aesthetics with contemporary design sensibilities. It's a tribute to the past, refined for the needs of today's coders and terminal enthusiasts.
 
 ## Features
 
@@ -34,6 +38,18 @@ In crafting Hersho Mono, we've reimagined these classics, stripping them of thei
 - **Font Variants**:
   - Italic
   - Bold
+ 
+## Download
+
+The latest and previous versions of the OTF font files are available on the [releases page](https://github.com/meatcoder/hersho-mono/releases).
+
+The latest release can always be found here: https://github.com/meatcoder/hersho-mono/releases/latest
+
+Note that the prebult font files are available both in their unpatched variety and one that is patched with the all the nerd fornt characters. The filenames makes it obvious, which is which. It is possibe to download and install both font files, as they have different font family names. 
+
+## License
+
+Hersho Mono, including the font and associated build scripts, is licensed under the MIT License. Please attribute accordingly.
 
 ## Contribute
 
@@ -53,7 +69,7 @@ Hersho Mono thrives on the collaboration of the open-source community. Whether y
 
 ## Development Notes
 
-We've adopted Nix to manage and automatically set up our development environment. This helps ensure a consistent development experience, regardless of the underlying system.
+This repository has adopted Nix to manage and automatically set up the development environment. This helps ensure a consistent development experience, regardless of the underlying system.
 
 ### Authoring the Font
 
@@ -98,9 +114,6 @@ This ensures the environment is correctly configured each time you enter the pro
     ./scripts/build.sh
 Post-build, the resulting OTF font files will be in the `fonts` directory.
 
-## License
-
-Hersho Mono, including the font and associated build scripts, is licensed under the MIT License. Please attribute accordingly.
 
 ## Feedback and Support
 
