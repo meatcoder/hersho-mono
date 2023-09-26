@@ -37,10 +37,10 @@ jobs:
 
       - name: Verify version
         run: |
-          FONT_VERSION=$(grep ^Version: hersho_mono.sfd | cut -d " " -f 2)
+          FONT_VERSION=$(grep ^Version: hersho_mono.sfd | cut -d " " -f 2 )
           MAJOR=$(echo $FONT_VERSION | cut -d . -f 1 )
-          MINOR=$(echo $FONT_VERSION | cut -d . -f 2 | cut -c 1
-          PATCH=$(echo $FONT_VERSION | cut -d . -f 2 | cut -c 2-3
+          MINOR=$(echo $FONT_VERSION | cut -d . -f 2 | cut -c 1 )
+          PATCH=$(echo $FONT_VERSION | cut -d . -f 2 | cut -c 2-3 )
           [[ "$GITHUB_REF_NAME" == "$(printf v%d.%d.%d ${MAJOR} ${MINOR} ${PATCH})" ]]
         if: startsWith(github.ref, 'refs/tags/')
 
