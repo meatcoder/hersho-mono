@@ -2,7 +2,9 @@
 
 Hersho Mono is an open-source, monospace font designed specifically for the terminal and coding environments. Prioritizing legibility and minimized eye strain, it stands as an experiment to develop a font in the open, akin to software, with the community's collaborative input.
 
-This font is very much a work in progress. It is currently usable but unfinished. Yhe plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
+This font is very much a work in progress. It is currently usable but unfinished. The plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
+
+![Font Preview](https://github.com/meatcoder/hersho-mono/releases/download/v0.1.0/HershoMonoNF-Regular.png)
 
 ## Design Inspirations
 
