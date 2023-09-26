@@ -4,7 +4,7 @@ Hersho Mono is an open-source, monospace font designed specifically for the term
 
 This font is very much a work in progress. It is currently usable but unfinished. The plan is to push frequent updates, refining and expanding Hersho Mono based on user feedback, emerging use-cases, and evolving vision. Feedback is crucial in shaping its direction.
 
-![Font Preview](https://github.com/meatcoder/hersho-mono/releases/download/v0.1.0/HershoMonoNF-Regular.png)
+![Font Preview](https://github.com/meatcoder/hersho-mono/releases/latest/download/HershoMonoNF-Regular.png)
 
 ## Design Inspirations
 
