@@ -1,0 +1,60 @@
+name: Pages
+
+on:
+ push:
+    tags:
+      - "current"
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  # build job
+  Build:
+    runs-on: ubuntu-22.04
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup nix
+        uses: cachix/install-nix-action@v22
+
+      - name: OTF files caching
+        uses: actions/cache@v2
+        with:
+          path: fonts
+          key: otf-${{ hashFiles('**/hersho_mono.sfd') }}
+          restore-keys: |
+            otf-
+
+      - name: Build font if needed
+        run: |
+          if [[ ! -f fonts/HershoMono-Regular.otf ]]; then
+            nix develop --command ./scripts/build.sh
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2.0.0
+        path: fonts/*.otf
+
+  # Deploy job
+  Deploy:
+    runs-on: ubuntu-22.04
+    needs: Build
+
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Deploy fonts to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v2.0.4
+
+      
+
