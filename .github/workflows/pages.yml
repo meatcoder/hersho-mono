@@ -1,11 +1,8 @@
 name: Pages
-
 on:
- push:
+  push:
     tags:
       - "current"
-
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
@@ -53,8 +50,5 @@ jobs:
 
     steps:
       - name: Deploy fonts to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v2.0.4
-
-      
-
+        id: deployment
+        uses: actions/deploy-pages@v2.0.4
