@@ -34,7 +34,7 @@ jobs:
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2.0.0
         with:
-          path: fonts/*.otf
+          path: fonts/
 
   # Deploy job
   Deploy:
