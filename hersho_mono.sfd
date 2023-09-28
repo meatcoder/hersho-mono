@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "arithmetic_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -56,7 +56,7 @@ WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 280 280
+BeginChars: 286 286
 
 StartChar: o
 Encoding: 110 111 0
@@ -5660,8 +5660,120 @@ SplineSet
  1036 5 l 5
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0
 Ligature2: "html_symbols" hyphen hyphen greater
+LCarets2: 2 0 0
+EndChar
+
+StartChar: plus_plus
+Encoding: 280 -1 280
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+604 322 m 5
+ 604 467 l 1
+ 682 467 l 1
+ 682 322 l 1
+ 804 322 l 1
+ 804 243 l 1
+ 682 243 l 1
+ 682 77 l 1
+ 604 77 l 1
+ 604 243 l 1
+ 522 243 440 243 358 243 c 1
+ 358 77 l 1
+ 280 77 l 1
+ 280 243 l 1
+ 156 243 l 1
+ 156 322 l 1
+ 280 322 l 1
+ 280 467 l 1
+ 358 467 l 1
+ 358 322 l 5
+ 604 322 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" plus plus
+EndChar
+
+StartChar: minus_minus
+Encoding: 281 -1 281
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 87 45 N 1 0 0 1 449 0 2
+Refer: 87 45 N 1 0 0 1 31 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" hyphen hyphen
+EndChar
+
+StartChar: plus_equals
+Encoding: 282 -1 282
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 86 61 S 1 0 0 1 458 -3 2
+Refer: 85 43 N 1 0 0 1 23 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" plus equal
+EndChar
+
+StartChar: minus_equals
+Encoding: 283 -1 283
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 86 61 S 1 0 0 1 455 -5 2
+Refer: 87 45 N 1 0 0 1 32 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" hyphen equal
+EndChar
+
+StartChar: times_equals
+Encoding: 284 -1 284
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 86 61 S 1 0 0 1 432 14 2
+Refer: 89 42 N 1 0 0 1 43 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" asterisk equal
+EndChar
+
+StartChar: divide_equals
+Encoding: 285 -1 285
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+816 444 m 5
+ 816 360 l 5
+ 364 360 l 5
+ 327 259 l 5
+ 816 259 l 5
+ 816 175 l 5
+ 296 175 l 5
+ 234 6 l 5
+ 144 6 l 5
+ 390 663 l 5
+ 476 663 l 5
+ 395 444 l 5
+ 816 444 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "arithmetic_ops" slash equal
 EndChar
 EndChars
 EndSplineFont
