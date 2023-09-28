@@ -5476,12 +5476,12 @@ EndChar
 StartChar: ht_slash
 Encoding: 274 -1 274
 Width: 1440
-Flags: H
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 78 62 N 1 0 0 1 907 0 2
-Refer: 59 47 S 1 0 0 1 477 -129 2
-Refer: 77 60 N 1 0 0 1 53 0 2
+Refer: 78 62 N 1 0 0 1 767 0 2
+Refer: 59 47 N 1 0 0 1 484 -129 2
+Refer: 77 60 S 1 0 0 1 193 0 2
 Validated: 1
 LCarets2: 2 0 0
 Ligature2: "html_symbols" less slash greater
@@ -5493,8 +5493,8 @@ Width: 960
 Flags: H
 LayerCount: 2
 Fore
-Refer: 59 47 S 1 0 0 1 435 -129 2
-Refer: 77 60 N 1 0 0 1 44 0 2
+Refer: 59 47 S 1 0 0 1 384 -129 2
+Refer: 77 60 S 1 0 0 1 95 0 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "html_symbols" less slash
@@ -5506,8 +5506,8 @@ Width: 960
 Flags: H
 LayerCount: 2
 Fore
-Refer: 78 62 S 1 0 0 1 410.5 0 2
-Refer: 59 47 N 1 0 0 1 70.5 -129 2
+Refer: 78 62 N 1 0 0 1 383 0 2
+Refer: 59 47 S 1 0 0 1 98 -129 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "html_symbols" slash greater
