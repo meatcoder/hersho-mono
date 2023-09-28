@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "arithmetic_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -56,7 +56,7 @@ WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 286 286
+BeginChars: 289 289
 
 StartChar: o
 Encoding: 110 111 0
@@ -5774,6 +5774,118 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "arithmetic_ops" slash equal
+EndChar
+
+StartChar: logical_and
+Encoding: 286 -1 286
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+307 511 m 0
+ 307 549 281 588 245 588 c 0
+ 209 588 177 549 177 509 c 0
+ 177 472 201 454 243 427 c 1
+ 252 433 246 429 261 441 c 0
+ 285 459 307 476 307 511 c 0
+105 517 m 0
+ 105 602 162 663 245 663 c 0
+ 330 663 387 601 387 528 c 0
+ 387 452 323 397 295 373 c 1
+ 318 339 321 337 339 302 c 0
+ 369 250 369 250 401 157 c 1
+ 414 107 433 61 445 5 c 1
+ 379 5 l 1
+ 373 40 366 45 351 117 c 1
+ 343 102 l 1
+ 316 37 300 5 239 5 c 0
+ 146 5 105 86 105 194 c 0
+ 105 302 149 351 179 382 c 1
+ 155 401 105 440 105 517 c 0
+223 79 m 0
+ 262 79 289 144 313 203 c 1
+ 285 254 262 292 239 329 c 1
+ 195 289 169 264 169 193 c 0
+ 169 125 190 79 223 79 c 0
+711 511 m 4
+ 711 549 685 588 649 588 c 4
+ 613 588 581 549 581 509 c 4
+ 581 472 605 454 647 427 c 5
+ 656 433 650 429 665 441 c 4
+ 689 459 711 476 711 511 c 4
+509 517 m 4
+ 509 602 566 663 649 663 c 4
+ 734 663 791 601 791 528 c 4
+ 791 452 727 397 699 373 c 5
+ 722 339 725 337 743 302 c 6
+ 743 302 757 274 765 260 c 5
+ 771 267 l 6
+ 787 289 805 333 815 359 c 5
+ 855 302 l 5
+ 850 291 847 282 839 264 c 4
+ 824 232 806 193 797 176 c 5
+ 810 126 837 61 849 5 c 5
+ 783 5 l 5
+ 777 40 770 45 755 117 c 5
+ 747 102 l 5
+ 720 37 704 5 643 5 c 4
+ 550 5 509 86 509 194 c 4
+ 509 302 553 351 583 382 c 5
+ 559 401 509 440 509 517 c 4
+627 79 m 4
+ 666 79 693 144 717 203 c 5
+ 689 254 666 292 643 329 c 5
+ 599 289 573 264 573 193 c 4
+ 573 125 594 79 627 79 c 4
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "logical_ops" ampersand ampersand
+EndChar
+
+StartChar: logical_or
+Encoding: 287 -1 287
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 58 124 S 1 0 0 1 362 0 2
+Refer: 58 124 S 1 0 0 1 118 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "logical_ops" bar bar
+EndChar
+
+StartChar: logical_or_equals
+Encoding: 288 -1 288
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+386 741 m 1
+ 386 -77 l 1
+ 330 -77 l 1
+ 330 741 l 1
+ 386 741 l 1
+1110 481 m 5
+ 1110 397 l 5
+ 625 397 l 1
+ 625 296 l 1
+ 1110 296 l 5
+ 1110 212 l 5
+ 625 212 l 1
+ 625 -77 l 1
+ 569 -77 l 1
+ 569 741 l 1
+ 625 741 l 1
+ 625 481 l 1
+ 1110 481 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "logical_ops" bar bar equal
 EndChar
 EndChars
 EndSplineFont
