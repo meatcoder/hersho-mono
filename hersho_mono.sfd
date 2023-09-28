@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -52,11 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 289 289
+BeginChars: 291 291
 
 StartChar: o
 Encoding: 110 111 0
@@ -2472,6 +2472,7 @@ SplineSet
  301 262 l 1
  377 159 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: asciicircum
@@ -5741,8 +5742,9 @@ Width: 960
 Flags: H
 LayerCount: 2
 Fore
-Refer: 86 61 S 1 0 0 1 432 14 2
-Refer: 89 42 N 1 0 0 1 43 0 2
+Refer: 86 61 N 1 0 0 1 432 14 2
+Refer: 89 42 S 1 0 0 1 43 8 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "arithmetic_ops" asterisk equal
 EndChar
@@ -5883,6 +5885,109 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
 Ligature2: "logical_ops" bar bar equal
+EndChar
+
+StartChar: hex_zero
+Encoding: 289 -1 289
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+404 334 m 0
+ 404 116 344 1 246 1 c 0
+ 148 1 88 113 88 334 c 0
+ 88 511 152 647 246 647 c 0
+ 346 647 404 540 404 334 c 0
+320 522 m 1
+ 314 538 298 579 246 579 c 0
+ 158 579 152 445 152 322 c 0
+ 152 271 153 271 156 216 c 1
+ 320 522 l 1
+338 447 m 1
+ 170 125 l 1
+ 181 102 197 78 246 78 c 0
+ 328 78 340 141 340 334 c 0
+ 340 356 340 370 340 382 c 0
+ 340 399 340 413 338 447 c 1
+604 476 m 5
+ 666 476 l 5
+ 666 473 736 357 738 357 c 4
+ 740 357 813 471 813 474 c 5
+ 872 474 l 5
+ 870 468 778 323 778 323 c 5
+ 778 323 872 174 872 172 c 5
+ 813 172 l 5
+ 813 175 740 289 738 289 c 4
+ 736 289 665 173 665 170 c 5
+ 604 170 l 5
+ 604 172 694 323 694 323 c 5
+ 694 323 604 474 604 476 c 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "misc" zero x
+EndChar
+
+StartChar: hash_bang
+Encoding: 290 -1 290
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+514 292 m 1
+ 514 232 l 1
+ 445 232 l 1
+ 435 1 l 1
+ 426 1 l 1
+ 386 1 l 1
+ 375 1 l 1
+ 385 232 l 1
+ 305 232 l 1
+ 288 1 l 1
+ 278 1 l 1
+ 238 1 l 1
+ 228 1 l 1
+ 238 232 l 1
+ 170 232 l 1
+ 170 303 l 1
+ 242 301 l 1
+ 248 424 l 1
+ 170 424 l 1
+ 170 482 l 1
+ 250 482 l 1
+ 259 668 l 1
+ 336 668 l 1
+ 322 482 l 1
+ 397 482 l 1
+ 406 668 l 1
+ 464 668 l 1
+ 455 483 l 1
+ 514 483 l 1
+ 514 423 l 1
+ 453 423 l 1
+ 447 294 l 1
+ 514 292 l 1
+310 298 m 1
+ 389 296 l 1
+ 395 423 l 1
+ 318 424 l 1
+ 310 298 l 1
+652 78 m 0xe0
+ 652 113 687 148 723 148 c 0
+ 757 148 790 114 790 79 c 0
+ 790 43 757 9 723 9 c 0
+ 687 9 652 43 652 78 c 0xe0
+786 658 m 1xd0
+ 761 223 l 5
+ 685 223 l 5
+ 710 658 l 1
+ 786 658 l 1xd0
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "misc" numbersign exclam
 EndChar
 EndChars
 EndSplineFont
