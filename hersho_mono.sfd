@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "c_ops"  "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -55,8 +55,22 @@ FitToEm: 0
 WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
+Grid
+641 382 m 5
+ 641 304 l 5
+ 316 501 l 5
+ 641 691 l 5
+ 641 610 l 5
+ 422 501 l 5
+ 641 382 l 5
+644 234 m 5
+ 644 150 l 5
+ 316 150 l 5
+ 316 234 l 5
+ 644 234 l 5
+EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 291 291
+BeginChars: 295 295
 
 StartChar: o
 Encoding: 110 111 0
@@ -5988,6 +6002,113 @@ EndSplineSet
 Validated: 1
 LCarets2: 1 0
 Ligature2: "misc" numbersign exclam
+EndChar
+
+StartChar: c_equal
+Encoding: 291 -1 291
+Width: 960
+HStem: 150 84<157 803> 335 84<157 803>
+LayerCount: 2
+Fore
+SplineSet
+803 419 m 1
+ 803 335 l 1
+ 587 335 373 335 157 335 c 1
+ 157 419 l 1
+ 803 419 l 1
+803 234 m 1
+ 803 150 l 1
+ 587 150 373 150 157 150 c 1
+ 157 234 l 1
+ 373 234 587 234 803 234 c 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_ops" equal equal
+EndChar
+
+StartChar: c_not_equal
+Encoding: 292 -1 292
+Width: 960
+Flags: W
+HStem: 150 84<157 327 489 803> 335 84<157 449 610 803>
+LayerCount: 2
+Fore
+SplineSet
+803 234 m 1
+ 803 150 l 1
+ 433 150 l 1
+ 353 28 l 1
+ 247 28 l 1
+ 327 150 l 1
+ 157 150 l 1
+ 157 234 l 1
+ 383 234 l 1
+ 449 335 l 1
+ 157 335 l 1
+ 157 419 l 1
+ 504 419 l 1
+ 576 528 l 1
+ 682 528 l 1
+ 610 419 l 1
+ 803 419 l 1
+ 803 335 l 1
+ 555 335 l 1
+ 489 234 l 1
+ 803 234 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_ops" exclam equal
+EndChar
+
+StartChar: less_than_or_equal
+Encoding: 293 -1 293
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+642 345 m 5
+ 642 267 l 5
+ 315 393 l 5
+ 642 546 l 5
+ 642 465 l 5
+ 454 397 l 5
+ 642 345 l 5
+645 197 m 5
+ 645 129 l 5
+ 316 129 l 5
+ 316 197 l 5
+ 645 197 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_ops" less equal
+EndChar
+
+StartChar: greater_than_or_equal
+Encoding: 294 -1 294
+Width: 960
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+318 345 m 5
+ 506 397 l 5
+ 318 465 l 5
+ 318 546 l 5
+ 645 393 l 5
+ 318 267 l 5
+ 318 345 l 5
+315 197 m 5
+ 644 197 l 5
+ 644 129 l 5
+ 315 129 l 5
+ 315 197 l 5
+EndSplineSet
+Validated: 1
+Ligature2: "c_ops" greater equal
 EndChar
 EndChars
 EndSplineFont
