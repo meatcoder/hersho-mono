@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "c_lang"  "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -1965,11 +1965,13 @@ StartChar: numbersign
 Encoding: 34 35 71
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: W
+HStem: 1 21G<126 187.472 273 333.866> 232 64<208 283 345 412> 424 58<68 146 220 293 353 412>
+VStem: 136 67<204.824 232 301 365.846> 146 70<376.75 424 482 554.333> 273 60<1 162.7> 304 58<524.111 668>
 LayerCount: 2
 Fore
 SplineSet
-412 292 m 1
+412 292 m 1xea
  412 232 l 1
  343 232 l 1
  333 1 l 1
@@ -1982,7 +1984,7 @@ SplineSet
  176 1 l 1
  136 1 l 1
  126 1 l 1
- 136 232 l 1
+ 136 232 l 1xf4
  68 232 l 1
  68 303 l 1
  140 301 l 1
@@ -2001,11 +2003,11 @@ SplineSet
  412 423 l 1
  351 423 l 1
  345 294 l 1
- 412 292 l 1
+ 412 292 l 1xea
 208 298 m 1
  287 296 l 1
  293 423 l 1
- 216 424 l 1
+ 216 424 l 1xe8
  208 298 l 1
 EndSplineSet
 Validated: 1
@@ -2367,7 +2369,9 @@ StartChar: plus
 Encoding: 42 43 85
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: W
+HStem: 243 79<78 202 280 402>
+VStem: 202 78<77 243 322 467>
 LayerCount: 2
 Fore
 SplineSet
@@ -5503,8 +5507,8 @@ Fore
 Refer: 78 62 S 1 0 0 1 433 0 2
 Refer: 77 60 S 1 0 0 1 47 0 2
 Validated: 1
+Ligature2: "programming_symbols" less greater
 LCarets2: 1 0
-Ligature2: "html_symbols" less greater
 EndChar
 
 StartChar: ht_slash
@@ -5518,8 +5522,8 @@ Refer: 78 62 N 1 0 0 1 767 0 2
 Refer: 59 47 N 1 0 0 1 484 -129 2
 Refer: 77 60 S 1 0 0 1 193 0 2
 Validated: 1
+Ligature2: "programming_symbols" less slash greater
 LCarets2: 2 0 0
-Ligature2: "html_symbols" less slash greater
 EndChar
 
 StartChar: ht_open_slash
@@ -5531,8 +5535,8 @@ Fore
 Refer: 59 47 S 1 0 0 1 384 -129 2
 Refer: 77 60 S 1 0 0 1 95 0 2
 Validated: 1
+Ligature2: "programming_symbols" less slash
 LCarets2: 1 0
-Ligature2: "html_symbols" less slash
 EndChar
 
 StartChar: ht_slash_close
@@ -5544,7 +5548,7 @@ Fore
 Refer: 78 62 N 1 0 0 1 383 0 2
 Refer: 59 47 S 1 0 0 1 98 -129 2
 Validated: 1
-Ligature2: "html_symbols" slash greater
+Ligature2: "programming_symbols" slash greater
 LCarets2: 1 0
 EndChar
 
@@ -5596,8 +5600,8 @@ SplineSet
  980 48 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" w w w
 LCarets2: 2 0 0
-Ligature2: "html_symbols" w w w
 EndChar
 
 StartChar: ht_comment_open
@@ -5636,8 +5640,8 @@ SplineSet
  403 83 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" less exclam hyphen hyphen
 LCarets2: 3 0 0 0
-Ligature2: "html_symbols" less exclam hyphen hyphen
 EndChar
 
 StartChar: ht_comment_close
@@ -5659,14 +5663,15 @@ SplineSet
  1036 5 l 5
 EndSplineSet
 Validated: 1
-Ligature2: "html_symbols" hyphen hyphen greater
+Ligature2: "programming_symbols" hyphen hyphen greater
 LCarets2: 2 0 0
 EndChar
 
 StartChar: plus_plus
 Encoding: 280 -1 280
 Width: 960
-Flags: H
+HStem: 243 79<156 280 358 604 682 804>
+VStem: 280 78<77 243 322 467> 604 78<77 243 322 467>
 LayerCount: 2
 Fore
 SplineSet
@@ -5693,21 +5698,21 @@ SplineSet
  604 322 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" plus plus
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" plus plus
 EndChar
 
 StartChar: minus_minus
 Encoding: 281 -1 281
 Width: 960
-Flags: H
+HStem: 243 79<103 439 521 857>
 LayerCount: 2
 Fore
 Refer: 87 45 N 1 0 0 1 449 0 2
 Refer: 87 45 N 1 0 0 1 31 0 2
 Validated: 1
+Ligature2: "programming_symbols" hyphen hyphen
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" hyphen hyphen
 EndChar
 
 StartChar: plus_equals
@@ -5719,8 +5724,8 @@ Fore
 Refer: 86 61 S 1 0 0 1 458 -3 2
 Refer: 85 43 N 1 0 0 1 23 0 2
 Validated: 1
+Ligature2: "programming_symbols" plus equal
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" plus equal
 EndChar
 
 StartChar: minus_equals
@@ -5732,8 +5737,8 @@ Fore
 Refer: 86 61 S 1 0 0 1 455 -5 2
 Refer: 87 45 N 1 0 0 1 32 0 2
 Validated: 1
+Ligature2: "programming_symbols" hyphen equal
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" hyphen equal
 EndChar
 
 StartChar: times_equals
@@ -5745,8 +5750,8 @@ Fore
 Refer: 86 61 N 1 0 0 1 432 14 2
 Refer: 89 42 S 1 0 0 1 43 8 2
 Validated: 1
+Ligature2: "programming_symbols" asterisk equal
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" asterisk equal
 EndChar
 
 StartChar: divide_equals
@@ -5771,8 +5776,8 @@ SplineSet
  816 444 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" slash equal
 LCarets2: 1 0
-Ligature2: "arithmetic_ops" slash equal
 EndChar
 
 StartChar: logical_and
@@ -5839,8 +5844,8 @@ SplineSet
  573 125 594 79 627 79 c 4
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" ampersand ampersand
 LCarets2: 1 0
-Ligature2: "logical_ops" ampersand ampersand
 EndChar
 
 StartChar: logical_or
@@ -5852,8 +5857,8 @@ Fore
 Refer: 58 124 S 1 0 0 1 362 0 2
 Refer: 58 124 S 1 0 0 1 118 0 2
 Validated: 1
+Ligature2: "programming_symbols" bar bar
 LCarets2: 1 0
-Ligature2: "logical_ops" bar bar
 EndChar
 
 StartChar: logical_or_equals
@@ -5883,14 +5888,15 @@ SplineSet
  1110 481 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" bar bar equal
 LCarets2: 2 0 0
-Ligature2: "logical_ops" bar bar equal
 EndChar
 
-StartChar: hex_zero
+StartChar: zero_x
 Encoding: 289 -1 289
 Width: 960
-Flags: H
+HStem: 1 77<184.111 301.382> 289 68<727.599 754.924> 579 68<193.586 295.447>
+VStem: 85 64<219.871 497.382> 337 64<146.188 439.381> 607 61<170 206.372 439.628 476> 816 59<172 207.798>
 LayerCount: 2
 Fore
 SplineSet
@@ -5925,18 +5931,19 @@ SplineSet
  697 323 607 474 607 476 c 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" zero x
 LCarets2: 1 0
-Ligature2: "misc" zero x
 EndChar
 
-StartChar: hash_bang
+StartChar: numbersign_exclam
 Encoding: 290 -1 290
 Width: 960
-Flags: H
+HStem: 1 21G<230 291.472 377 437.866> 9 139<669 764.25> 232 64<312 387 449 516> 424 58<172 250 324 397 457 516> 638 20G<710.529 788>
+VStem: 240 67<204.824 232 301 365.846> 250 70<376.75 424 482 554.333> 377 60<1 162.7> 408 58<524.111 668> 647 138<31.5947 124.882>
 LayerCount: 2
 Fore
 SplineSet
-516 292 m 1
+516 292 m 1xbac0
  516 232 l 1
  447 232 l 1
  437 1 l 1
@@ -5949,7 +5956,7 @@ SplineSet
  280 1 l 1
  240 1 l 1
  230 1 l 1
- 240 232 l 1
+ 240 232 l 1xbd40
  172 232 l 1
  172 303 l 1
  244 301 l 1
@@ -5968,26 +5975,26 @@ SplineSet
  516 423 l 1
  455 423 l 1
  449 294 l 1
- 516 292 l 1
+ 516 292 l 1xbac0
 312 298 m 1
  391 296 l 1
  397 423 l 1
- 320 424 l 1
+ 320 424 l 1x3a40
  312 298 l 1
-647 78 m 4xe0
+647 78 m 4
  647 113 682 148 718 148 c 4
  752 148 785 114 785 79 c 4
- 785 43 752 9 718 9 c 4
- 682 9 647 43 647 78 c 4xe0
-788 658 m 1xd0
+ 785 43 752 9 718 9 c 4x7840
+ 682 9 647 43 647 78 c 4
+788 658 m 1
  756 223 l 5
  680 223 l 5
  712 658 l 1
- 788 658 l 1xd0
+ 788 658 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" numbersign exclam
 LCarets2: 1 0
-Ligature2: "misc" numbersign exclam
 EndChar
 
 StartChar: c_equal
@@ -6009,8 +6016,8 @@ SplineSet
  373 234 587 234 803 234 c 1
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" equal equal
 LCarets2: 1 0
-Ligature2: "c_lang" equal equal
 EndChar
 
 StartChar: c_not_equal
@@ -6044,8 +6051,8 @@ SplineSet
  803 234 l 1
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" exclam equal
 LCarets2: 1 0
-Ligature2: "c_lang" exclam equal
 EndChar
 
 StartChar: less_than_or_equal
@@ -6069,8 +6076,8 @@ SplineSet
  645 197 l 5
 EndSplineSet
 Validated: 1
+Ligature2: "programming_symbols" less equal
 LCarets2: 1 0
-Ligature2: "c_lang" less equal
 EndChar
 
 StartChar: greater_than_or_equal
@@ -6094,7 +6101,7 @@ SplineSet
  315 197 l 5
 EndSplineSet
 Validated: 1
-Ligature2: "c_lang" greater equal
+Ligature2: "programming_symbols" greater equal
 EndChar
 
 StartChar: c_comment_open
@@ -6106,8 +6113,8 @@ Fore
 Refer: 89 42 S 1 0 0 1 414 197 2
 Refer: 59 47 N 1 0 0 1 50 0 2
 Validated: 1
+Ligature2: "programming_symbols" slash asterisk
 LCarets2: 1 0
-Ligature2: "c_lang" slash asterisk
 EndChar
 
 StartChar: c_comment_close
@@ -6119,22 +6126,24 @@ Fore
 Refer: 59 47 S 1 0 0 1 430 0 2
 Refer: 89 42 S 1 0 0 1 66 -111 2
 Validated: 1
+Ligature2: "programming_symbols" asterisk slash
 LCarets2: 1 0
-Ligature2: "c_lang" asterisk slash
 EndChar
 
 StartChar: c_impt_comment_start
 Encoding: 297 -1 297
 Width: 1440
-Flags: HW
+Flags: W
+HStem: 548 20G<506.889 575.564 770.5 837.667> 551 20G<948.889 1017.56 1212.5 1279.67>
+VStem: 143 332 635 75<530 662> 1077 75<533 665>
 LayerCount: 2
 Fore
-Refer: 89 42 S 1 0 0 1 875 200 2
-Refer: 89 42 S 1 0 0 1 433 197 2
+Refer: 89 42 N 1 0 0 1 875 200 2
+Refer: 89 42 N 1 0 0 1 433 197 2
 Refer: 59 47 N 1 0 0 1 69 0 2
 Validated: 1
+Ligature2: "programming_symbols" slash asterisk asterisk
 LCarets2: 2 0 0
-Ligature2: "c_lang" slash asterisk asterisk
 EndChar
 
 StartChar: c_impt_comment_close
@@ -6147,8 +6156,8 @@ Refer: 89 42 N 1 0 0 1 529 -107.73 2
 Refer: 89 42 N 1 0 0 1 87 -110.73 2
 Refer: 59 47 N 1 0 0 1 889 0 2
 Validated: 1
+Ligature2: "programming_symbols" asterisk asterisk slash
 LCarets2: 2 0 0
-Ligature2: "c_lang" asterisk asterisk slash
 EndChar
 
 StartChar: c_line_comment
@@ -6160,8 +6169,8 @@ Fore
 Refer: 59 47 S 1 0 0 1 347 0 2
 Refer: 59 47 S 1 0 0 1 133 0 2
 Validated: 1
+Ligature2: "programming_symbols" slash slash
 LCarets2: 1 0
-Ligature2: "c_lang" slash slash
 EndChar
 
 StartChar: c_impt_line_comment
@@ -6174,8 +6183,8 @@ Refer: 59 47 N 1 0 0 1 693 0 2
 Refer: 59 47 N 1 0 0 1 480 0 2
 Refer: 59 47 N 1 0 0 1 267 0 2
 Validated: 1
+Ligature2: "programming_symbols" slash slash slash
 LCarets2: 2 0 0
-Ligature2: "c_lang" slash slash slash
 EndChar
 EndChars
 EndSplineFont
