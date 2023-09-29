@@ -80,7 +80,7 @@ Grid
  866 142 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 313 313
+BeginChars: 314 314
 
 StartChar: o
 Encoding: 110 111 0
@@ -6456,6 +6456,19 @@ EndSplineSet
 Validated: 1
 Ligature2: "programming_symbols" asciicircum equal
 LCarets2: 1 0
+EndChar
+
+StartChar: backslash_backslash
+Encoding: 313 -1 313
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 57 92 S 1 0 0 1 401 0 2
+Refer: 57 92 N 1 0 0 1 79 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" backslash backslash
 EndChar
 EndChars
 EndSplineFont
