@@ -56,31 +56,14 @@ WinInfo: 81 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-223 472 m 1
- 223 388 l 1
- 783 386 l 1
- 853 331 l 1
- 797 285 l 1
- 223 287 l 1
- 223 203 l 1
- 696 201 l 1
- 625 143 l 1
- 625 43 l 1
- 976 331 l 1
- 626 622 l 1
- 626 510 l 1
- 677 470 l 1
- 223 472 l 1
-866 142 m 5
- 866 43 l 5
- 1217 330 l 5
- 867 623 l 5
- 867 520 l 5
- 1094 330 l 5
- 866 142 l 5
+324 115 m 5
+ 1270 115 l 5
+ 1270 -15 l 5
+ 324 -15 l 5
+ 324 115 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 314 314
+BeginChars: 315 315
 
 StartChar: o
 Encoding: 110 111 0
@@ -6469,6 +6452,41 @@ Refer: 57 92 N 1 0 0 1 79 0 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" backslash backslash
+EndChar
+
+StartChar: less_equal_greater
+Encoding: 314 -1 314
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+1035 63 m 5
+ 1035 151 l 5
+ 1071 176 l 5
+ 369 177 l 5
+ 405 152 l 5
+ 405 64 l 5
+ 75 311 l 5
+ 405 564 l 5
+ 405 469 l 5
+ 380 452 l 5
+ 1069 451 l 5
+ 1035 476 l 5
+ 1035 568 l 5
+ 1365 311 l 5
+ 1035 63 l 5
+1186 366 m 5
+ 260 368 l 5
+ 178 311 l 5
+ 249 261 l 5
+ 1190 260 l 5
+ 1262 311 l 5
+ 1186 366 l 5
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" less equal greater
 EndChar
 EndChars
 EndSplineFont
