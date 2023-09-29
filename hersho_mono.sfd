@@ -56,7 +56,7 @@ WinInfo: 81 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 304 304
+BeginChars: 307 307
 
 StartChar: o
 Encoding: 110 111 0
@@ -1477,7 +1477,9 @@ StartChar: parenleft
 Encoding: 39 40 53
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: W
+HStem: -25 53<271.488 354> 623 66<263.883 354>
+VStem: 126 58<152.945 509.56>
 LayerCount: 2
 Fore
 SplineSet
@@ -1502,7 +1504,9 @@ StartChar: parenright
 Encoding: 40 41 54
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: W
+HStem: -25 53<126 206.466> 623 66<126 214.75>
+VStem: 296 58<153.259 508.156>
 LayerCount: 2
 Fore
 SplineSet
@@ -6236,6 +6240,45 @@ Refer: 83 58 N 1 0 0 1 125 0 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" colon colon
+EndChar
+
+StartChar: greater_greater
+Encoding: 304 -1 304
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 78 62 N 1 0 0 1 405 0 2
+Refer: 78 62 N 1 0 0 1 75 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" greater greater
+EndChar
+
+StartChar: less_less
+Encoding: 305 -1 305
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 77 60 S 1 0 0 1 405 0 2
+Refer: 77 60 N 1 0 0 1 75 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" less less
+EndChar
+
+StartChar: parenleft_parenright
+Encoding: 306 -1 306
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 54 41 S 1 0 0 1 402 0 2
+Refer: 53 40 N 1 0 0 1 78 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" parenleft parenright
 EndChar
 EndChars
 EndSplineFont
