@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "c_ops"  "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "c_lang"  "misc"  "arithmetic_ops"  "logical_ops"  "html_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
@@ -52,25 +52,11 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 54 27 9
+WinInfo: 81 27 9
 BeginPrivate: 0
 EndPrivate
-Grid
-641 382 m 5
- 641 304 l 5
- 316 501 l 5
- 641 691 l 5
- 641 610 l 5
- 422 501 l 5
- 641 382 l 5
-644 234 m 5
- 644 150 l 5
- 316 150 l 5
- 316 234 l 5
- 644 234 l 5
-EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 295 295
+BeginChars: 301 301
 
 StartChar: o
 Encoding: 110 111 0
@@ -6024,7 +6010,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "c_ops" equal equal
+Ligature2: "c_lang" equal equal
 EndChar
 
 StartChar: c_not_equal
@@ -6059,7 +6045,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "c_ops" exclam equal
+Ligature2: "c_lang" exclam equal
 EndChar
 
 StartChar: less_than_or_equal
@@ -6084,7 +6070,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "c_ops" less equal
+Ligature2: "c_lang" less equal
 EndChar
 
 StartChar: greater_than_or_equal
@@ -6108,7 +6094,88 @@ SplineSet
  315 197 l 5
 EndSplineSet
 Validated: 1
-Ligature2: "c_ops" greater equal
+Ligature2: "c_lang" greater equal
+EndChar
+
+StartChar: c_comment_open
+Encoding: 295 -1 295
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 89 42 S 1 0 0 1 414 197 2
+Refer: 59 47 N 1 0 0 1 50 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_lang" slash asterisk
+EndChar
+
+StartChar: c_comment_close
+Encoding: 296 -1 296
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 59 47 S 1 0 0 1 430 0 2
+Refer: 89 42 S 1 0 0 1 66 -111 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_lang" asterisk slash
+EndChar
+
+StartChar: c_impt_comment_start
+Encoding: 297 -1 297
+Width: 1440
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 89 42 S 1 0 0 1 875 200 2
+Refer: 89 42 S 1 0 0 1 433 197 2
+Refer: 59 47 N 1 0 0 1 69 0 2
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "c_lang" slash asterisk asterisk
+EndChar
+
+StartChar: c_impt_comment_close
+Encoding: 298 -1 298
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+Refer: 89 42 N 1 0 0 1 529 -107.73 2
+Refer: 89 42 N 1 0 0 1 87 -110.73 2
+Refer: 59 47 N 1 0 0 1 889 0 2
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "c_lang" asterisk asterisk slash
+EndChar
+
+StartChar: c_line_comment
+Encoding: 299 -1 299
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 59 47 S 1 0 0 1 347 0 2
+Refer: 59 47 S 1 0 0 1 133 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "c_lang" slash slash
+EndChar
+
+StartChar: c_impt_line_comment
+Encoding: 300 -1 300
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+Refer: 59 47 N 1 0 0 1 693 0 2
+Refer: 59 47 N 1 0 0 1 480 0 2
+Refer: 59 47 N 1 0 0 1 267 0 2
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "c_lang" slash slash slash
 EndChar
 EndChars
 EndSplineFont
