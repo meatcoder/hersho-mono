@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 81 27 9
+WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -63,7 +63,7 @@ Grid
  335 402 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 321 321
+BeginChars: 325 325
 
 StartChar: o
 Encoding: 110 111 0
@@ -6648,6 +6648,86 @@ Refer: 86 61 S 1 0 0 1 385 -1 2
 Refer: 83 58 N 1 0 0 1 4 83 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" colon equal
+EndChar
+
+StartChar: equal_asciitilde
+Encoding: 321 -1 321
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 93 126 N 1 0 0 1 240 -77 2
+Refer: 93 126 N 1 0 0 1 240 112 2
+LCarets2: 1 0
+Ligature2: "programming_symbols" equal asciitilde
+EndChar
+
+StartChar: exclam_asciitilde
+Encoding: 322 -1 322
+Width: 960
+Flags: W
+HStem: 119 68<511.194 613.35> 201 69<349.06 415.732> 308 68<537.398 613.35> 390 69<349.06 451.04>
+VStem: 317 326
+LayerCount: 2
+Fore
+SplineSet
+643 229 m 1
+ 643 169 l 1
+ 616 139 587 119 571 119 c 0
+ 529 119 498 152 462 176 c 1
+ 408 24 l 1
+ 354 24 l 1
+ 416 198 l 1
+ 408 200 400 201 391 201 c 0
+ 361 201 327 169 317 159 c 1
+ 317 218 l 1
+ 344 248 374 270 391 270 c 0
+ 408 270 423 264 437 256 c 1
+ 474 357 l 1
+ 450 375 424 390 391 390 c 0
+ 361 390 327 358 317 348 c 1
+ 317 407 l 1
+ 344 437 374 459 391 459 c 0
+ 430 459 459 431 492 407 c 1
+ 550 570 l 1
+ 604 570 l 1
+ 537 382 l 1
+ 548 378 559 376 571 376 c 0
+ 600 376 633 408 643 418 c 1
+ 643 358 l 1
+ 616 328 587 308 571 308 c 0
+ 551 308 533 315 516 326 c 1
+ 481 226 l 1
+ 507 206 535 187 571 187 c 0
+ 600 187 633 219 643 229 c 1
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "programming_symbols" exclam asciitilde
+EndChar
+
+StartChar: period_period_period
+Encoding: 323 -1 323
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+Refer: 79 46 S 1 0 0 1 772 0 2
+Refer: 79 46 N 1 0 0 1 478 0 2
+Refer: 79 46 N 1 0 0 1 188 0 2
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" period period period
+EndChar
+
+StartChar: period_period
+Encoding: 324 -1 324
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 79 46 S 1 0 0 1 407 0 2
+Refer: 79 46 N 1 0 0 1 73 0 2
+LCarets2: 1 0
+Ligature2: "programming_symbols" period period
 EndChar
 EndChars
 EndSplineFont
