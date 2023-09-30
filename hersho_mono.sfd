@@ -63,7 +63,7 @@ Grid
  335 402 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 320 320
+BeginChars: 321 321
 
 StartChar: o
 Encoding: 110 111 0
@@ -6636,6 +6636,19 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" less asciitilde greater
+EndChar
+
+StartChar: colon_equal
+Encoding: 320 -1 320
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 86 61 S 1 0 0 1 364 -1 2
+Refer: 83 58 N 1 0 0 1 25 83 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" colon equal
 EndChar
 EndChars
 EndSplineFont
