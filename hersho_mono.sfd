@@ -56,30 +56,14 @@ WinInfo: 81 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-1027 234 m 5
- 1027 150 l 5
- 657 150 l 5
- 577 28 l 5
- 471 28 l 5
- 551 150 l 5
- 381 150 l 5
- 381 234 l 5
- 607 234 l 5
- 673 335 l 5
- 381 335 l 5
- 381 419 l 5
- 728 419 l 5
- 800 528 l 5
- 906 528 l 5
- 834 419 l 5
- 1027 419 l 5
- 1027 335 l 5
- 779 335 l 5
- 713 234 l 5
- 1027 234 l 5
+398 78 m 4
+ 398 116 436 153 474 153 c 4
+ 512 153 548 117 548 79 c 4
+ 548 40 512 4 474 4 c 4
+ 435 4 398 40 398 78 c 4
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 317 317
+BeginChars: 319 319
 
 StartChar: o
 Encoding: 110 111 0
@@ -6560,6 +6544,55 @@ EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" exclam equal equal
+EndChar
+
+StartChar: asterisk_asterisk
+Encoding: 317 -1 317
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+Refer: 89 42 S 1 0 0 1 459 0 2
+Refer: 89 42 N 1 0 0 1 21 0 2
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" asterisk asterisk
+EndChar
+
+StartChar: question_period
+Encoding: 318 -1 318
+Width: 960
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+567 78 m 4
+ 567 113 604 148 639 148 c 4
+ 674 148 709 114 709 79 c 4
+ 709 44 674 9 639 9 c 4
+ 603 9 567 43 567 78 c 4
+331 78 m 0
+ 331 113 368 148 403 148 c 0
+ 438 148 473 114 473 79 c 0
+ 473 44 438 9 403 9 c 0
+ 367 9 331 43 331 78 c 0
+495 506 m 0
+ 495 574 465 595 403 595 c 0
+ 351 595 325 552 317 536 c 1
+ 251 538 l 1
+ 259 553 275 578 297 602 c 0
+ 324 632 360 657 403 657 c 0
+ 489 657 559 607 559 506 c 0
+ 559 478 532 450 501 420 c 0
+ 471 390 435 358 435 316 c 0
+ 435 279 437 243 437 226 c 1
+ 365 226 l 1
+ 366 243 367 279 367 316 c 0
+ 367 380 495 448 495 506 c 0
+EndSplineSet
+Validated: 1
+LCarets2: 1 0
+Ligature2: "programming_symbols" question period
 EndChar
 EndChars
 EndSplineFont
