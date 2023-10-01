@@ -6657,8 +6657,8 @@ Width: 960
 Flags: H
 LayerCount: 2
 Fore
-Refer: 93 126 S 1 0 0 1 402 16 2
-Refer: 86 61 N 1 0 0 1 76 0 2
+Refer: 93 126 S 1 0 0 1 437 16 2
+Refer: 86 61 N 1 0 0 1 41 0 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" equal asciitilde
@@ -6672,7 +6672,7 @@ HStem: 119 68<583.194 685.35> 201 69<421.06 487.732> 308 68<609.398 685.35> 390 
 VStem: 389 326
 LayerCount: 2
 Fore
-Refer: 93 126 S 1 0 0 1 350 303 2
+Refer: 93 126 S 1 0 0 1 350 133 2
 Refer: 60 33 N 1 0 0 1 36 0 2
 Validated: 1
 LCarets2: 1 0
