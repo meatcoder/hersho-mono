@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -63,7 +63,7 @@ Grid
  335 402 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 325 325
+BeginChars: 329 329
 
 StartChar: o
 Encoding: 110 111 0
@@ -6700,6 +6700,96 @@ Refer: 79 46 N 1 0 0 1 73 0 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" period period
+EndChar
+
+StartChar: hyphen_hyphen_hyphen
+Encoding: 325 -1 325
+Width: 1440
+Flags: H
+LayerCount: 2
+Fore
+SplineSet
+1440 243 m 1
+ 0 243 l 1
+ 0 322 l 1
+ 1440 322 l 1
+ 1440 243 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" hyphen hyphen hyphen
+EndChar
+
+StartChar: greater_hyphen_hyphen
+Encoding: 326 -1 326
+Width: 1440
+HStem: 243 79<263 1440>
+LayerCount: 2
+Fore
+SplineSet
+0 74 m 1
+ 0 166 l 1
+ 173 281 l 1
+ 0 391 l 1
+ 0 482 l 1
+ 263 322 l 1
+ 1440 322 l 1
+ 1440 243 l 1
+ 263 243 l 1
+ 0 74 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" greater hyphen hyphen
+EndChar
+
+StartChar: hyphen_greater_hyphen
+Encoding: 327 -1 327
+Width: 1440
+HStem: 243 79<0 666 817 1440>
+LayerCount: 2
+Fore
+SplineSet
+554 74 m 1
+ 554 166 l 1
+ 666 243 l 1
+ 0 243 l 1
+ 0 322 l 1
+ 666 322 l 1
+ 554 391 l 1
+ 554 482 l 1
+ 817 322 l 1
+ 1440 322 l 1
+ 1440 243 l 1
+ 817 243 l 1
+ 554 74 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" hyphen greater hyphen
+EndChar
+
+StartChar: hyphen_hyphen_greater
+Encoding: 328 -1 328
+Width: 1440
+HStem: 243 79<0 1232>
+LayerCount: 2
+Fore
+SplineSet
+1120 74 m 1
+ 1120 166 l 1
+ 1232 243 l 1
+ 0 243 l 1
+ 0 322 l 1
+ 1232 322 l 1
+ 1120 391 l 1
+ 1120 482 l 1
+ 1227 417 1334 349 1440 284 c 1
+ 1120 74 l 1
+EndSplineSet
+Validated: 1
+LCarets2: 2 0 0
+Ligature2: "programming_symbols" hyphen hyphen greater
 EndChar
 EndChars
 EndSplineFont
