@@ -42,14 +42,35 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
 Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ContextSub2: glyph "do_bar_start" 0 0 0 1
+ String: 10 bar hyphen
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "start_arrows"
+EndFPST
+ChainSub2: glyph "fixup_bar_end" 0 0 0 1
+ String: 3 bar
+ BString: 6 hyphen
+ FString: 0 
+ 1
+  SeqLookup: 0 "end_arrows"
+EndFPST
+ChainSub2: glyph "fixup_bar_mid" 0 0 0 1
+ String: 3 bar
+ BString: 6 hyphen
+ FString: 7 hyphen 
+ 1
+  SeqLookup: 0 "mid_arrows"
+EndFPST
 ChainSub2: glyph "fixup_less_start" 0 0 0 1
  String: 4 less
  BString: 6 hyphen
