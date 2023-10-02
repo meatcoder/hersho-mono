@@ -42,14 +42,49 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_greater_mid"  "do_greater_end"  "do_greater_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
 Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ContextSub2: glyph "do_less_end" 0 0 0 1
+ String: 11 less hyphen
+ BString: 0
+ FString: 0 
+ 1
+  SeqLookup: 0 "end_arrows"
+EndFPST
+ChainSub2: glyph "fixup_less_mid" 0 0 0 1
+ String: 4 less
+ BString: 6 hyphen
+ FString: 7 hyphen 
+ 1
+  SeqLookup: 0 "mid_arrows"
+EndFPST
+ContextSub2: glyph "do_less_mid" 0 0 0 1
+ String: 18 hyphen less hyphen
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "mid_arrows"
+EndFPST
+ChainSub2: glyph "fixup_greater_end" 0 0 0 1
+ String: 7 greater
+ BString: 6 hyphen
+ FString: 0 
+ 1
+  SeqLookup: 0 "end_arrows"
+EndFPST
+ContextSub2: glyph "do_less_start" 0 0 0 1
+ String: 11 hyphen less
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "start_arrows"
+EndFPST
 ChainSub2: glyph "fixup_greater_mid" 0 0 0 1
  String: 7 greater
  BString: 6 hyphen
@@ -96,7 +131,7 @@ Grid
  335 402 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 325 325
+BeginChars: 328 328
 
 StartChar: o
 Encoding: 110 111 0
@@ -2256,6 +2291,9 @@ SplineSet
  405 83 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "mid_arrows-1" less_mid
+Substitution2: "end_arrows_1" less_end
+Substitution2: "start_arrows-1" less_start
 EndChar
 
 StartChar: greater
@@ -6231,7 +6269,6 @@ SplineSet
  159 74 l 5
 EndSplineSet
 Validated: 1
-Substitution2: "mid_arrows-1" greater_mid
 LCarets2: 1 0
 EndChar
 
@@ -6752,6 +6789,75 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
+EndChar
+
+StartChar: less_end
+Encoding: 325 -1 325
+Width: 480
+Flags: HW
+HStem: 243 79<208 479>
+LayerCount: 2
+Fore
+SplineSet
+320 74 m 5
+ 0 284 l 5
+ 106 349 213 417 320 482 c 5
+ 320 391 l 5
+ 208 322 l 5
+ 479 322 l 1
+ 479 243 l 1
+ 208 243 l 5
+ 320 166 l 5
+ 320 74 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: less_mid
+Encoding: 326 -1 326
+Width: 480
+Flags: HW
+HStem: 243 79<774 1440 0 623>
+LayerCount: 2
+Fore
+SplineSet
+406 74 m 1
+ 143 243 l 1
+ 0 243 l 1
+ 0 322 l 1
+ 143 322 l 1
+ 406 482 l 1
+ 406 391 l 1
+ 294 322 l 1
+ 480 322 l 5
+ 480 243 l 5
+ 294 243 l 1
+ 406 166 l 1
+ 406 74 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: less_start
+Encoding: 327 -1 327
+Width: 480
+Flags: HW
+HStem: 243 79<0 217>
+LayerCount: 2
+Fore
+SplineSet
+480 74 m 1
+ 217 243 l 1
+ 0 243 l 1
+ 0 323 l 1
+ 217 323 l 1
+ 480 482 l 1
+ 480 391 l 1
+ 307 281 l 1
+ 480 166 l 1
+ 480 74 l 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont
