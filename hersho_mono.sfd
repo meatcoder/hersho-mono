@@ -42,9 +42,42 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_greater_mid"  "do_greater_end"  "do_greater_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
+Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
+Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "fixup_greater_mid" 0 0 0 1
+ String: 7 greater
+ BString: 6 hyphen
+ FString: 7 hyphen 
+ 1
+  SeqLookup: 0 "mid_arrows"
+EndFPST
+ContextSub2: glyph "do_greater_mid" 0 0 0 1
+ String: 21 hyphen greater hyphen
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "mid_arrows"
+EndFPST
+ContextSub2: glyph "do_greater_start" 0 0 0 1
+ String: 14 greater hyphen
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "start_arrows"
+EndFPST
+ContextSub2: glyph "do_greater_end" 0 0 0 1
+ String: 14 hyphen greater
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 1 "end_arrows"
+EndFPST
 LangName: 1033
 Encoding: Custom
 UnicodeInterp: none
@@ -63,7 +96,7 @@ Grid
  335 402 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 329 329
+BeginChars: 325 325
 
 StartChar: o
 Encoding: 110 111 0
@@ -2243,6 +2276,9 @@ SplineSet
  75 5 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "mid_arrows-1" greater_mid
+Substitution2: "start_arrows-1" greater_start
+Substitution2: "end_arrows_1" greater_end
 EndChar
 
 StartChar: period
@@ -2428,15 +2464,15 @@ Encoding: 44 45 87
 Width: 480
 VWidth: 833
 Flags: W
-HStem: 243 79<72 408>
+HStem: 243 79<0 480>
 LayerCount: 2
 Fore
 SplineSet
-408 243 m 1
- 72 243 l 1
- 72 322 l 1
- 408 322 l 1
- 408 243 l 1
+480 243 m 5
+ 0 243 l 1
+ 0 322 l 1
+ 480 322 l 5
+ 480 243 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -5653,31 +5689,8 @@ Ligature2: "programming_symbols" less exclam hyphen hyphen
 LCarets2: 3 0 0 0
 EndChar
 
-StartChar: ht_comment_close
-Encoding: 279 -1 279
-Width: 1440
-HStem: 161 79<74 1184>
-LayerCount: 2
-Fore
-SplineSet
-1036 5 m 5
- 1036 83 l 5
- 1185 161 l 5
- 74 161 l 5
- 74 240 l 5
- 1184 240 l 5
- 1036 311 l 5
- 1036 392 l 5
- 1366 202 l 5
- 1036 5 l 5
-EndSplineSet
-Validated: 1
-Ligature2: "programming_symbols" hyphen hyphen greater
-LCarets2: 2 0 0
-EndChar
-
 StartChar: plus_plus
-Encoding: 280 -1 280
+Encoding: 279 -1 279
 Width: 960
 HStem: 243 79<156 280 358 604 682 804>
 VStem: 280 78<77 243 322 467> 604 78<77 243 322 467>
@@ -5711,21 +5724,8 @@ Ligature2: "programming_symbols" plus plus
 LCarets2: 1 0
 EndChar
 
-StartChar: minus_minus
-Encoding: 281 -1 281
-Width: 960
-HStem: 243 79<103 439 521 857>
-LayerCount: 2
-Fore
-Refer: 87 45 N 1 0 0 1 449 0 2
-Refer: 87 45 N 1 0 0 1 31 0 2
-Validated: 1
-Ligature2: "programming_symbols" hyphen hyphen
-LCarets2: 1 0
-EndChar
-
 StartChar: plus_equals
-Encoding: 282 -1 282
+Encoding: 280 -1 280
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5738,7 +5738,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: minus_equals
-Encoding: 283 -1 283
+Encoding: 281 -1 281
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5751,7 +5751,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: times_equals
-Encoding: 284 -1 284
+Encoding: 282 -1 282
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5764,7 +5764,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: divide_equals
-Encoding: 285 -1 285
+Encoding: 283 -1 283
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5790,7 +5790,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: logical_and
-Encoding: 286 -1 286
+Encoding: 284 -1 284
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5858,7 +5858,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: logical_or
-Encoding: 287 -1 287
+Encoding: 285 -1 285
 Width: 960
 Flags: H
 LayerCount: 2
@@ -5871,7 +5871,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: logical_or_equals
-Encoding: 288 -1 288
+Encoding: 286 -1 286
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -5902,7 +5902,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: zero_x
-Encoding: 289 -1 289
+Encoding: 287 -1 287
 Width: 960
 HStem: 1 77<184.111 301.382> 289 68<727.599 754.924> 579 68<193.586 295.447>
 VStem: 85 64<219.871 497.382> 337 64<146.188 439.381> 607 61<170 206.372 439.628 476> 816 59<172 207.798>
@@ -5945,7 +5945,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: numbersign_exclam
-Encoding: 290 -1 290
+Encoding: 288 -1 288
 Width: 960
 HStem: 1 21G<230 291.472 377 437.866> 9 139<669 764.25> 232 64<312 387 449 516> 424 58<172 250 324 397 457 516> 638 20G<710.529 788>
 VStem: 240 67<204.824 232 301 365.846> 250 70<376.75 424 482 554.333> 377 60<1 162.7> 408 58<524.111 668> 647 138<31.5947 124.882>
@@ -6007,7 +6007,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: c_equal
-Encoding: 291 -1 291
+Encoding: 289 -1 289
 Width: 960
 HStem: 150 84<157 803> 335 84<157 803>
 LayerCount: 2
@@ -6030,7 +6030,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: c_not_equal
-Encoding: 292 -1 292
+Encoding: 290 -1 290
 Width: 960
 Flags: W
 HStem: 150 84<157 327 489 803> 335 84<157 449 610 803>
@@ -6065,7 +6065,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: less_than_or_equal
-Encoding: 293 -1 293
+Encoding: 291 -1 291
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6090,7 +6090,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: greater_than_or_equal
-Encoding: 294 -1 294
+Encoding: 292 -1 292
 Width: 960
 Flags: HW
 LayerCount: 2
@@ -6114,7 +6114,7 @@ Ligature2: "programming_symbols" greater equal
 EndChar
 
 StartChar: c_comment_open
-Encoding: 295 -1 295
+Encoding: 293 -1 293
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6127,9 +6127,10 @@ LCarets2: 1 0
 EndChar
 
 StartChar: c_comment_close
-Encoding: 296 -1 296
+Encoding: 294 -1 294
 Width: 960
-Flags: H
+HStem: 240 20G<139.889 208.564 403.5 470.667>
+VStem: 268 75<222 354> 504 332
 LayerCount: 2
 Fore
 Refer: 59 47 S 1 0 0 1 430 0 2
@@ -6140,7 +6141,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: c_impt_comment_start
-Encoding: 297 -1 297
+Encoding: 295 -1 295
 Width: 1440
 Flags: W
 HStem: 548 20G<506.889 575.564 770.5 837.667> 551 20G<948.889 1017.56 1212.5 1279.67>
@@ -6156,9 +6157,10 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: c_impt_comment_close
-Encoding: 298 -1 298
+Encoding: 296 -1 296
 Width: 1440
-Flags: H
+HStem: 240.27 20G<160.889 229.564 424.5 491.667> 243.27 20G<602.889 671.564 866.5 933.667>
+VStem: 289 75<222.27 354.27> 731 75<225.27 357.27> 963 332
 LayerCount: 2
 Fore
 Refer: 89 42 N 1 0 0 1 529 -107.73 2
@@ -6170,7 +6172,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: c_line_comment
-Encoding: 299 -1 299
+Encoding: 297 -1 297
 Width: 960
 VStem: 207 332 421 332
 LayerCount: 2
@@ -6183,7 +6185,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: c_impt_line_comment
-Encoding: 300 -1 300
+Encoding: 298 -1 298
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6197,7 +6199,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: percent_equal
-Encoding: 301 -1 301
+Encoding: 299 -1 299
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6209,31 +6211,32 @@ LCarets2: 1 0
 Ligature2: "programming_symbols" percent equal
 EndChar
 
-StartChar: hyphen_greater
-Encoding: 302 -1 302
-Width: 960
-Flags: H
+StartChar: greater_end
+Encoding: 300 -1 300
+Width: 480
+Flags: W
+HStem: 243 79<0 271>
 LayerCount: 2
 Fore
 SplineSet
-586 82 m 1
- 586 160 l 1
- 716 246 l 1
- 86 243 l 5
- 86 322 l 5
- 709 325 l 1
- 586 399 l 1
- 586 480 l 1
- 874 285 l 1
- 586 82 l 1
+159 74 m 5
+ 159 166 l 5
+ 271 243 l 5
+ 0 243 l 1
+ 0 322 l 1
+ 271 322 l 5
+ 159 391 l 5
+ 159 482 l 5
+ 266 417 373 349 479 284 c 5
+ 159 74 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "mid_arrows-1" greater_mid
 LCarets2: 1 0
-Ligature2: "programming_symbols" hyphen greater
 EndChar
 
 StartChar: colon_colon
-Encoding: 303 -1 303
+Encoding: 301 -1 301
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6246,7 +6249,7 @@ Ligature2: "programming_symbols" colon colon
 EndChar
 
 StartChar: greater_greater
-Encoding: 304 -1 304
+Encoding: 302 -1 302
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6259,7 +6262,7 @@ Ligature2: "programming_symbols" greater greater
 EndChar
 
 StartChar: less_less
-Encoding: 305 -1 305
+Encoding: 303 -1 303
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6272,7 +6275,7 @@ Ligature2: "programming_symbols" less less
 EndChar
 
 StartChar: parenleft_parenright
-Encoding: 306 -1 306
+Encoding: 304 -1 304
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6285,9 +6288,9 @@ Ligature2: "programming_symbols" parenleft parenright
 EndChar
 
 StartChar: greater_greater_greater
-Encoding: 307 -1 307
+Encoding: 305 -1 305
 Width: 1440
-Flags: H
+VStem: 226 330 556 330 884 330
 LayerCount: 2
 Fore
 Refer: 78 62 S 1 0 0 1 809 0 2
@@ -6299,7 +6302,7 @@ Ligature2: "programming_symbols" greater greater greater
 EndChar
 
 StartChar: less_less_less
-Encoding: 308 -1 308
+Encoding: 306 -1 306
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6313,7 +6316,7 @@ Ligature2: "programming_symbols" less less less
 EndChar
 
 StartChar: less_less_equal
-Encoding: 309 -1 309
+Encoding: 307 -1 307
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6348,7 +6351,7 @@ Ligature2: "programming_symbols" less less equal
 EndChar
 
 StartChar: greater_greater_equal
-Encoding: 310 -1 310
+Encoding: 308 -1 308
 Width: 1440
 Flags: HW
 LayerCount: 2
@@ -6383,7 +6386,7 @@ Ligature2: "programming_symbols" greater greater equal
 EndChar
 
 StartChar: bar_equal
-Encoding: 311 -1 311
+Encoding: 309 -1 309
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6409,7 +6412,7 @@ Ligature2: "programming_symbols" bar equal
 EndChar
 
 StartChar: asciicircum_equal
-Encoding: 312 -1 312
+Encoding: 310 -1 310
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6438,7 +6441,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: backslash_backslash
-Encoding: 313 -1 313
+Encoding: 311 -1 311
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6451,7 +6454,7 @@ Ligature2: "programming_symbols" backslash backslash
 EndChar
 
 StartChar: less_equal_greater
-Encoding: 314 -1 314
+Encoding: 312 -1 312
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6486,9 +6489,9 @@ Ligature2: "programming_symbols" less equal greater
 EndChar
 
 StartChar: equal_equal_equal
-Encoding: 315 -1 315
+Encoding: 313 -1 313
 Width: 1440
-Flags: H
+HStem: 150 84<79 1361> 335 84<79 1361>
 LayerCount: 2
 Fore
 SplineSet
@@ -6509,7 +6512,7 @@ Ligature2: "programming_symbols" equal equal equal
 EndChar
 
 StartChar: exclam_equal_equal
-Encoding: 316 -1 316
+Encoding: 314 -1 314
 Width: 1440
 Flags: HW
 LayerCount: 2
@@ -6543,7 +6546,7 @@ Ligature2: "programming_symbols" exclam equal equal
 EndChar
 
 StartChar: asterisk_asterisk
-Encoding: 317 -1 317
+Encoding: 315 -1 315
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6556,7 +6559,7 @@ Ligature2: "programming_symbols" asterisk asterisk
 EndChar
 
 StartChar: question_period
-Encoding: 318 -1 318
+Encoding: 316 -1 316
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6592,7 +6595,7 @@ Ligature2: "programming_symbols" question period
 EndChar
 
 StartChar: less_asciitilde_greater
-Encoding: 319 -1 319
+Encoding: 317 -1 317
 Width: 1440
 Flags: H
 HStem: 11 21G<403.497 437> 121 68<594.3 695.693> 143 68<899.713 1011.35> 203 69<431.06 531.7 745.502 859.564>
@@ -6635,7 +6638,7 @@ Ligature2: "programming_symbols" less asciitilde greater
 EndChar
 
 StartChar: colon_equal
-Encoding: 320 -1 320
+Encoding: 318 -1 318
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6648,7 +6651,7 @@ Ligature2: "programming_symbols" colon equal
 EndChar
 
 StartChar: equal_asciitilde
-Encoding: 321 -1 321
+Encoding: 319 -1 319
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6661,7 +6664,7 @@ Ligature2: "programming_symbols" equal asciitilde
 EndChar
 
 StartChar: exclam_asciitilde
-Encoding: 322 -1 322
+Encoding: 320 -1 320
 Width: 960
 Flags: HW
 HStem: 119 68<583.194 685.35> 201 69<421.06 487.732> 308 68<609.398 685.35> 390 69<421.06 523.04>
@@ -6676,7 +6679,7 @@ Ligature2: "programming_symbols" exclam asciitilde
 EndChar
 
 StartChar: period_period_period
-Encoding: 323 -1 323
+Encoding: 321 -1 321
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6690,7 +6693,7 @@ Ligature2: "programming_symbols" period period period
 EndChar
 
 StartChar: period_period
-Encoding: 324 -1 324
+Encoding: 322 -1 322
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6702,28 +6705,11 @@ LCarets2: 1 0
 Ligature2: "programming_symbols" period period
 EndChar
 
-StartChar: hyphen_hyphen_hyphen
-Encoding: 325 -1 325
-Width: 1440
-Flags: H
-LayerCount: 2
-Fore
-SplineSet
-1440 243 m 1
- 0 243 l 1
- 0 322 l 1
- 1440 322 l 1
- 1440 243 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 2 0 0
-Ligature2: "programming_symbols" hyphen hyphen hyphen
-EndChar
-
-StartChar: greater_hyphen_hyphen
-Encoding: 326 -1 326
-Width: 1440
-HStem: 243 79<263 1440>
+StartChar: greater_start
+Encoding: 323 -1 323
+Width: 480
+Flags: HW
+HStem: 243 79<263 480>
 LayerCount: 2
 Fore
 SplineSet
@@ -6732,64 +6718,40 @@ SplineSet
  173 281 l 1
  0 391 l 1
  0 482 l 1
- 263 322 l 1
- 1440 322 l 1
- 1440 243 l 1
+ 263 323 l 1
+ 480 323 l 1
+ 480 243 l 1
  263 243 l 1
  0 74 l 1
 EndSplineSet
 Validated: 1
-LCarets2: 2 0 0
-Ligature2: "programming_symbols" greater hyphen hyphen
+LCarets2: 1 0
 EndChar
 
-StartChar: hyphen_greater_hyphen
-Encoding: 327 -1 327
-Width: 1440
-HStem: 243 79<0 666 817 1440>
+StartChar: greater_mid
+Encoding: 324 -1 324
+Width: 480
+Flags: HW
+HStem: 243 79<-960 -294 -143 480>
 LayerCount: 2
 Fore
 SplineSet
-554 74 m 1
- 554 166 l 1
- 666 243 l 1
- 0 243 l 1
- 0 322 l 1
- 666 322 l 1
- 554 391 l 1
- 554 482 l 1
- 817 322 l 1
- 1440 322 l 1
- 1440 243 l 1
- 817 243 l 1
- 554 74 l 1
+74 74 m 1
+ 74 166 l 1
+ 186 243 l 1
+ 0 243 l 5
+ 0 322 l 5
+ 186 322 l 1
+ 74 391 l 1
+ 74 482 l 1
+ 337 322 l 1
+ 480 322 l 1
+ 480 243 l 1
+ 337 243 l 1
+ 74 74 l 1
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
-Ligature2: "programming_symbols" hyphen greater hyphen
-EndChar
-
-StartChar: hyphen_hyphen_greater
-Encoding: 328 -1 328
-Width: 1440
-HStem: 243 79<0 1232>
-LayerCount: 2
-Fore
-SplineSet
-1120 74 m 1
- 1120 166 l 1
- 1232 243 l 1
- 0 243 l 1
- 0 322 l 1
- 1232 322 l 1
- 1120 391 l 1
- 1120 482 l 1
- 1227 417 1334 349 1440 284 c 1
- 1120 74 l 1
-EndSplineSet
-Validated: 1
-LCarets2: 2 0 0
-Ligature2: "programming_symbols" hyphen hyphen greater
 EndChar
 EndChars
 EndSplineFont
