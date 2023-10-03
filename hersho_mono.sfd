@@ -43,8 +43,8 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "start_double_arrows" { "start_double_arrows-1"  } []
@@ -53,10 +53,40 @@ Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: glyph "do_double_greater_start" 0 0 0 1
- String: 22 greater greater hyphen
+ContextSub2: glyph "do_double_less_start" 0 0 0 1
+ String: 16 less less hyphen
  BString: 0
  FString: 0
+ 2
+  SeqLookup: 0 "start_double_arrows"
+  SeqLookup: 1 "end_arrows"
+EndFPST
+ChainSub2: class "fixup_end_double_less" 3 3 0 1
+  Class0: 17 {Everything Else}
+  Class: 28 less_start double_less_start
+  Class: 4 less
+  BClass: 28 less_start double_less_start
+  BClass: 4 less
+ 1 1 0
+  ClsList: 2
+  BClsList: 1
+  FClsList:
+ 1
+  SeqLookup: 0 "end_double_arrows"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: glyph "fixup_start_double_less" 0 0 0 1
+ String: 4 less
+ BString: 0 
+ FString: 5 less 
+ 1
+  SeqLookup: 0 "start_double_arrows"
+EndFPST
+ContextSub2: glyph "do_double_greater_start" 0 0 0 1
+ String: 22 greater greater hyphen
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "start_arrows"
@@ -69,7 +99,6 @@ ChainSub2: glyph "fixup_start_double_greater" 0 0 0 1
   SeqLookup: 0 "start_double_arrows"
 EndFPST
 ChainSub2: class "fixup_end_double_greater" 3 3 0 1
-  Class0: 17 {Everything Else}
   Class: 44 greater_end greater_mid double_greater_start
   Class: 7 greater
   BClass: 44 greater_end greater_mid double_greater_start
@@ -176,7 +205,6 @@ ContextSub2: glyph "do_greater_end" 0 0 0 1
 EndFPST
 LangName: 1033
 Encoding: Custom
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -201,7 +229,7 @@ Grid
  74 74 l 1
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 333 331
+BeginChars: 333 333
 
 StartChar: o
 Encoding: 110 111 0
@@ -2365,6 +2393,8 @@ SplineSet
  405 83 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "end_double_arrows-1" double_less_end
+Substitution2: "start_double_arrows-1" double_less_start
 Substitution2: "mid_arrows-1" less_mid
 Substitution2: "end_arrows_1" less_end
 Substitution2: "start_arrows-1" less_start
@@ -6362,7 +6392,7 @@ Ligature2: "programming_symbols" colon colon
 EndChar
 
 StartChar: parenleft_parenright
-Encoding: 304 -1 302
+Encoding: 302 -1 302
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6375,7 +6405,7 @@ Ligature2: "programming_symbols" parenleft parenright
 EndChar
 
 StartChar: greater_greater_greater
-Encoding: 305 -1 303
+Encoding: 303 -1 303
 Width: 1440
 VStem: 226 330 556 330 884 330
 LayerCount: 2
@@ -6389,7 +6419,7 @@ Ligature2: "programming_symbols" greater greater greater
 EndChar
 
 StartChar: less_less_less
-Encoding: 306 -1 304
+Encoding: 304 -1 304
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6403,7 +6433,7 @@ Ligature2: "programming_symbols" less less less
 EndChar
 
 StartChar: less_less_equal
-Encoding: 307 -1 305
+Encoding: 305 -1 305
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6438,7 +6468,7 @@ Ligature2: "programming_symbols" less less equal
 EndChar
 
 StartChar: greater_greater_equal
-Encoding: 308 -1 306
+Encoding: 306 -1 306
 Width: 1440
 Flags: HW
 LayerCount: 2
@@ -6473,7 +6503,7 @@ Ligature2: "programming_symbols" greater greater equal
 EndChar
 
 StartChar: bar_equal
-Encoding: 309 -1 307
+Encoding: 307 -1 307
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6499,7 +6529,7 @@ Ligature2: "programming_symbols" bar equal
 EndChar
 
 StartChar: asciicircum_equal
-Encoding: 310 -1 308
+Encoding: 308 -1 308
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6528,7 +6558,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: backslash_backslash
-Encoding: 311 -1 309
+Encoding: 309 -1 309
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6541,7 +6571,7 @@ Ligature2: "programming_symbols" backslash backslash
 EndChar
 
 StartChar: less_equal_greater
-Encoding: 312 -1 310
+Encoding: 310 -1 310
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6576,7 +6606,7 @@ Ligature2: "programming_symbols" less equal greater
 EndChar
 
 StartChar: equal_equal_equal
-Encoding: 313 -1 311
+Encoding: 311 -1 311
 Width: 1440
 HStem: 150 84<79 1361> 335 84<79 1361>
 LayerCount: 2
@@ -6599,7 +6629,7 @@ Ligature2: "programming_symbols" equal equal equal
 EndChar
 
 StartChar: exclam_equal_equal
-Encoding: 314 -1 312
+Encoding: 312 -1 312
 Width: 1440
 Flags: HW
 LayerCount: 2
@@ -6633,7 +6663,7 @@ Ligature2: "programming_symbols" exclam equal equal
 EndChar
 
 StartChar: asterisk_asterisk
-Encoding: 315 -1 313
+Encoding: 313 -1 313
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6646,7 +6676,7 @@ Ligature2: "programming_symbols" asterisk asterisk
 EndChar
 
 StartChar: question_period
-Encoding: 316 -1 314
+Encoding: 314 -1 314
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6682,7 +6712,7 @@ Ligature2: "programming_symbols" question period
 EndChar
 
 StartChar: less_asciitilde_greater
-Encoding: 317 -1 315
+Encoding: 315 -1 315
 Width: 1440
 Flags: H
 HStem: 11 21G<403.497 437> 121 68<594.3 695.693> 143 68<899.713 1011.35> 203 69<431.06 531.7 745.502 859.564>
@@ -6725,7 +6755,7 @@ Ligature2: "programming_symbols" less asciitilde greater
 EndChar
 
 StartChar: colon_equal
-Encoding: 318 -1 316
+Encoding: 316 -1 316
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6738,7 +6768,7 @@ Ligature2: "programming_symbols" colon equal
 EndChar
 
 StartChar: equal_asciitilde
-Encoding: 319 -1 317
+Encoding: 317 -1 317
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6751,7 +6781,7 @@ Ligature2: "programming_symbols" equal asciitilde
 EndChar
 
 StartChar: exclam_asciitilde
-Encoding: 320 -1 318
+Encoding: 318 -1 318
 Width: 960
 Flags: HW
 HStem: 119 68<583.194 685.35> 201 69<421.06 487.732> 308 68<609.398 685.35> 390 69<421.06 523.04>
@@ -6766,7 +6796,7 @@ Ligature2: "programming_symbols" exclam asciitilde
 EndChar
 
 StartChar: period_period_period
-Encoding: 321 -1 319
+Encoding: 319 -1 319
 Width: 1440
 Flags: H
 LayerCount: 2
@@ -6780,7 +6810,7 @@ Ligature2: "programming_symbols" period period period
 EndChar
 
 StartChar: period_period
-Encoding: 322 -1 320
+Encoding: 320 -1 320
 Width: 960
 Flags: H
 LayerCount: 2
@@ -6793,7 +6823,7 @@ Ligature2: "programming_symbols" period period
 EndChar
 
 StartChar: greater_start
-Encoding: 323 -1 321
+Encoding: 321 -1 321
 Width: 480
 Flags: HW
 HStem: 243 79<263 480>
@@ -6816,7 +6846,7 @@ LCarets2: 1 0
 EndChar
 
 StartChar: greater_mid
-Encoding: 324 -1 322
+Encoding: 322 -1 322
 Width: 480
 Flags: HW
 HStem: 243 79<-960 -294 -143 480>
@@ -6842,7 +6872,7 @@ LCarets2: 2 0 0
 EndChar
 
 StartChar: less_end
-Encoding: 325 -1 323
+Encoding: 323 -1 323
 Width: 480
 Flags: HW
 HStem: 243 79<208 479>
@@ -6864,7 +6894,7 @@ Validated: 1
 EndChar
 
 StartChar: less_mid
-Encoding: 326 -1 324
+Encoding: 324 -1 324
 Width: 480
 Flags: HW
 HStem: 243 79<774 1440 0 623>
@@ -6889,7 +6919,7 @@ Validated: 1
 EndChar
 
 StartChar: less_start
-Encoding: 327 -1 325
+Encoding: 325 -1 325
 Width: 480
 Flags: HW
 HStem: 243 79<0 217>
@@ -6911,7 +6941,7 @@ Validated: 1
 EndChar
 
 StartChar: bar_left
-Encoding: 328 -1 326
+Encoding: 326 -1 326
 Width: 480
 Flags: HW
 HStem: 243 79<-960 -294 -143 480>
@@ -6932,7 +6962,7 @@ Validated: 1
 EndChar
 
 StartChar: bar_mid
-Encoding: 329 -1 327
+Encoding: 327 -1 327
 Width: 480
 Flags: HW
 HStem: 243 79<-960 -294 -143 480>
@@ -6957,7 +6987,7 @@ Validated: 1
 EndChar
 
 StartChar: bar_right
-Encoding: 330 -1 328
+Encoding: 328 -1 328
 Width: 480
 Flags: HW
 HStem: 243 79<-960 -294 -143 480>
@@ -6978,32 +7008,61 @@ Validated: 1
 EndChar
 
 StartChar: double_greater_start
-Encoding: 331 -1 329
+Encoding: 329 -1 329
 Width: 480
 Flags: HW
 HStem: 243 79<263 480>
 LayerCount: 2
 Fore
 SplineSet
-153 74 m 5
- 153 166 l 5
- 326 281 l 5
- 153 391 l 5
- 153 482 l 5
- 480 284 l 5
- 153 74 l 5
+153 74 m 1
+ 153 166 l 1
+ 326 281 l 1
+ 153 391 l 1
+ 153 482 l 1
+ 480 284 l 1
+ 153 74 l 1
 EndSplineSet
 Validated: 1
 EndChar
 
 StartChar: double_greater_end
-Encoding: 332 -1 330
+Encoding: 330 -1 330
 Width: 480
 Flags: HW
 HStem: 243 79<263 480>
 LayerCount: 2
 Fore
 Refer: 329 -1 N 1 0 0 1 -153 0 2
+Validated: 1
+EndChar
+
+StartChar: double_less_start
+Encoding: 331 -1 331
+Width: 480
+Flags: HW
+HStem: 243 79<153 370>
+LayerCount: 2
+Fore
+SplineSet
+480 74 m 5
+ 153 284 l 5
+ 480 482 l 5
+ 480 391 l 5
+ 307 281 l 5
+ 480 166 l 5
+ 480 74 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: double_less_end
+Encoding: 332 -1 332
+Width: 480
+Flags: HW
+LayerCount: 2
+Fore
+Refer: 331 -1 S 1 0 0 1 -153 0 2
 Validated: 1
 EndChar
 EndChars
