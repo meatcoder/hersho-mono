@@ -43,9 +43,9 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 1 "'liga' Standard Ligatures in Latin lookup 1" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "simple ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "start_double_arrows" { "start_double_arrows-1"  } []
 Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
@@ -53,10 +53,25 @@ Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
-ContextSub2: glyph "do_double_less_start" 0 0 0 1
- String: 16 less less hyphen
+ChainSub2: glyph "fixup_end_double_bar" 0 0 0 1
+ String: 3 bar
+ BString: 9 bar_right
+ FString: 0 
+ 1
+  SeqLookup: 0 "end_double_arrows"
+EndFPST
+ContextSub2: glyph "do_double_bar_start" 0 0 0 1
+ String: 14 bar bar hyphen
  BString: 0
  FString: 0
+ 2
+  SeqLookup: 0 "start_double_arrows"
+  SeqLookup: 1 "start_arrows"
+EndFPST
+ContextSub2: glyph "do_double_less_start" 0 0 0 1
+ String: 16 less less hyphen
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "end_arrows"
@@ -214,22 +229,18 @@ WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-74 74 m 1
- 74 166 l 1
- 186 243 l 1
- 0 243 l 1
- 0 322 l 1
- 186 322 l 1
- 74 391 l 1
- 74 482 l 1
- 337 322 l 1
+0 531 m 5
+ 94 531 l 5
+ 94 322 l 5
  480 322 l 1
  480 243 l 1
- 337 243 l 1
- 74 74 l 1
+ 94 243 l 5
+ 94 33 l 5
+ 0 32 l 5
+ 0 531 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 333 333
+BeginChars: 335 335
 
 StartChar: o
 Encoding: 110 111 0
@@ -1797,6 +1808,8 @@ SplineSet
  268 742 l 1
 EndSplineSet
 Validated: 1
+Substitution2: "end_double_arrows-1" double_bar_end
+Substitution2: "start_double_arrows-1" double_bar_start
 Substitution2: "end_arrows_1" bar_right
 Substitution2: "mid_arrows-1" bar_mid
 Substitution2: "start_arrows-1" bar_left
@@ -6010,7 +6023,6 @@ Fore
 Refer: 58 124 S 1 0 0 1 362 0 2
 Refer: 58 124 S 1 0 0 1 118 0 2
 Validated: 1
-Ligature2: "programming_symbols" bar bar
 LCarets2: 1 0
 EndChar
 
@@ -6041,7 +6053,6 @@ SplineSet
  1110 481 l 5
 EndSplineSet
 Validated: 1
-Ligature2: "programming_symbols" bar bar equal
 LCarets2: 2 0 0
 EndChar
 
@@ -6944,19 +6955,19 @@ StartChar: bar_left
 Encoding: 326 -1 326
 Width: 480
 Flags: HW
-HStem: 243 79<-960 -294 -143 480>
+HStem: 243 79<-860 -194 -43 580>
 LayerCount: 2
 Fore
 SplineSet
-0 531 m 5
- 94 531 l 1
- 94 322 l 1
- 480 322 l 1
- 480 243 l 1
- 94 243 l 1
- 94 33 l 1
- 0 32 l 5
- 0 531 l 5
+100 531 m 1
+ 194 531 l 1
+ 194 322 l 1
+ 480 322 l 5
+ 480 243 l 5
+ 194 243 l 1
+ 194 33 l 1
+ 100 32 l 1
+ 100 531 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -6996,12 +7007,12 @@ Fore
 SplineSet
 0 243 m 1
  0 322 l 1
- 386 322 l 5
- 386 531 l 5
- 480 531 l 5
- 480 33 l 5
- 386 32 l 5
- 386 243 l 5
+ 286 322 l 5
+ 286 531 l 5
+ 380 531 l 5
+ 380 33 l 5
+ 286 32 l 5
+ 286 243 l 5
  0 243 l 1
 EndSplineSet
 Validated: 1
@@ -7063,6 +7074,40 @@ Flags: HW
 LayerCount: 2
 Fore
 Refer: 331 -1 S 1 0 0 1 -153 0 2
+Validated: 1
+EndChar
+
+StartChar: double_bar_start
+Encoding: 333 -1 333
+Width: 480
+Flags: HW
+HStem: 243 79<-811 -145 6 629>
+LayerCount: 2
+Fore
+SplineSet
+286 531 m 5
+ 380 531 l 5
+ 380 33 l 5
+ 286 32 l 5
+ 286 531 l 5
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: double_bar_end
+Encoding: 334 -1 334
+Width: 480
+Flags: HW
+HStem: 243 79<-953 -287 -136 487>
+LayerCount: 2
+Fore
+SplineSet
+100 531 m 1
+ 194 531 l 1
+ 194 33 l 1
+ 100 32 l 1
+ 100 531 l 1
+EndSplineSet
 Validated: 1
 EndChar
 EndChars
