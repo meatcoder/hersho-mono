@@ -44,7 +44,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "simple ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "start_double_arrows" { "start_double_arrows-1"  } []
@@ -53,6 +53,13 @@ Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "fixup_start_double_bar" 0 0 0 1
+ String: 3 bar
+ BString: 0 
+ FString: 4 bar 
+ 1
+  SeqLookup: 0 "start_double_arrows"
+EndFPST
 ChainSub2: glyph "fixup_end_double_bar" 0 0 0 1
  String: 3 bar
  BString: 9 bar_right
@@ -62,8 +69,8 @@ ChainSub2: glyph "fixup_end_double_bar" 0 0 0 1
 EndFPST
 ContextSub2: glyph "do_double_bar_start" 0 0 0 1
  String: 14 bar bar hyphen
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "start_arrows"
