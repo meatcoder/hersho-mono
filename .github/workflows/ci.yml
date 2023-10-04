@@ -23,8 +23,6 @@ jobs:
         with:
           path: fonts
           key: otf-${{ hashFiles('**/hersho_mono.sfd') }}
-          restore-keys: |
-            otf-
 
       - name: Build font
         run: |
