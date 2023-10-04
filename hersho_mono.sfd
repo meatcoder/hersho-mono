@@ -43,7 +43,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or_equals"  "do_logical_or"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
@@ -55,6 +55,13 @@ Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
 Lookup: 2 0 0 "multiple_subs" { "multiple_subs-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ContextSub2: glyph "do_greater_greater_greater" 0 0 0 1
+ String: 23 greater greater greater
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "called_ligatures"
+EndFPST
 ContextSub2: glyph "do_logical_or_equals" 0 0 0 1
  String: 13 bar bar equal
  BString: 0
@@ -6451,8 +6458,8 @@ Refer: 78 62 S 1 0 0 1 809 0 2
 Refer: 78 62 N 1 0 0 1 481 0 2
 Refer: 78 62 N 1 0 0 1 151 0 2
 Validated: 1
+Ligature2: "called_ligatures-1" greater greater greater
 LCarets2: 2 0 0
-Ligature2: "programming_symbols" greater greater greater
 EndChar
 
 StartChar: less_less_less
@@ -6466,7 +6473,6 @@ Refer: 77 60 N 1 0 0 1 480 0 2
 Refer: 77 60 N 1 0 0 1 151 0 2
 Validated: 1
 LCarets2: 2 0 0
-Ligature2: "programming_symbols" less less less
 EndChar
 
 StartChar: less_less_equal
@@ -6501,7 +6507,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
-Ligature2: "programming_symbols" less less equal
 EndChar
 
 StartChar: greater_greater_equal
@@ -6536,7 +6541,6 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 2 0 0
-Ligature2: "programming_symbols" greater greater equal
 EndChar
 
 StartChar: bar_equal
@@ -6561,8 +6565,8 @@ SplineSet
  814 510 l 5
 EndSplineSet
 Validated: 1
-LCarets2: 1 0
 Ligature2: "programming_symbols" bar equal
+LCarets2: 1 0
 EndChar
 
 StartChar: asciicircum_equal
