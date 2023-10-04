@@ -43,16 +43,25 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 4 0 1 "simple ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
 Lookup: 1 0 0 "start_double_arrows" { "start_double_arrows-1"  } []
 Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
 Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
+Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
+Lookup: 2 0 0 "multiple_subs" { "multiple_subs-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ContextSub2: glyph "do_logical_or" 0 0 0 1
+ String: 7 bar bar
+ BString: 0
+ FString: 0
+ 1
+  SeqLookup: 0 "called_ligatures"
+EndFPST
 ChainSub2: glyph "fixup_start_double_bar" 0 0 0 1
  String: 3 bar
  BString: 0 
@@ -6030,6 +6039,8 @@ Fore
 Refer: 58 124 S 1 0 0 1 362 0 2
 Refer: 58 124 S 1 0 0 1 118 0 2
 Validated: 1
+MultipleSubs2: "multiple_subs-1" double_bar_start bar_left
+Ligature2: "called_ligatures-1" bar bar
 LCarets2: 1 0
 EndChar
 
