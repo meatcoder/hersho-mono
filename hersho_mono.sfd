@@ -43,7 +43,7 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_short_cmdline_options"  "do_long_cmdline_options"  "do_dash_word_separator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
@@ -53,47 +53,106 @@ Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
 Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
 Lookup: 2 0 0 "multiple_subs" { "multiple_subs-1"  } []
+Lookup: 1 0 0 "shorten_dashes" { "shorten_dashes-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ContextSub2: class "do_dash_word_separator" 3 3 3 1
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  Class: 6 hyphen
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 6 hyphen
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 6 hyphen
+ 3 0 0
+  ClsList: 1 2 1
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "shorten_dashes"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ContextSub2: class "do_long_cmdline_options" 4 4 4 1
+  Class: 6 hyphen
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  Class: 5 space
+  BClass: 6 hyphen
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 5 space
+  FClass: 6 hyphen
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 5 space
+ 4 0 0
+  ClsList: 3 1 1 2
+  BClsList:
+  FClsList:
+ 2
+  SeqLookup: 1 "shorten_dashes"
+  SeqLookup: 2 "shorten_dashes"
+  ClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3"
+  FClassNames: "All_Others" "1" "2" "3"
+EndFPST
+ContextSub2: class "do_short_cmdline_options" 4 4 4 1
+  Class: 5 space
+  Class: 6 hyphen
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 5 space
+  BClass: 6 hyphen
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 5 space
+  FClass: 6 hyphen
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 3 0 0
+  ClsList: 1 2 3
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 1 "shorten_dashes"
+  ClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3"
+  FClassNames: "All_Others" "1" "2" "3"
+EndFPST
 ContextSub2: glyph "do_less_less_equal" 0 0 0 1
  String: 15 less less equal
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
 ContextSub2: glyph "do_greater_greater_equal" 0 0 0 1
  String: 21 greater greater equal
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
 ContextSub2: glyph "do_less_less_less" 0 0 0 1
  String: 14 less less less
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
 ContextSub2: glyph "do_greater_greater_greater" 0 0 0 1
  String: 23 greater greater greater
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
 ContextSub2: glyph "do_logical_or_equals" 0 0 0 1
  String: 13 bar bar equal
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
 ContextSub2: glyph "do_logical_or" 0 0 0 1
  String: 7 bar bar
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
@@ -276,7 +335,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -291,7 +350,7 @@ Grid
  0 531 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 335 335
+BeginChars: 336 336
 
 StartChar: o
 Encoding: 110 111 0
@@ -2683,6 +2742,7 @@ SplineSet
  480 243 l 5
 EndSplineSet
 Validated: 1
+Substitution2: "shorten_dashes-1" narrow_dash
 EndChar
 
 StartChar: underscore
@@ -3867,13 +3927,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-SplineSet
-403 248 m 1
- 77 248 l 1
- 77 317 l 1
- 403 317 l 1
- 403 248 l 1
-EndSplineSet
+Refer: 335 -1 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
@@ -7161,6 +7215,23 @@ SplineSet
  194 33 l 1
  100 32 l 1
  100 531 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: narrow_dash
+Encoding: 335 -1 335
+Width: 480
+VWidth: 833
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+403 248 m 1
+ 77 248 l 1
+ 77 317 l 1
+ 403 317 l 1
+ 403 248 l 1
 EndSplineSet
 Validated: 1
 EndChar
