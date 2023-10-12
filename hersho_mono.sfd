@@ -42,8 +42,8 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 6 0 1 "fixup_arrows" { "fixup_greater_mid"  "fixup_less_mid"  "fixup_greater_end"  "fixup_less_start"  "fixup_bar_mid"  "fixup_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_less_mid"  "do_less_start"  "do_less_end"  "do_greater_mid"  "do_greater_end"  "do_greater_start"  "do_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_short_cmdline_options"  "do_long_cmdline_options"  "do_dash_word_separator"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "fixup_arrows_and_dashes" { "catch_long_options"  "catch_short_options"  "fixup_short_dashes_pre"  "fixup_short_dashes_post"  "fixup_mid_arrows"  "fixup_end_arrows"  "fixup_start_arrows"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
@@ -53,9 +53,77 @@ Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
 Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
 Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
 Lookup: 2 0 0 "multiple_subs" { "multiple_subs-1"  } []
-Lookup: 1 0 0 "shorten_dashes" { "shorten_dashes-1"  } []
+Lookup: 1 0 0 "lengthen_dashes" { "lengthen_dashes-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "fixup_start_arrows" 0 0 0 1
+ 1 0 1
+  Coverage: 16 greater less bar
+  FCoverage: 16 hyphen long_dash
+ 1
+  SeqLookup: 0 "start_arrows"
+EndFPST
+ChainSub2: coverage "fixup_end_arrows" 0 0 0 1
+ 1 1 0
+  Coverage: 16 less greater bar
+  BCoverage: 16 hyphen long_dash
+ 1
+  SeqLookup: 0 "end_arrows"
+EndFPST
+ChainSub2: coverage "fixup_mid_arrows" 0 0 0 1
+ 1 1 1
+  Coverage: 16 greater less bar
+  BCoverage: 16 hyphen long_dash
+  FCoverage: 16 hyphen long_dash
+ 1
+  SeqLookup: 0 "mid_arrows"
+EndFPST
+ChainSub2: coverage "fixup_short_dashes_post" 0 0 0 1
+ 1 1 0
+  Coverage: 6 hyphen
+  BCoverage: 115 hyphen less greater bar greater_start greater_mid less_end less_mid less_start bar_left bar_mid bar_right long_dash
+ 1
+  SeqLookup: 0 "lengthen_dashes"
+EndFPST
+ChainSub2: coverage "fixup_short_dashes_pre" 0 0 0 1
+ 1 0 1
+  Coverage: 6 hyphen
+  FCoverage: 127 hyphen less greater bar greater_end greater_start greater_mid less_end less_mid less_start bar_left bar_mid bar_right long_dash
+ 1
+  SeqLookup: 0 "lengthen_dashes"
+EndFPST
+ChainSub2: class "catch_short_options" 3 3 3 1
+  Class: 6 hyphen
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 6 hyphen
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 6 hyphen
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 2 0 1
+  ClsList: 1 1
+  BClsList:
+  FClsList: 2
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "catch_long_options" 3 3 3 1
+  Class: 6 hyphen
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 6 hyphen
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 6 hyphen
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 1 0 1
+  ClsList: 1
+  BClsList:
+  FClsList: 2
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 ContextSub2: class "do_equal_operator" 3 3 3 2
   Class: 5 equal
   Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
@@ -68,74 +136,16 @@ ContextSub2: class "do_equal_operator" 3 3 3 2
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "shorten_dashes"
+  SeqLookup: 0 "lengthen_dashes"
  2 0 0
   ClsList: 2 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 1 "shorten_dashes"
+  SeqLookup: 1 "lengthen_dashes"
   ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others" "1" "2"
-EndFPST
-ContextSub2: class "do_dash_word_separator" 3 3 3 1
-  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  Class: 6 hyphen
-  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  BClass: 6 hyphen
-  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  FClass: 6 hyphen
- 3 0 0
-  ClsList: 1 2 1
-  BClsList:
-  FClsList:
- 1
-  SeqLookup: 1 "shorten_dashes"
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-  FClassNames: "All_Others" "1" "2"
-EndFPST
-ContextSub2: class "do_long_cmdline_options" 4 4 4 1
-  Class: 6 hyphen
-  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  Class: 5 space
-  BClass: 6 hyphen
-  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  BClass: 5 space
-  FClass: 6 hyphen
-  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  FClass: 5 space
- 4 0 0
-  ClsList: 3 1 1 2
-  BClsList:
-  FClsList:
- 2
-  SeqLookup: 1 "shorten_dashes"
-  SeqLookup: 2 "shorten_dashes"
-  ClassNames: "All_Others" "1" "2" "3"
-  BClassNames: "All_Others" "1" "2" "3"
-  FClassNames: "All_Others" "1" "2" "3"
-EndFPST
-ContextSub2: class "do_short_cmdline_options" 4 4 4 1
-  Class: 5 space
-  Class: 6 hyphen
-  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  BClass: 5 space
-  BClass: 6 hyphen
-  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  FClass: 5 space
-  FClass: 6 hyphen
-  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
- 3 0 0
-  ClsList: 1 2 3
-  BClsList:
-  FClsList:
- 1
-  SeqLookup: 1 "shorten_dashes"
-  ClassNames: "All_Others" "1" "2" "3"
-  BClassNames: "All_Others" "1" "2" "3"
-  FClassNames: "All_Others" "1" "2" "3"
 EndFPST
 ContextSub2: glyph "do_less_less_equal" 0 0 0 1
  String: 15 less less equal
@@ -197,17 +207,19 @@ ContextSub2: glyph "do_double_bar_start" 0 0 0 1
  String: 14 bar bar hyphen
  BString: 0 
  FString: 0 
- 2
+ 3
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "start_arrows"
+  SeqLookup: 2 "lengthen_dashes"
 EndFPST
 ContextSub2: glyph "do_double_less_start" 0 0 0 1
  String: 16 less less hyphen
  BString: 0 
  FString: 0 
- 2
+ 3
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "end_arrows"
+  SeqLookup: 2 "lengthen_dashes"
 EndFPST
 ChainSub2: class "fixup_end_double_less" 3 3 0 1
   Class0: 17 {Everything Else}
@@ -235,9 +247,10 @@ ContextSub2: glyph "do_double_greater_start" 0 0 0 1
  String: 22 greater greater hyphen
  BString: 0 
  FString: 0 
- 2
+ 3
   SeqLookup: 0 "start_double_arrows"
   SeqLookup: 1 "start_arrows"
+  SeqLookup: 2 "lengthen_dashes"
 EndFPST
 ChainSub2: glyph "fixup_start_double_greater" 0 0 0 1
  String: 7 greater
@@ -260,99 +273,9 @@ ChainSub2: class "fixup_end_double_greater" 3 3 0 1
   ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others" "1" "2"
 EndFPST
-ContextSub2: glyph "do_bar_start" 0 0 0 1
- String: 10 bar hyphen
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 0 "start_arrows"
-EndFPST
-ChainSub2: glyph "fixup_bar_end" 0 0 0 1
- String: 3 bar
- BString: 6 hyphen
- FString: 0 
- 1
-  SeqLookup: 0 "end_arrows"
-EndFPST
-ChainSub2: glyph "fixup_bar_mid" 0 0 0 1
- String: 3 bar
- BString: 6 hyphen
- FString: 7 hyphen 
- 1
-  SeqLookup: 0 "mid_arrows"
-EndFPST
-ChainSub2: glyph "fixup_less_start" 0 0 0 1
- String: 4 less
- BString: 6 hyphen
- FString: 0 
- 1
-  SeqLookup: 0 "start_arrows"
-EndFPST
-ContextSub2: glyph "do_less_end" 0 0 0 1
- String: 11 less hyphen
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 0 "end_arrows"
-EndFPST
-ChainSub2: glyph "fixup_less_mid" 0 0 0 1
- String: 4 less
- BString: 6 hyphen
- FString: 7 hyphen 
- 1
-  SeqLookup: 0 "mid_arrows"
-EndFPST
-ContextSub2: glyph "do_less_mid" 0 0 0 1
- String: 18 hyphen less hyphen
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "mid_arrows"
-EndFPST
-ChainSub2: glyph "fixup_greater_end" 0 0 0 1
- String: 7 greater
- BString: 6 hyphen
- FString: 0 
- 1
-  SeqLookup: 0 "end_arrows"
-EndFPST
-ContextSub2: glyph "do_less_start" 0 0 0 1
- String: 11 hyphen less
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "start_arrows"
-EndFPST
-ChainSub2: glyph "fixup_greater_mid" 0 0 0 1
- String: 7 greater
- BString: 6 hyphen
- FString: 7 hyphen 
- 1
-  SeqLookup: 0 "mid_arrows"
-EndFPST
-ContextSub2: glyph "do_greater_mid" 0 0 0 1
- String: 21 hyphen greater hyphen
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "mid_arrows"
-EndFPST
-ContextSub2: glyph "do_greater_start" 0 0 0 1
- String: 14 greater hyphen
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 0 "start_arrows"
-EndFPST
-ContextSub2: glyph "do_greater_end" 0 0 0 1
- String: 14 hyphen greater
- BString: 0 
- FString: 0 
- 1
-  SeqLookup: 1 "end_arrows"
-EndFPST
 LangName: 1033
 Encoding: Custom
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
@@ -361,19 +284,8 @@ FitToEm: 0
 WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
-Grid
-0 531 m 5
- 94 531 l 5
- 94 322 l 5
- 480 322 l 1
- 480 243 l 1
- 94 243 l 5
- 94 33 l 5
- 0 32 l 5
- 0 531 l 5
-EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 337 337
+BeginChars: 338 337
 
 StartChar: o
 Encoding: 110 111 0
@@ -2743,26 +2655,25 @@ SplineSet
  480 419 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "shorten_dashes-1" narrow_equal
+Substitution2: "lengthen_dashes-1" narrow_equal
 EndChar
 
 StartChar: hyphen
 Encoding: 44 45 87
 Width: 480
 VWidth: 833
-Flags: W
-HStem: 243 79<0 480>
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-480 243 m 5
- 0 243 l 1
- 0 322 l 1
- 480 322 l 5
- 480 243 l 5
+403 248 m 1
+ 77 248 l 1
+ 77 317 l 1
+ 403 317 l 1
+ 403 248 l 1
 EndSplineSet
 Validated: 1
-Substitution2: "shorten_dashes-1" narrow_dash
+Substitution2: "lengthen_dashes-1" long_dash
 EndChar
 
 StartChar: underscore
@@ -3949,7 +3860,13 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 335 -1 N 1 0 0 1 0 0 2
+SplineSet
+403 248 m 1
+ 77 248 l 1
+ 77 317 l 1
+ 403 317 l 1
+ 403 248 l 1
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -7023,16 +6940,16 @@ HStem: 243 79<208 479>
 LayerCount: 2
 Fore
 SplineSet
-320 74 m 5
- 0 284 l 5
- 106 349 213 417 320 482 c 5
- 320 391 l 5
- 208 322 l 5
- 479 322 l 1
- 479 243 l 1
- 208 243 l 5
- 320 166 l 5
- 320 74 l 5
+480 74 m 5
+ 217 243 l 5
+ 0 243 l 5
+ 0 323 l 5
+ 217 323 l 5
+ 480 482 l 5
+ 480 391 l 5
+ 307 281 l 5
+ 480 166 l 5
+ 480 74 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7065,21 +6982,21 @@ EndChar
 StartChar: less_start
 Encoding: 325 -1 325
 Width: 480
-Flags: HW
-HStem: 243 79<0 217>
+Flags: W
+HStem: 243 79<208 479>
 LayerCount: 2
 Fore
 SplineSet
-480 74 m 1
- 217 243 l 1
- 0 243 l 1
- 0 323 l 1
- 217 323 l 1
- 480 482 l 1
- 480 391 l 1
- 307 281 l 1
- 480 166 l 1
- 480 74 l 1
+320 74 m 5
+ 0 284 l 5
+ 106 349 213 417 320 482 c 5
+ 320 391 l 5
+ 208 322 l 5
+ 479 322 l 1
+ 479 243 l 1
+ 208 243 l 5
+ 320 166 l 5
+ 320 74 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -7245,25 +7162,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: narrow_dash
-Encoding: 335 -1 335
-Width: 480
-VWidth: 833
-Flags: HW
-LayerCount: 2
-Fore
-SplineSet
-403 248 m 1
- 77 248 l 1
- 77 317 l 1
- 403 317 l 1
- 403 248 l 1
-EndSplineSet
-Validated: 1
-EndChar
-
 StartChar: narrow_equal
-Encoding: 336 -1 336
+Encoding: 336 -1 335
 Width: 480
 VWidth: 833
 Flags: W
@@ -7282,6 +7182,24 @@ SplineSet
  79 335 l 1
  79 419 l 1
  401 419 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: long_dash
+Encoding: 337 -1 336
+Width: 480
+VWidth: 833
+Flags: W
+HStem: 243 79<0 480>
+LayerCount: 2
+Fore
+SplineSet
+480 243 m 5
+ 0 243 l 1
+ 0 322 l 1
+ 480 322 l 5
+ 480 243 l 5
 EndSplineSet
 Validated: 1
 EndChar
