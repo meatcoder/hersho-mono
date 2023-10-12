@@ -43,32 +43,132 @@ HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 0 "fixup_arrows_and_dashes" { "catch_long_options"  "catch_short_options"  "fixup_short_dashes_pre"  "fixup_short_dashes_post"  "fixup_mid_arrows"  "fixup_end_arrows"  "fixup_start_arrows"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 5 0 0 "do_arrows_and_related" { "do_double_greater_start"  "do_double_less_start"  "do_double_bar_start"  "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 1 "fixup_double_arrows" { "fixup_start_double_greater"  "fixup_end_double_greater"  "fixup_start_double_less"  "fixup_end_double_less"  "fixup_start_double_bar"  "fixup_end_double_bar"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 1 "fixup_double_arrows" { "fixup_double_greater_start"  "fixup_double_less_start"  "fixup_double_bar_start"  "fixup_double_greater_end"  "fixup_double_less_end"  "fixup_double_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 5 0 0 "resolve_arrows_operator_ambiguity" { "do_logical_or_equals"  "do_logical_or"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  "numerals_colon"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 1 0 0 "start_arrows" { "start_arrows-1"  } []
-Lookup: 1 0 0 "start_double_arrows" { "start_double_arrows-1"  } []
-Lookup: 1 0 0 "mid_arrows" { "mid_arrows-1"  } []
-Lookup: 1 0 0 "end_arrows" { "end_arrows_1"  } []
-Lookup: 1 0 0 "end_double_arrows" { "end_double_arrows-1"  } []
+Lookup: 1 0 0 "start_arrows_lookup" { "start_arrows-1"  } []
+Lookup: 1 0 0 "start_double_arrows_lookup" { "start_double_arrows-1"  } []
+Lookup: 1 0 0 "mid_arrows_lookup" { "mid_arrows-1"  } []
+Lookup: 1 0 0 "end_arrows_lookup" { "end_arrows_1"  } []
+Lookup: 1 0 0 "end_double_arrows_lookup" { "end_double_arrows-1"  } []
 Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
 Lookup: 2 0 0 "multiple_subs" { "multiple_subs-1"  } []
 Lookup: 1 0 0 "lengthen_dashes" { "lengthen_dashes-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "fixup_double_bar_end" 3 3 3 1
+  Class: 13 bar bar_right
+  Class: 16 hyphen long_dash
+  BClass: 13 bar bar_right
+  BClass: 16 hyphen long_dash
+  FClass: 13 bar bar_right
+  FClass: 16 hyphen long_dash
+ 1 2 0
+  ClsList: 1
+  BClsList: 1 2
+  FClsList:
+ 1
+  SeqLookup: 0 "end_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "fixup_double_less_end" 3 3 3 1
+  Class: 13 less less_end
+  Class: 16 hyphen long_dash
+  BClass: 13 less less_end
+  BClass: 16 hyphen long_dash
+  FClass: 13 less less_end
+  FClass: 16 hyphen long_dash
+ 1 2 0
+  ClsList: 1
+  BClsList: 1 2
+  FClsList:
+ 1
+  SeqLookup: 0 "end_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "fixup_double_greater_end" 3 3 3 1
+  Class: 19 greater greater_end
+  Class: 16 hyphen long_dash
+  BClass: 19 greater greater_end
+  BClass: 16 hyphen long_dash
+  FClass: 19 greater greater_end
+  FClass: 16 hyphen long_dash
+ 1 2 0
+  ClsList: 1
+  BClsList: 1 2
+  FClsList:
+ 1
+  SeqLookup: 0 "end_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "fixup_double_bar_start" 3 3 3 1
+  Class: 12 bar bar_left
+  Class: 16 hyphen long_dash
+  BClass: 12 bar bar_left
+  BClass: 16 hyphen long_dash
+  FClass: 12 bar bar_left
+  FClass: 16 hyphen long_dash
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 1 2
+ 1
+  SeqLookup: 0 "start_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "fixup_double_less_start" 3 3 3 1
+  Class: 15 less less_start
+  Class: 16 hyphen long_dash
+  BClass: 15 less less_start
+  BClass: 16 hyphen long_dash
+  FClass: 15 less less_start
+  FClass: 16 hyphen long_dash
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 1 2
+ 1
+  SeqLookup: 0 "start_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "fixup_double_greater_start" 3 1 3 1
+  Class: 21 greater greater_start
+  Class: 16 hyphen long_dash
+  FClass: 21 greater greater_start
+  FClass: 16 hyphen long_dash
+ 1 0 2
+  ClsList: 1
+  BClsList:
+  FClsList: 1 2
+ 1
+  SeqLookup: 0 "start_double_arrows_lookup"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 ChainSub2: coverage "fixup_start_arrows" 0 0 0 1
  1 0 1
   Coverage: 16 greater less bar
   FCoverage: 16 hyphen long_dash
  1
-  SeqLookup: 0 "start_arrows"
+  SeqLookup: 0 "start_arrows_lookup"
 EndFPST
 ChainSub2: coverage "fixup_end_arrows" 0 0 0 1
  1 1 0
   Coverage: 16 less greater bar
   BCoverage: 16 hyphen long_dash
  1
-  SeqLookup: 0 "end_arrows"
+  SeqLookup: 0 "end_arrows_lookup"
 EndFPST
 ChainSub2: coverage "fixup_mid_arrows" 0 0 0 1
  1 1 1
@@ -76,7 +176,7 @@ ChainSub2: coverage "fixup_mid_arrows" 0 0 0 1
   BCoverage: 16 hyphen long_dash
   FCoverage: 16 hyphen long_dash
  1
-  SeqLookup: 0 "mid_arrows"
+  SeqLookup: 0 "mid_arrows_lookup"
 EndFPST
 ChainSub2: coverage "fixup_short_dashes_post" 0 0 0 1
  1 1 0
@@ -189,90 +289,6 @@ ContextSub2: glyph "do_logical_or" 0 0 0 1
  1
   SeqLookup: 0 "called_ligatures"
 EndFPST
-ChainSub2: glyph "fixup_start_double_bar" 0 0 0 1
- String: 3 bar
- BString: 0 
- FString: 4 bar 
- 1
-  SeqLookup: 0 "start_double_arrows"
-EndFPST
-ChainSub2: glyph "fixup_end_double_bar" 0 0 0 1
- String: 3 bar
- BString: 9 bar_right
- FString: 0 
- 1
-  SeqLookup: 0 "end_double_arrows"
-EndFPST
-ContextSub2: glyph "do_double_bar_start" 0 0 0 1
- String: 14 bar bar hyphen
- BString: 0 
- FString: 0 
- 3
-  SeqLookup: 0 "start_double_arrows"
-  SeqLookup: 1 "start_arrows"
-  SeqLookup: 2 "lengthen_dashes"
-EndFPST
-ContextSub2: glyph "do_double_less_start" 0 0 0 1
- String: 16 less less hyphen
- BString: 0 
- FString: 0 
- 3
-  SeqLookup: 0 "start_double_arrows"
-  SeqLookup: 1 "end_arrows"
-  SeqLookup: 2 "lengthen_dashes"
-EndFPST
-ChainSub2: class "fixup_end_double_less" 3 3 0 1
-  Class0: 17 {Everything Else}
-  Class: 28 less_start double_less_start
-  Class: 4 less
-  BClass: 28 less_start double_less_start
-  BClass: 4 less
- 1 1 0
-  ClsList: 2
-  BClsList: 1
-  FClsList:
- 1
-  SeqLookup: 0 "end_double_arrows"
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-EndFPST
-ChainSub2: glyph "fixup_start_double_less" 0 0 0 1
- String: 4 less
- BString: 0 
- FString: 5 less 
- 1
-  SeqLookup: 0 "start_double_arrows"
-EndFPST
-ContextSub2: glyph "do_double_greater_start" 0 0 0 1
- String: 22 greater greater hyphen
- BString: 0 
- FString: 0 
- 3
-  SeqLookup: 0 "start_double_arrows"
-  SeqLookup: 1 "start_arrows"
-  SeqLookup: 2 "lengthen_dashes"
-EndFPST
-ChainSub2: glyph "fixup_start_double_greater" 0 0 0 1
- String: 7 greater
- BString: 0 
- FString: 8 greater 
- 1
-  SeqLookup: 0 "start_double_arrows"
-EndFPST
-ChainSub2: class "fixup_end_double_greater" 3 3 0 1
-  Class: 44 greater_end greater_mid double_greater_start
-  Class: 7 greater
-  BClass: 44 greater_end greater_mid double_greater_start
-  BClass: 7 greater
- 1 1 0
-  ClsList: 2
-  BClsList: 1
-  FClsList:
- 1
-  SeqLookup: 0 "end_double_arrows"
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-EndFPST
 LangName: 1033
 Encoding: Custom
 Compacted: 1
@@ -281,7 +297,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
