@@ -42,7 +42,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
-Lookup: 6 0 0 "fixup_arrows_and_dashes" { "catch_long_options"  "catch_short_options"  "fixup_short_dashes_pre"  "fixup_short_dashes_post"  "fixup_mid_arrows"  "fixup_end_arrows"  "fixup_start_arrows"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "fixup_arrows_and_dashes" { "catch_short_options"  "catch_long_options"  "fixup_short_dashes_pre"  "fixup_short_dashes_post"  "fixup_mid_arrows"  "fixup_end_arrows"  "fixup_start_arrows"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_double_greater_start"  "fixup_double_less_start"  "fixup_double_bar_start"  "fixup_double_greater_end"  "fixup_double_less_end"  "fixup_double_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 0 "fixup_arrowhead_vs_operator" { "do_logical_or"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "resolve_arrows_operator_ambiguity" { "do_logical_or_equals"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -56,6 +56,22 @@ Lookup: 4 0 0 "called_ligatures" { "called_ligatures-1"  } []
 Lookup: 1 0 0 "lengthen_dashes" { "lengthen_dashes-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "catch_long_options" 3 3 3 1
+  Class: 159 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z space
+  Class: 6 hyphen
+  BClass: 159 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z space
+  BClass: 6 hyphen
+  FClass: 159 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z space
+  FClass: 6 hyphen
+ 2 1 1
+  ClsList: 2 2
+  BClsList: 1
+  FClsList: 1
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 ChainSub2: class "do_logical_or" 3 3 3 1
   Class: 3 bar
   Class: 413 uni0009 space exclam quotedbl numbersign dollar percent ampersand quotesingle parenleft parenright asterisk plus comma hyphen period slash zero one two three four five six seven eight nine colon less equal greater question at A B C D E F G H I J K L M N O P Q R S T U V W X Y Z backslash asciicircum underscore grave a b c d e f g h i j k l m n o p q r s t u v w x y z braceleft braceright asciitilde bracketright
@@ -216,22 +232,6 @@ ChainSub2: class "catch_short_options" 3 3 3 1
   BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
   FClass: 6 hyphen
   FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
- 2 0 1
-  ClsList: 1 1
-  BClsList:
-  FClsList: 2
- 0
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-  FClassNames: "All_Others" "1" "2"
-EndFPST
-ChainSub2: class "catch_long_options" 3 3 3 1
-  Class: 6 hyphen
-  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  BClass: 6 hyphen
-  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
-  FClass: 6 hyphen
-  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
  1 0 1
   ClsList: 1
   BClsList:
@@ -307,7 +307,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
