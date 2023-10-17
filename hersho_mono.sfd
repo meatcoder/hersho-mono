@@ -1113,23 +1113,22 @@ StartChar: O
 Encoding: 78 79 28
 Width: 480
 VWidth: 833
-Flags: W
-HStem: 10 77<180.956 298.382> 588 68<190.204 295.162>
-VStem: 82 65<153.855 507.138> 334 64<152.787 526.094>
+Flags: HW
+HStem: 1 77<189.298 291.29> 589 68<198.591 291.274>
+VStem: 82 65<150.065 507.883> 334 64<140.659 518.915>
 LayerCount: 2
 Fore
 SplineSet
-398 343 m 0
- 398 125 338 10 240 10 c 0
- 142 10 82 122 82 343 c 0
- 82 520 146 656 240 656 c 0
- 340 656 398 549 398 343 c 0
-147 348 m 2
- 147 332 l 2
- 147 139 159 87 240 87 c 0
- 322 87 334 150 334 343 c 0
- 334 514 319 588 240 588 c 0
- 171 588 147 508 147 348 c 2
+398 329 m 0
+ 398 120 340 1 239 1 c 0
+ 143 1 82 130 82 329 c 0
+ 82 531 146 658 249 658 c 0
+ 343 658 398 535 398 329 c 0
+147 329 m 2
+ 147 152 173 78 237 78 c 0
+ 309 78 334 143 334 329 c 0
+ 334 516 309 589 246 589 c 0
+ 179 589 147 504 147 329 c 2
 EndSplineSet
 Validated: 1
 EndChar
@@ -1245,7 +1244,7 @@ StartChar: N
 Encoding: 77 78 33
 Width: 480
 VWidth: 833
-Flags: HWO
+Flags: HW
 HStem: 0 21G<82 148 327.398 398> 0 21G<82 148 327.398 398>
 VStem: 82 66<0 492> 335 63<159 656>
 LayerCount: 2
@@ -1263,6 +1262,7 @@ SplineSet
  82 658 l 1
  148 658 l 1xb0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: L
@@ -1399,6 +1399,7 @@ SplineSet
  338 657 l 5
  401 657 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: F
@@ -4558,6 +4559,7 @@ LayerCount: 2
 Fore
 Refer: 258 771 S 1 0 0 1 184.461 532 2
 Refer: 33 78 N 1 0 0 1 10 0 3
+Validated: 1
 EndChar
 
 StartChar: Ograve
