@@ -307,9 +307,24 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 27 9
+WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
+Grid
+275 217 m 5
+ 230 608 l 5
+ 183 217 l 5
+ 275 217 l 5
+150 10 m 5
+ 84 10 l 5
+ 190 656 l 5
+ 260 656 l 5
+ 396 10 l 5
+ 322 10 l 5
+ 283 169 l 5
+ 177 169 l 5
+ 150 10 l 5
+EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 338 337
 
@@ -1124,22 +1139,24 @@ Encoding: 64 65 29
 Width: 480
 VWidth: 833
 Flags: HW
+HStem: 0 21G<80 142.5 340 400> 168 50<186 291> 642 20G<205.103 263.26>
+VStem: 80 320
 LayerCount: 2
 Fore
 SplineSet
-275 217 m 5
- 230 608 l 5
- 183 217 l 5
- 275 217 l 5
-150 10 m 5
- 84 10 l 5
- 190 656 l 5
- 260 656 l 5
- 396 10 l 5
- 322 10 l 5
- 283 169 l 5
- 177 169 l 5
- 150 10 l 5
+209 662 m 1
+ 259 662 l 1
+ 400 0 l 1
+ 340 0 l 2
+ 340 0 323 66 302 168 c 1
+ 177 168 l 1
+ 158 65 143 0 142 0 c 2
+ 80 0 l 1
+ 209 662 l 1
+291 217 m 1
+ 272 307 251 437 235 514 c 1
+ 221 437 203 308 186 218 c 1
+ 291 217 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -4277,7 +4294,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 N 1 0 0 1 -84 239 2
+Refer: 253 768 N 1 0 0 1 -74 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4289,7 +4306,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 6 239 2
+Refer: 250 769 N 1 0 0 1 16 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4300,7 +4317,7 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 N 1 0 0 1 -29 334 2
+Refer: 257 770 N 1 0 0 1 -19 334 2
 Refer: 29 65 N 1 0 0 1 10 0 3
 Validated: 1
 EndChar
@@ -4312,7 +4329,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -21 540 2
+Refer: 258 771 N 1 0 0 1 -11 540 2
 Refer: 29 65 N 1 0 0 1 18 0 3
 Validated: 1
 EndChar
@@ -4324,7 +4341,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -40 237 2
+Refer: 248 776 N 1 0 0 1 -30 237 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4336,7 +4353,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 260 778 N 1 0 0 1 -22 134 2
+Refer: 260 778 N 1 0 0 1 -12 134 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
