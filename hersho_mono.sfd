@@ -1380,25 +1380,24 @@ StartChar: M
 Encoding: 76 77 39
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: HWO
 LayerCount: 2
 Fore
 SplineSet
-405 657 m 5
- 405 -1 l 5
- 338 -1 l 5
- 338 396 l 5
- 240 150 l 5
- 146 396 l 5
- 146 -1 l 5
- 75 -1 l 5
- 75 657 l 5
- 146 657 l 5
- 240 349 l 5
- 338 657 l 5
- 405 657 l 5
+401 657 m 5
+ 401 -1 l 5
+ 338 -1 l 1
+ 338 435 l 1
+ 240 189 l 1
+ 146 435 l 1
+ 146 -1 l 1
+ 79 -1 l 1
+ 79 657 l 1
+ 146 657 l 1
+ 240 349 l 1
+ 338 657 l 1
+ 401 657 l 5
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: F
