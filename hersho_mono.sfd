@@ -311,19 +311,19 @@ WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-148 0 m 5
- 82 0 l 5
- 82 656 l 5
- 150 657 l 5
- 240 268 l 5
- 328 657 l 5
- 398 656 l 5
- 398 0 l 5
- 332 0 l 5
- 332 504 l 5
- 240 158 l 5
- 148 503 l 5
- 148 0 l 5
+401 657 m 5
+ 401 -1 l 5
+ 338 -1 l 5
+ 338 435 l 5
+ 240 189 l 5
+ 146 435 l 5
+ 146 -1 l 5
+ 79 -1 l 5
+ 79 657 l 5
+ 146 657 l 5
+ 240 349 l 5
+ 338 657 l 5
+ 401 657 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 338 337
@@ -1245,23 +1245,24 @@ StartChar: N
 Encoding: 77 78 33
 Width: 480
 VWidth: 833
-Flags: HW
+Flags: HWO
+HStem: 0 21G<82 148 327.398 398> 0 21G<82 148 327.398 398>
+VStem: 82 66<0 492> 335 63<159 656>
 LayerCount: 2
 Fore
 SplineSet
-152 656 m 1
- 332 164 l 1
- 332 656 l 1
- 398 656 l 1
- 398 10 l 1
- 328 10 l 1
- 148 514 l 1
- 148 10 l 1
- 82 10 l 1
- 82 656 l 1
- 152 656 l 1
+148 658 m 1xb0
+ 335 159 l 1
+ 335 658 l 1
+ 398 658 l 1
+ 398 0 l 1
+ 335 0 l 1
+ 148 492 l 1
+ 148 0 l 1
+ 82 0 l 1
+ 82 658 l 1
+ 148 658 l 1xb0
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: L
@@ -1380,22 +1381,22 @@ StartChar: M
 Encoding: 76 77 39
 Width: 480
 VWidth: 833
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
 401 657 m 5
  401 -1 l 5
- 338 -1 l 1
- 338 435 l 1
- 240 189 l 1
- 146 435 l 1
- 146 -1 l 1
- 79 -1 l 1
- 79 657 l 1
- 146 657 l 1
- 240 349 l 1
- 338 657 l 1
+ 338 -1 l 5
+ 338 435 l 5
+ 240 189 l 5
+ 146 435 l 5
+ 146 -1 l 5
+ 79 -1 l 5
+ 79 657 l 5
+ 146 657 l 5
+ 240 349 l 5
+ 338 657 l 5
  401 657 l 5
 EndSplineSet
 EndChar
@@ -4555,9 +4556,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 S 1 0 0 1 -14 532 2
+Refer: 258 771 S 1 0 0 1 184.461 532 2
 Refer: 33 78 N 1 0 0 1 10 0 3
-Validated: 1
 EndChar
 
 StartChar: Ograve
