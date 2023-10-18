@@ -1514,22 +1514,22 @@ Encoding: 84 85 44
 Width: 480
 VWidth: 833
 Flags: HW
-HStem: 10 77<181.961 299.004>
-VStem: 80 58<141.4 342> 344 56<148.091 342>
+HStem: 1 77<183.99 295.912> 638 19G<80 150 330 400>
+VStem: 80 66<130.915 657> 336 64<131.796 658>
 LayerCount: 2
 Fore
 SplineSet
-344 342 m 0
- 344 429 338 574 338 658 c 1
+336 342 m 0
+ 336 429 330 574 330 658 c 1
  400 658 l 1
  400 281 l 2
- 400 66 350 10 238 10 c 0
- 127 10 80 66 80 281 c 2
- 80 657 l 1
- 142 657 l 1
- 140 558 138 429 138 342 c 0
- 138 157 158 87 240 87 c 0
- 322 87 344 162 344 342 c 0
+ 400 77 356 1 238 1 c 0
+ 122 1 80 75 80 281 c 2
+ 80 658 l 1
+ 150 658 l 1
+ 150 534 146 415 146 342 c 0
+ 146 134 166 78 240 78 c 0
+ 314 78 336 138 336 342 c 0
 EndSplineSet
 Validated: 1
 EndChar
@@ -4712,7 +4712,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 S 1 0 0 1 -62 241 2
+Refer: 253 768 S 1 0 0 1 326 241 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4724,7 +4724,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 26 241 2
+Refer: 250 769 N 1 0 0 1 414 241 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4736,7 +4736,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 -22 336 2
+Refer: 257 770 S 1 0 0 1 366 336 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4748,7 +4748,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 S 1 0 0 1 -18 238 2
+Refer: 248 776 S 1 0 0 1 370 238 2
 Refer: 44 85 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5499,7 +5499,7 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 261 779 S 1 0 0 1 -1 241 2
+Refer: 261 779 S 1 0 0 1 387 241 2
 Refer: 44 85 N 1 0 0 1 -19 0 3
 Validated: 1
 EndChar
