@@ -1291,21 +1291,22 @@ Encoding: 89 90 35
 Width: 480
 VWidth: 833
 Flags: HW
-VStem: 84 312
+HStem: 0 67<152 396> 592 65<84 328>
+VStem: 84 312<0 67 592 657>
 LayerCount: 2
 Fore
 SplineSet
-84 85 m 1
+84 75 m 1
  328 592 l 1
  84 592 l 1
- 84 657 l 1
- 396 657 l 1
+ 84 658 l 1
+ 396 658 l 1
  396 584 l 1
- 152 77 l 1
- 396 77 l 1
- 396 10 l 1
- 84 10 l 1
- 84 85 l 1
+ 152 67 l 1
+ 396 67 l 1
+ 396 0 l 1
+ 84 0 l 1
+ 84 75 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -1478,6 +1479,7 @@ SplineSet
  206 336 l 1
  48 658 l 1xb0
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Q
@@ -4766,6 +4768,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 22 240 2
 Refer: 42 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Thorn
@@ -5414,6 +5417,7 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 -22 238 2
 Refer: 42 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Zacute
