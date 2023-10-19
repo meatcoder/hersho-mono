@@ -849,29 +849,26 @@ StartChar: u
 Encoding: 116 117 19
 Width: 480
 VWidth: 833
-Flags: HW
-HStem: 10 57<169.121 311.687>
-VStem: 334 63<89.0093 113.757>
+Flags: HWO
+HStem: 0 21G<85 139 338 392> 0 21G<85 139 338 392> 326 54<163.562 322.049>
+VStem: 85 54<0 302.31 354 383> 338 54<0 306.551>
 LayerCount: 2
 Fore
 SplineSet
-82 383 m 1
- 146 383 l 1
- 146 105 l 1
- 146 103 l 2
- 147 101 172 58 240 58 c 0
- 295 58 325 87 334 105 c 1
- 334 383 l 1
- 398 383 l 1
- 398 255 398 127 397 1 c 1
- 334 1 l 1
- 334 27 l 1
- 320 21 l 2
- 296 11 249 1 222 1 c 0
- 201 1 82 23 82 102 c 2
- 82 383 l 1
+393 0 m 5xb8
+ 339 0 l 5
+ 339 29 l 5
+ 307 12 270 3 237 3 c 7
+ 170 3 87 33 87 104 c 6
+ 87 383 l 5
+ 141 383 l 5
+ 141 104 l 6
+ 141 69 208 57 237 57 c 7
+ 285 57 339 87 339 104 c 6
+ 339 383 l 5
+ 393 383 l 5
+ 393 0 l 5xb8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: l
@@ -5241,7 +5238,6 @@ LayerCount: 2
 Fore
 Refer: 253 768 N 1 0 0 1 -68 -24 2
 Refer: 19 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: uacute
@@ -5253,7 +5249,6 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 22 -34 2
 Refer: 19 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ucircumflex
@@ -5265,7 +5260,6 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 -22 71 2
 Refer: 19 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -5277,7 +5271,6 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 -22 -37 2
 Refer: 19 117 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: yacute
