@@ -311,19 +311,14 @@ WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-262 274 m 6xbc
- 262 2 l 5
- 209 2 l 5
- 209 650 l 5
- 263 650 l 5
- 263 355 l 5
- 293 372 323 380 360 380 c 7
- 447 380 517 311 517 240 c 30
- 517 2 l 5
- 464 2 l 5
- 464 240 l 6
- 464 273 426 326 360 326 c 7
- 301 326 262 289 262 274 c 6xbc
+143 382 m 5
+ 233 76 l 5
+ 339 379 l 5
+ 399 379 l 5
+ 267 1 l 5
+ 199 1 l 5
+ 81 382 l 5
+ 143 382 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 338 337
@@ -519,14 +514,14 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-143 382 m 1
- 233 76 l 1
- 339 379 l 1
- 399 379 l 1
- 267 1 l 1
- 199 1 l 1
- 81 382 l 1
- 143 382 l 1
+85 382 m 1
+ 137 382 l 1
+ 234 87 l 1
+ 343 379 l 1
+ 395 379 l 1
+ 258 -0 l 1
+ 206 1 l 1
+ 85 382 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -849,7 +844,7 @@ StartChar: u
 Encoding: 116 117 19
 Width: 480
 VWidth: 833
-Flags: HWO
+Flags: HW
 HStem: 0 21G<85 139 338 392> 0 21G<85 139 338 392> 326 54<163.562 322.049>
 VStem: 85 54<0 302.31 354 383> 338 54<0 306.551>
 LayerCount: 2
@@ -869,6 +864,7 @@ SplineSet
  393 383 l 5
  393 0 l 5xb8
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: l
@@ -5238,6 +5234,7 @@ LayerCount: 2
 Fore
 Refer: 253 768 N 1 0 0 1 -68 -24 2
 Refer: 19 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: uacute
@@ -5249,6 +5246,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 22 -34 2
 Refer: 19 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ucircumflex
@@ -5260,6 +5258,7 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 -22 71 2
 Refer: 19 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: udieresis
@@ -5271,6 +5270,7 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 -22 -37 2
 Refer: 19 117 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: yacute
