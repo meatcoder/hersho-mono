@@ -307,7 +307,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 27 9
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -710,27 +710,26 @@ Encoding: 100 101 14
 Width: 480
 VWidth: 833
 Flags: HW
-HStem: 2 54<187.566 332.899> 167 54<145 335> 318 54<186.532 301.501>
-VStem: 88 304<169.554 218.004>
+HStem: 2 54<187.566 332.899> 168 54<145 335> 329 54<180.422 303.824>
+VStem: 88 57<104.5 168 222 291.924> 335 57<222 296.848>
 LayerCount: 2
 Fore
 SplineSet
-145 167 m 1
- 148 147 165 56 242 56 c 0
+145 168 m 1
+ 148 148 165 56 242 56 c 0
  286 56 314 64 344 85 c 1
  375 39 l 1
  335 12 294 2 242 2 c 0
- 148 2 88 88 88 194 c 0
- 88 289 152 372 242 372 c 0
- 336 372 392 299 392 194 c 2
- 392 167 l 1
- 145 167 l 1
-335 221 m 1
- 329 263 310 318 242 318 c 0
- 187 318 154 269 145 221 c 1
- 335 221 l 1
+ 148 2 88 89 88 195 c 0
+ 88 290 134 383 242 383 c 0
+ 348 383 392 300 392 195 c 2
+ 392 168 l 1
+ 145 168 l 1
+335 222 m 3
+ 335 264 322 329 242 329 c 0
+ 173 329 145 271 145 222 c 0
+ 335 222 l 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: c
@@ -1047,7 +1046,7 @@ StartChar: z
 Encoding: 121 122 26
 Width: 480
 VWidth: 833
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -1063,6 +1062,7 @@ SplineSet
  396 365 l 5
  396 305 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: H
@@ -4959,7 +4959,6 @@ LayerCount: 2
 Fore
 Refer: 253 768 N 1 0 0 1 -71.5 3 2
 Refer: 14 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: eacute
@@ -4971,7 +4970,6 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 18.5 -7 2
 Refer: 14 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -4983,7 +4981,6 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 -25.5 98 2
 Refer: 14 101 N 1 0 0 1 1 0 3
-Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -4995,7 +4992,6 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 -25.5 -9 2
 Refer: 14 101 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: igrave
