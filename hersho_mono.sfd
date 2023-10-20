@@ -311,20 +311,18 @@ WinInfo: 0 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
-276 365 m 5x3c
- 356 365 l 6
- 409 365 460 404 460 482 c 7
- 460 553 409 592 356 592 c 6
- 276 592 l 5
- 276 365 l 5x3c
-274 303 m 5
- 274 1 l 5
- 208 1 l 5xbc
- 208 655 l 5
- 356 655 l 6
- 443 655 524 572 524 482 c 7
- 524 383 449 303 356 303 c 6
- 274 303 l 5
+208 586 m 5
+ 84 517 l 5
+ 84 596 l 5
+ 198 662 l 5
+ 278 662 l 5
+ 278 57 l 5
+ 396 57 l 5
+ 396 0 l 5
+ 84 0 l 5
+ 84 57 l 5
+ 208 57 l 5
+ 208 586 l 5
 EndSplineSet
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
 BeginChars: 338 337
@@ -731,6 +729,7 @@ SplineSet
  173 329 145 271 145 222 c 0
  335 222 l 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: c
@@ -1960,19 +1959,20 @@ VStem: 208 70<57 586>
 LayerCount: 2
 Fore
 SplineSet
-208 586 m 1
- 84 517 l 1
- 84 596 l 1
- 198 662 l 1
- 278 662 l 1
- 278 57 l 1
- 396 57 l 1
- 396 0 l 1
- 84 0 l 1
- 84 57 l 1
- 208 57 l 1
- 208 586 l 1
+208 586 m 5
+ 84 517 l 5
+ 84 596 l 5
+ 198 662 l 5
+ 278 662 l 5
+ 278 57 l 5
+ 396 57 l 5
+ 396 0 l 5
+ 84 0 l 5
+ 84 57 l 5
+ 208 57 l 5
+ 208 586 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: two
@@ -2160,30 +2160,29 @@ StartChar: zero
 Encoding: 47 48 68
 Width: 480
 VWidth: 833
-Flags: W
-HStem: 1 77<181.111 298.382> 579 68<190.586 292.447>
-VStem: 82 64<219.871 497.382> 334 64<146.188 439.381>
+Flags: HW
+HStem: 0 57<191.498 293.297> 595 67<194.594 292.829>
+VStem: 82 64<224.618 520.72> 334 64<135.4 452.417>
 LayerCount: 2
 Fore
 SplineSet
-398 334 m 4
- 398 116 338 1 240 1 c 4
- 142 1 82 113 82 334 c 4
- 82 511 146 647 240 647 c 4
- 340 647 398 540 398 334 c 4
-314 522 m 5
- 308 538 292 579 240 579 c 4
- 152 579 146 445 146 322 c 4
- 146 271 147 271 150 216 c 5
- 314 522 l 5
-332 447 m 5
- 164 125 l 5
- 175 102 191 78 240 78 c 4
- 322 78 334 141 334 334 c 4
- 334 356 334 370 334 382 c 4
- 334 399 334 413 332 447 c 5
+398 335 m 0
+ 398 122 352 0 240 0 c 0
+ 139 0 82 121 82 335 c 0
+ 82 537 135 662 240 662 c 0
+ 343 662 398 548 398 335 c 0
+314 529 m 3
+ 314 549 294 595 242 595 c 0
+ 241 595 241 595 240 595 c 0
+ 175 593 146 512 146 335 c 0
+ 146 293 146 302 150 223 c 1
+ 314 529 l 3
+332 454 m 1
+ 165 132 l 3
+ 165 116 186 57 240 57 c 0
+ 314 57 334 116 334 335 c 0
+ 334 417 334 421 332 454 c 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: nine
@@ -4959,6 +4958,7 @@ LayerCount: 2
 Fore
 Refer: 253 768 N 1 0 0 1 -71.5 3 2
 Refer: 14 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: eacute
@@ -4970,6 +4970,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 18.5 -7 2
 Refer: 14 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: ecircumflex
@@ -4981,6 +4982,7 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 -25.5 98 2
 Refer: 14 101 N 1 0 0 1 1 0 3
+Validated: 1
 EndChar
 
 StartChar: edieresis
@@ -4992,6 +4994,7 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 -25.5 -9 2
 Refer: 14 101 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: igrave
@@ -5666,6 +5669,7 @@ LayerCount: 2
 Fore
 Refer: 83 58 S 1 0 0 1 523 120 2
 Refer: 61 49 N 1 0 0 1 43 0 2
+Validated: 1
 Ligature2: "numerals_colon" one colon
 LCarets2: 1 0
 EndChar
@@ -5776,14 +5780,13 @@ EndChar
 StartChar: zero_colon
 Encoding: 272 -1 272
 Width: 960
-Flags: W
+Flags: HW
 HStem: 0 77<225.111 342.382> 145 138<717.779 813.125> 352 139<717.779 813.125> 578 68<234.586 336.447>
 VStem: 126 64<218.871 496.382> 378 64<145.188 438.381> 694 140<167.071 259.707 374.732 467.161>
 LayerCount: 2
 Fore
 Refer: 83 58 N 1 0 0 1 524 120 2
 Refer: 68 48 S 1 0 0 1 44 -1 2
-Validated: 1
 Ligature2: "numerals_colon" zero colon
 LCarets2: 1 0
 EndChar
