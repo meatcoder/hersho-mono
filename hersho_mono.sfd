@@ -325,7 +325,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 27 27 9
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4567,7 +4567,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 N 1 0 0 1 -68 239 2
+Refer: 253 768 S 1 0 0 1 -36 239 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4579,7 +4579,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 22 239 2
+Refer: 250 769 S 1 0 0 1 38 239 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4591,8 +4591,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 N 1 0 0 1 -22 334 2
-Refer: 28 79 N 1 0 0 1 1 0 3
+Refer: 257 770 S 1 0 0 1 4 334 2
+Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4603,7 +4603,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -14 540 2
+Refer: 258 771 N 1 0 0 1 30 540 2
 Refer: 28 79 N 1 0 0 1 9 0 3
 Validated: 1
 EndChar
@@ -4615,7 +4615,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -24 237 2
+Refer: 248 776 N 1 0 0 1 7 237 2
 Refer: 28 79 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4628,21 +4628,20 @@ Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-138 462 m 1
- 236 326 l 1
- 344 462 l 1
- 416 462 l 1
- 292 282 l 1
- 410 81 l 1
- 348 81 l 1
- 238 247 l 1
- 130 81 l 1
- 64 81 l 1
- 178 282 l 1
- 66 462 l 1
- 138 462 l 1
+139 464 m 1
+ 237 325 l 1
+ 342 464 l 1
+ 414 464 l 1
+ 275 281 l 1
+ 411 79 l 1
+ 349 79 l 1
+ 237 245 l 1
+ 131 79 l 1
+ 66 79 l 5
+ 195 281 l 1
+ 68 464 l 5
+ 139 464 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Oslash
@@ -6032,19 +6031,19 @@ SplineSet
  325 78 337 141 337 334 c 0
  337 356 337 370 337 382 c 0
  337 399 337 413 335 447 c 1
-607 476 m 5
- 669 476 l 5
- 669 473 739 357 741 357 c 4
- 743 357 816 471 816 474 c 5
- 875 474 l 5
- 873 468 781 323 781 323 c 5
- 781 323 875 174 875 172 c 5
- 816 172 l 5
- 816 175 743 289 741 289 c 4
- 739 289 668 173 668 170 c 5
- 607 170 l 5
- 607 172 697 323 697 323 c 5
- 697 323 607 474 607 476 c 5
+607 476 m 1
+ 669 476 l 1
+ 669 473 739 357 741 357 c 0
+ 743 357 816 471 816 474 c 1
+ 875 474 l 1
+ 873 468 781 323 781 323 c 1
+ 781 323 875 174 875 172 c 1
+ 816 172 l 1
+ 816 175 743 289 741 289 c 0
+ 739 289 668 173 668 170 c 1
+ 607 170 l 1
+ 607 172 697 323 697 323 c 1
+ 697 323 607 474 607 476 c 1
 EndSplineSet
 Validated: 1
 Ligature2: "programming_symbols" zero x
