@@ -325,7 +325,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 27 27 9
+WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -4451,7 +4451,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 -19 335 2
+Refer: 257 770 S 1 0 0 1 -3 335 2
 Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4463,7 +4463,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 S 1 0 0 1 -10 238 2
+Refer: 248 776 N 1 0 0 1 3 238 2
 Refer: 30 69 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
