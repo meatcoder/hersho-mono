@@ -4307,7 +4307,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 N 1 0 0 1 -74 239 2
+Refer: 253 768 S 1 0 0 1 -56 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4319,7 +4319,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 16 239 2
+Refer: 250 769 N 1 0 0 1 38 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4330,8 +4330,8 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 N 1 0 0 1 -19 334 2
-Refer: 29 65 N 1 0 0 1 10 0 3
+Refer: 257 770 S 1 0 0 1 -6 334 2
+Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4342,8 +4342,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -11 540 2
-Refer: 29 65 N 1 0 0 1 18 0 3
+Refer: 258 771 S 1 0 0 1 4 540 2
+Refer: 29 65 S 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
@@ -4354,7 +4354,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -30 237 2
+Refer: 248 776 N 1 0 0 1 -14 237 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5407,6 +5407,7 @@ LayerCount: 2
 Fore
 Refer: 248 776 S 1 0 0 1 2 238 2
 Refer: 42 89 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Zacute
@@ -5417,6 +5418,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 43 240 2
 Refer: 35 90 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: gravecomb
