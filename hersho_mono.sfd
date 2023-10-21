@@ -5405,9 +5405,8 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -22 238 2
+Refer: 248 776 S 1 0 0 1 2 238 2
 Refer: 42 89 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Zacute
@@ -5416,9 +5415,8 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 22 240 2
+Refer: 250 769 N 1 0 0 1 43 240 2
 Refer: 35 90 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: gravecomb
