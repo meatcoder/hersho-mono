@@ -325,7 +325,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 27 9
+WinInfo: 27 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5458,7 +5458,7 @@ EndChar
 StartChar: Scaron
 Encoding: 159 352 255
 Width: 480
-Flags: HWO
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
@@ -5476,13 +5476,14 @@ SplineSet
  305 78 335 112 335 160 c 4
  335 295 92 354 92 504 c 4xe4
 228 718 m 5
- 386 965 l 5
- 320 965 l 5
- 228 815 l 5
- 146 965 l 5
  76 965 l 5
+ 146 965 l 5
+ 228 815 l 5
+ 320 965 l 5
+ 386 965 l 5
  228 718 l 5
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Udblacute
@@ -5491,8 +5492,8 @@ Width: 480
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 261 779 S 1 0 0 1 387 241 2
-Refer: 44 85 N 1 0 0 1 -19 0 3
+Refer: 261 779 N 1 0 0 1 45 241 2
+Refer: 44 85 S 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
