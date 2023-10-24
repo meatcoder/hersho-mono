@@ -6367,6 +6367,7 @@ LayerCount: 2
 Fore
 Refer: 83 58 S 1 0 0 1 347 0 2
 Refer: 83 58 N 1 0 0 1 117 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" colon colon
 EndChar
@@ -6379,6 +6380,7 @@ LayerCount: 2
 Fore
 Refer: 54 41 S 1 0 0 1 394 0 2
 Refer: 53 40 N 1 0 0 1 70 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" parenleft parenright
 EndChar
@@ -6393,6 +6395,7 @@ Fore
 Refer: 78 62 S 1 0 0 1 793 0 2
 Refer: 78 62 N 1 0 0 1 465 0 2
 Refer: 78 62 N 1 0 0 1 135 0 2
+Validated: 1
 Ligature2: "called_ligatures-1" greater greater greater
 LCarets2: 2 0 0
 EndChar
@@ -6406,6 +6409,7 @@ Fore
 Refer: 77 60 S 1 0 0 1 793 0 2
 Refer: 77 60 N 1 0 0 1 464 0 2
 Refer: 77 60 N 1 0 0 1 135 0 2
+Validated: 1
 Ligature2: "called_ligatures-1" less less less
 LCarets2: 2 0 0
 EndChar
@@ -6440,6 +6444,7 @@ SplineSet
  322 330 l 5
  550 142 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "called_ligatures-1" less less equal
 LCarets2: 2 0 0
 EndChar
@@ -6474,330 +6479,318 @@ SplineSet
  199 46 l 1
  199 145 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "called_ligatures-1" greater greater equal
 LCarets2: 2 0 0
 EndChar
 
 StartChar: bar_equal
 Encoding: 297 -1 297
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-814 510 m 5
- 814 426 l 5
- 202 426 l 1
- 202 325 l 1
- 814 325 l 5
- 814 241 l 5
- 202 241 l 1
- 202 0 l 1
- 146 0 l 1
- 146 742 l 1
- 202 742 l 1
- 202 510 l 1
- 814 510 l 5
+798 510 m 5
+ 798 426 l 5
+ 186 426 l 1
+ 186 325 l 1
+ 798 325 l 5
+ 798 241 l 5
+ 186 241 l 1
+ 186 0 l 1
+ 130 0 l 1
+ 130 742 l 1
+ 186 742 l 1
+ 186 510 l 1
+ 798 510 l 5
 EndSplineSet
-Validated: 1
 Ligature2: "programming_symbols" bar equal
 LCarets2: 1 0
 EndChar
 
 StartChar: asciicircum_equal
 Encoding: 298 -1 298
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-880 419 m 5
- 880 335 l 5
- 307 335 l 5
- 307 419 l 5
- 309 419 l 5
- 237 547 l 5
- 171 422 l 5
- 80 422 l 5
- 237 680 l 5
- 393 419 l 5
- 880 419 l 5
-880 234 m 5
- 880 150 l 5
- 307 150 l 5
- 307 234 l 5
- 880 234 l 5
+864 419 m 5
+ 864 335 l 5
+ 291 335 l 5
+ 291 419 l 5
+ 293 419 l 5
+ 221 547 l 5
+ 155 422 l 5
+ 64 422 l 5
+ 221 680 l 5
+ 377 419 l 5
+ 864 419 l 5
+864 234 m 5
+ 864 150 l 5
+ 291 150 l 5
+ 291 234 l 5
+ 864 234 l 5
 EndSplineSet
-Validated: 1
 Ligature2: "programming_symbols" asciicircum equal
 LCarets2: 1 0
 EndChar
 
 StartChar: backslash_backslash
 Encoding: 299 -1 299
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 57 92 S 1 0 0 1 401 0 2
-Refer: 57 92 N 1 0 0 1 79 0 2
-Validated: 1
+Refer: 57 92 S 1 0 0 1 393 0 2
+Refer: 57 92 N 1 0 0 1 71 0 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" backslash backslash
 EndChar
 
 StartChar: less_equal_greater
 Encoding: 300 -1 300
-Width: 1440
-Flags: H
+Width: 1392
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-1035 63 m 5
- 1035 151 l 5
- 1071 176 l 5
- 369 177 l 5
- 405 152 l 5
- 405 64 l 5
- 75 311 l 5
- 405 564 l 5
- 405 469 l 5
- 380 452 l 5
- 1069 451 l 5
- 1035 476 l 5
- 1035 568 l 5
- 1365 311 l 5
- 1035 63 l 5
-1186 366 m 5
- 260 368 l 5
- 178 311 l 5
- 249 261 l 5
- 1190 260 l 5
- 1262 311 l 5
- 1186 366 l 5
+1011 63 m 5
+ 1011 151 l 5
+ 1047 176 l 5
+ 345 177 l 5
+ 381 152 l 5
+ 381 64 l 5
+ 51 311 l 5
+ 381 564 l 5
+ 381 469 l 5
+ 356 452 l 5
+ 1045 451 l 5
+ 1011 476 l 5
+ 1011 568 l 5
+ 1341 311 l 5
+ 1011 63 l 5
+1162 366 m 5
+ 236 368 l 5
+ 154 311 l 5
+ 225 261 l 5
+ 1166 260 l 5
+ 1238 311 l 5
+ 1162 366 l 5
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" less equal greater
 EndChar
 
 StartChar: equal_equal_equal
 Encoding: 301 -1 301
-Width: 1440
-HStem: 150 84<79 1361> 335 84<79 1361>
+Width: 1392
+Flags: HW
+HStem: 150 84<55 1337> 335 84<55 1337>
 LayerCount: 2
 Fore
 SplineSet
-1361 419 m 5
- 1361 335 l 1
- 934 335 506 335 79 335 c 1
- 79 419 l 5
- 1361 419 l 5
-1361 234 m 5
- 1361 150 l 1
- 934 150 506 150 79 150 c 1
- 79 234 l 1
- 506 234 934 234 1361 234 c 5
+1337 419 m 5
+ 1337 335 l 1
+ 910 335 482 335 55 335 c 1
+ 55 419 l 5
+ 1337 419 l 5
+1337 234 m 5
+ 1337 150 l 1
+ 910 150 482 150 55 150 c 1
+ 55 234 l 1
+ 482 234 910 234 1337 234 c 5
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" equal equal equal
 EndChar
 
 StartChar: exclam_equal_equal
 Encoding: 302 -1 302
-Width: 1440
+Width: 1392
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-1361 234 m 1
- 1361 150 l 1
- 654 150 l 1
- 574 28 l 1
- 471 28 l 1
- 551 150 l 1
- 79 150 l 1
- 79 234 l 1
- 607 234 l 1
- 673 335 l 1
- 79 335 l 1
- 79 419 l 1
- 728 419 l 1
- 800 528 l 1
- 903 528 l 1
- 831 419 l 1
- 1361 419 l 1
- 1361 335 l 1
- 776 335 l 1
- 710 234 l 1
- 1361 234 l 1
+1337 234 m 1
+ 1337 150 l 1
+ 630 150 l 1
+ 550 28 l 1
+ 447 28 l 1
+ 527 150 l 1
+ 55 150 l 1
+ 55 234 l 1
+ 583 234 l 1
+ 649 335 l 1
+ 55 335 l 1
+ 55 419 l 1
+ 704 419 l 1
+ 776 528 l 1
+ 879 528 l 1
+ 807 419 l 1
+ 1337 419 l 1
+ 1337 335 l 1
+ 752 335 l 1
+ 686 234 l 1
+ 1337 234 l 1
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" exclam equal equal
 EndChar
 
 StartChar: asterisk_asterisk
 Encoding: 303 -1 303
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 89 42 S 1 0 0 1 459 0 2
-Refer: 89 42 N 1 0 0 1 21 0 2
-Validated: 1
+Refer: 89 42 S 1 0 0 1 451 0 2
+Refer: 89 42 N 1 0 0 1 13 0 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" asterisk asterisk
 EndChar
 
 StartChar: question_period
 Encoding: 304 -1 304
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-567 78 m 4
- 567 113 604 148 639 148 c 4
- 674 148 709 114 709 79 c 4
- 709 44 674 9 639 9 c 4
- 603 9 567 43 567 78 c 4
-331 78 m 0
- 331 113 368 148 403 148 c 0
- 438 148 473 114 473 79 c 0
- 473 44 438 9 403 9 c 0
- 367 9 331 43 331 78 c 0
-495 506 m 0
- 495 574 465 595 403 595 c 0
- 351 595 325 552 317 536 c 1
- 251 538 l 1
- 259 553 275 578 297 602 c 0
- 324 632 360 657 403 657 c 0
- 489 657 559 607 559 506 c 0
- 559 478 532 450 501 420 c 0
- 471 390 435 358 435 316 c 0
- 435 279 437 243 437 226 c 1
- 365 226 l 1
- 366 243 367 279 367 316 c 0
- 367 380 495 448 495 506 c 0
+551 78 m 4
+ 551 113 588 148 623 148 c 4
+ 658 148 693 114 693 79 c 4
+ 693 44 658 9 623 9 c 4
+ 587 9 551 43 551 78 c 4
+315 78 m 0
+ 315 113 352 148 387 148 c 0
+ 422 148 457 114 457 79 c 0
+ 457 44 422 9 387 9 c 0
+ 351 9 315 43 315 78 c 0
+479 506 m 0
+ 479 574 449 595 387 595 c 0
+ 335 595 309 552 301 536 c 1
+ 235 538 l 1
+ 243 553 259 578 281 602 c 0
+ 308 632 344 657 387 657 c 0
+ 473 657 543 607 543 506 c 0
+ 543 478 516 450 485 420 c 0
+ 455 390 419 358 419 316 c 0
+ 419 279 421 243 421 226 c 1
+ 349 226 l 1
+ 350 243 351 279 351 316 c 0
+ 351 380 479 448 479 506 c 0
 EndSplineSet
-Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" question period
 EndChar
 
 StartChar: less_asciitilde_greater
 Encoding: 305 -1 305
-Width: 1440
-Flags: H
-HStem: 11 21G<403.497 437> 121 68<594.3 695.693> 143 68<899.713 1011.35> 203 69<431.06 531.7 745.502 859.564>
+Width: 1392
+Flags: HW
+HStem: 11 21G<379.497 413> 121 68<570.3 671.693> 143 68<875.713 987.35> 203 69<407.06 507.7 721.502 835.564>
 LayerCount: 2
 Fore
 SplineSet
-1003 15 m 5x80
- 1003 93 l 5
- 1230 212 l 5
- 1003 321 l 5
- 1003 402 l 5
- 1333 212 l 5
- 1003 15 l 5x80
-437 89 m 5
- 437 11 l 5
- 107 208 l 5
- 437 398 l 5
- 437 317 l 5
- 210 208 l 5
- 437 89 l 5
-1041 253 m 5
- 1041 193 l 5
- 1014 163 985 143 969 143 c 4xa0
- 903 143 864 203 789 203 c 4
- 766 203 740 184 725 171 c 5
- 698 141 669 121 653 121 c 4
- 587 121 548 203 473 203 c 4
- 443 203 409 171 399 161 c 5
- 399 220 l 5
- 426 250 456 272 473 272 c 4
- 539 272 578 189 653 189 c 4xd0
- 677 189 704 211 718 224 c 4
- 744 253 773 273 789 273 c 4
- 855 273 894 211 969 211 c 4xa0
- 998 211 1031 243 1041 253 c 5
+979 15 m 5x80
+ 979 93 l 5
+ 1206 212 l 5
+ 979 321 l 5
+ 979 402 l 5
+ 1309 212 l 5
+ 979 15 l 5x80
+413 89 m 5
+ 413 11 l 5
+ 83 208 l 5
+ 413 398 l 5
+ 413 317 l 5
+ 186 208 l 5
+ 413 89 l 5
+1017 253 m 5
+ 1017 193 l 5
+ 990 163 961 143 945 143 c 4xa0
+ 879 143 840 203 765 203 c 4
+ 742 203 716 184 701 171 c 5
+ 674 141 645 121 629 121 c 4
+ 563 121 524 203 449 203 c 4
+ 419 203 385 171 375 161 c 5
+ 375 220 l 5
+ 402 250 432 272 449 272 c 4
+ 515 272 554 189 629 189 c 4xd0
+ 653 189 680 211 694 224 c 4
+ 720 253 749 273 765 273 c 4
+ 831 273 870 211 945 211 c 4xa0
+ 974 211 1007 243 1017 253 c 5
 EndSplineSet
-Validated: 1
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" less asciitilde greater
 EndChar
 
 StartChar: colon_equal
 Encoding: 306 -1 306
-Width: 960
-Flags: H
-HStem: 108 138<197.779 293.125> 149 84<385 865> 315 139<197.779 293.125> 334 84<385 865>
-VStem: 174 140<130.071 222.707 337.732 430.161>
+Width: 928
+Flags: HW
+HStem: 108 138<150.279 245.625> 149 84<337.5 817.5> 315 139<150.279 245.625> 334 84<337.5 817.5>
+VStem: 126.5 140<130.071 222.707 337.732 430.161>
 LayerCount: 2
 Fore
-Refer: 86 61 S 1 0 0 1 385 -1 2
-Refer: 83 58 N 1 0 0 1 4 83 2
-Validated: 1
+Refer: 86 61 S 1 0 0 1 337.5 -1 2
+Refer: 83 58 N 1 0 0 1 -43.5 83 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" colon equal
 EndChar
 
 StartChar: equal_asciitilde
 Encoding: 307 -1 307
-Width: 960
-Flags: H
-HStem: 150 84<41 521> 212 68<709.3 810.35> 294 69<546.06 646.7> 335 84<41 521>
-VStem: 514 326
+Width: 928
+Flags: HW
+HStem: 150 84<72.5 552.5> 212 68<740.8 841.85> 294 69<577.56 678.2> 335 84<72.5 552.5>
+VStem: 545.5 326
 LayerCount: 2
 Fore
-Refer: 93 126 S 1 0 0 1 437 16 2
-Refer: 86 61 N 1 0 0 1 41 0 2
-Validated: 1
+Refer: 93 126 S 1 0 0 1 468.5 16 2
+Refer: 86 61 N 1 0 0 1 72.5 0 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" equal asciitilde
 EndChar
 
 StartChar: exclam_asciitilde
 Encoding: 308 -1 308
-Width: 960
+Width: 928
 Flags: HW
-HStem: 119 68<583.194 685.35> 201 69<421.06 487.732> 308 68<609.398 685.35> 390 69<421.06 523.04>
-VStem: 389 326
+HStem: 119 68<575.194 677.35> 201 69<413.06 479.732> 308 68<601.398 677.35> 390 69<413.06 515.04>
+VStem: 381 326
 LayerCount: 2
 Fore
-Refer: 93 126 S 1 0 0 1 350 133 2
-Refer: 60 33 N 1 0 0 1 36 0 2
-Validated: 1
+Refer: 93 126 S 1 0 0 1 342 133 2
+Refer: 60 33 N 1 0 0 1 28 0 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" exclam asciitilde
 EndChar
 
 StartChar: period_period_period
 Encoding: 309 -1 309
-Width: 1440
-Flags: H
+Width: 1392
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 79 46 S 1 0 0 1 772 0 2
-Refer: 79 46 N 1 0 0 1 478 0 2
-Refer: 79 46 N 1 0 0 1 188 0 2
-Validated: 1
+Refer: 79 46 S 1 0 0 1 756 0 2
+Refer: 79 46 N 1 0 0 1 462 0 2
+Refer: 79 46 N 1 0 0 1 172 0 2
 LCarets2: 2 0 0
 Ligature2: "programming_symbols" period period period
 EndChar
 
 StartChar: period_period
 Encoding: 310 -1 310
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 79 46 S 1 0 0 1 407 0 2
-Refer: 79 46 N 1 0 0 1 73 0 2
-Validated: 1
+Refer: 79 46 S 1 0 0 1 399 0 2
+Refer: 79 46 N 1 0 0 1 65 0 2
 LCarets2: 1 0
 Ligature2: "programming_symbols" period period
 EndChar
