@@ -60,7 +60,7 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: glyph "do_ht_comment_open" 0 0 0 1
  String: 4 less
- BString: 0
+ BString: 0 
  FString: 20 exclam hyphen hyphen
  1
   SeqLookup: 0 "called_ligatures"
@@ -332,7 +332,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 27 9
+WinInfo: 81 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -5797,39 +5797,41 @@ SplineSet
  220 162 l 5
  371 83 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "called_ligatures-1" less exclam hyphen hyphen
 LCarets2: 3 0 0 0
 EndChar
 
 StartChar: plus_plus
 Encoding: 269 -1 269
-Width: 960
-HStem: 243 79<156 280 358 604 682 804>
-VStem: 280 78<77 243 322 467> 604 78<77 243 322 467>
+Width: 928
+Flags: HW
+HStem: 243 79<140 264 342 588 666 788>
+VStem: 264 78<77 243 322 467> 588 78<77 243 322 467>
 LayerCount: 2
 Fore
 SplineSet
-604 322 m 1
- 604 467 l 1
- 682 467 l 1
- 682 322 l 1
- 804 322 l 1
- 804 243 l 1
- 682 243 l 1
- 682 77 l 1
- 604 77 l 1
- 604 243 l 1
- 522 243 440 243 358 243 c 1
- 358 77 l 1
- 280 77 l 1
- 280 243 l 1
- 156 243 l 1
- 156 322 l 1
- 280 322 l 1
- 280 467 l 1
- 358 467 l 1
- 358 322 l 1
- 604 322 l 1
+588 322 m 1
+ 588 467 l 1
+ 666 467 l 1
+ 666 322 l 1
+ 788 322 l 1
+ 788 243 l 1
+ 666 243 l 1
+ 666 77 l 1
+ 588 77 l 1
+ 588 243 l 1
+ 506 243 424 243 342 243 c 1
+ 342 77 l 1
+ 264 77 l 1
+ 264 243 l 1
+ 140 243 l 1
+ 140 322 l 1
+ 264 322 l 1
+ 264 467 l 1
+ 342 467 l 1
+ 342 322 l 1
+ 588 322 l 1
 EndSplineSet
 Validated: 1
 Ligature2: "programming_symbols" plus plus
@@ -5838,12 +5840,12 @@ EndChar
 
 StartChar: plus_equals
 Encoding: 270 -1 270
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 86 61 S 1 0 0 1 458 -3 2
-Refer: 85 43 N 1 0 0 1 23 0 2
+Refer: 86 61 S 1 0 0 1 410.5 -3 2
+Refer: 85 43 N 1 0 0 1 -24.5 0 2
 Validated: 1
 Ligature2: "programming_symbols" plus equal
 LCarets2: 1 0
@@ -5851,133 +5853,128 @@ EndChar
 
 StartChar: minus_equals
 Encoding: 271 -1 271
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 86 61 S 1 0 0 1 455 -5 2
-Refer: 87 45 N 1 0 0 1 32 0 2
-Validated: 1
+Refer: 86 61 S 1 0 0 1 405 -5 2
+Refer: 87 45 N 1 0 0 1 -18 0 2
 Ligature2: "programming_symbols" hyphen equal
 LCarets2: 1 0
 EndChar
 
 StartChar: times_equals
 Encoding: 272 -1 272
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 86 61 N 1 0 0 1 422 14 2
-Refer: 89 42 S 1 0 0 1 0 8 2
-Validated: 1
+Refer: 86 61 N 1 0 0 1 414 14 2
+Refer: 89 42 S 1 0 0 1 -8 8 2
 Ligature2: "programming_symbols" asterisk equal
 LCarets2: 1 0
 EndChar
 
 StartChar: divide_equals
 Encoding: 273 -1 273
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-816 444 m 5
- 816 360 l 5
- 364 360 l 5
- 327 259 l 5
- 816 259 l 5
- 816 175 l 5
- 296 175 l 5
- 234 6 l 5
- 144 6 l 5
- 390 663 l 5
- 476 663 l 5
- 395 444 l 5
- 816 444 l 5
+800 444 m 5
+ 800 360 l 5
+ 348 360 l 5
+ 311 259 l 5
+ 800 259 l 5
+ 800 175 l 5
+ 280 175 l 5
+ 218 6 l 5
+ 128 6 l 5
+ 374 663 l 5
+ 460 663 l 5
+ 379 444 l 5
+ 800 444 l 5
 EndSplineSet
-Validated: 1
 Ligature2: "programming_symbols" slash equal
 LCarets2: 1 0
 EndChar
 
 StartChar: logical_and
 Encoding: 274 -1 274
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-307 511 m 0
- 307 549 281 588 245 588 c 0
- 209 588 177 549 177 509 c 0
- 177 472 201 454 243 427 c 1
- 252 433 246 429 261 441 c 0
- 285 459 307 476 307 511 c 0
-105 517 m 0
- 105 602 162 663 245 663 c 0
- 330 663 387 601 387 528 c 0
- 387 452 323 397 295 373 c 1
- 318 339 321 337 339 302 c 0
- 369 250 369 250 401 157 c 1
- 414 107 433 61 445 5 c 1
- 379 5 l 1
- 373 40 366 45 351 117 c 1
- 343 102 l 1
- 316 37 300 5 239 5 c 0
- 146 5 105 86 105 194 c 0
- 105 302 149 351 179 382 c 1
- 155 401 105 440 105 517 c 0
-223 79 m 0
- 262 79 289 144 313 203 c 1
- 285 254 262 292 239 329 c 1
- 195 289 169 264 169 193 c 0
- 169 125 190 79 223 79 c 0
-711 511 m 4
- 711 549 685 588 649 588 c 4
- 613 588 581 549 581 509 c 4
- 581 472 605 454 647 427 c 5
- 656 433 650 429 665 441 c 4
- 689 459 711 476 711 511 c 4
-509 517 m 4
- 509 602 566 663 649 663 c 4
- 734 663 791 601 791 528 c 4
- 791 452 727 397 699 373 c 5
- 722 339 725 337 743 302 c 6
- 743 302 757 274 765 260 c 5
- 771 267 l 6
- 787 289 805 333 815 359 c 5
- 855 302 l 5
- 850 291 847 282 839 264 c 4
- 824 232 806 193 797 176 c 5
- 810 126 837 61 849 5 c 5
- 783 5 l 5
- 777 40 770 45 755 117 c 5
- 747 102 l 5
- 720 37 704 5 643 5 c 4
- 550 5 509 86 509 194 c 4
- 509 302 553 351 583 382 c 5
- 559 401 509 440 509 517 c 4
-627 79 m 4
- 666 79 693 144 717 203 c 5
- 689 254 666 292 643 329 c 5
- 599 289 573 264 573 193 c 4
- 573 125 594 79 627 79 c 4
+291 511 m 0
+ 291 549 265 588 229 588 c 0
+ 193 588 161 549 161 509 c 0
+ 161 472 185 454 227 427 c 1
+ 236 433 230 429 245 441 c 0
+ 269 459 291 476 291 511 c 0
+89 517 m 0
+ 89 602 146 663 229 663 c 0
+ 314 663 371 601 371 528 c 0
+ 371 452 307 397 279 373 c 1
+ 302 339 305 337 323 302 c 0
+ 353 250 353 250 385 157 c 1
+ 398 107 417 61 429 5 c 1
+ 363 5 l 1
+ 357 40 350 45 335 117 c 1
+ 327 102 l 1
+ 300 37 284 5 223 5 c 0
+ 130 5 89 86 89 194 c 0
+ 89 302 133 351 163 382 c 1
+ 139 401 89 440 89 517 c 0
+207 79 m 0
+ 246 79 273 144 297 203 c 1
+ 269 254 246 292 223 329 c 1
+ 179 289 153 264 153 193 c 0
+ 153 125 174 79 207 79 c 0
+695 511 m 4
+ 695 549 669 588 633 588 c 4
+ 597 588 565 549 565 509 c 4
+ 565 472 589 454 631 427 c 5
+ 640 433 634 429 649 441 c 4
+ 673 459 695 476 695 511 c 4
+493 517 m 4
+ 493 602 550 663 633 663 c 4
+ 718 663 775 601 775 528 c 4
+ 775 452 711 397 683 373 c 5
+ 706 339 709 337 727 302 c 6
+ 727 302 741 274 749 260 c 5
+ 755 267 l 6
+ 771 289 789 333 799 359 c 5
+ 839 302 l 5
+ 834 291 831 282 823 264 c 4
+ 808 232 790 193 781 176 c 5
+ 794 126 821 61 833 5 c 5
+ 767 5 l 5
+ 761 40 754 45 739 117 c 5
+ 731 102 l 5
+ 704 37 688 5 627 5 c 4
+ 534 5 493 86 493 194 c 4
+ 493 302 537 351 567 382 c 5
+ 543 401 493 440 493 517 c 4
+611 79 m 4
+ 650 79 677 144 701 203 c 5
+ 673 254 650 292 627 329 c 5
+ 583 289 557 264 557 193 c 4
+ 557 125 578 79 611 79 c 4
 EndSplineSet
-Validated: 1
 Ligature2: "programming_symbols" ampersand ampersand
 LCarets2: 1 0
 EndChar
 
 StartChar: logical_or
 Encoding: 275 -1 275
-Width: 960
-Flags: H
+Width: 928
+Flags: HW
 LayerCount: 2
 Fore
-Refer: 58 124 S 1 0 0 1 362 0 2
-Refer: 58 124 S 1 0 0 1 118 0 2
-Validated: 1
+Refer: 58 124 S 1 0 0 1 354 0 2
+Refer: 58 124 S 1 0 0 1 110 0 2
 Ligature2: "called_ligatures-1" bar bar
 LCarets2: 1 0
 EndChar
