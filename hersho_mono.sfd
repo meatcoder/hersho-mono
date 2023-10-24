@@ -332,7 +332,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 81 27 9
+WinInfo: 108 27 9
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -6010,6 +6010,7 @@ SplineSet
  601 481 l 1
  1086 481 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "called_ligatures-1" bar bar equal
 LCarets2: 2 0 0
 EndChar
@@ -6053,6 +6054,7 @@ SplineSet
  591 172 681 323 681 323 c 1
  681 323 591 474 591 476 c 1
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" zero x
 LCarets2: 1 0
 EndChar
@@ -6115,6 +6117,7 @@ SplineSet
  696 658 l 1
  772 658 l 1
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" numbersign exclam
 LCarets2: 1 0
 EndChar
@@ -6138,6 +6141,7 @@ SplineSet
  141 234 l 5
  357 234 571 234 787 234 c 5
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" equal equal
 LCarets2: 1 0
 EndChar
@@ -6172,6 +6176,7 @@ SplineSet
  473 234 l 5
  787 234 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" exclam equal
 LCarets2: 1 0
 EndChar
@@ -6196,6 +6201,7 @@ SplineSet
  300 197 l 5
  629 197 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" less equal
 LCarets2: 1 0
 EndChar
@@ -6220,6 +6226,7 @@ SplineSet
  299 129 l 5
  299 197 l 5
 EndSplineSet
+Validated: 1
 Ligature2: "programming_symbols" greater equal
 EndChar
 
@@ -6231,6 +6238,7 @@ LayerCount: 2
 Fore
 Refer: 89 42 S 1 0 0 1 406 197 2
 Refer: 59 47 N 1 0 0 1 42 0 2
+Validated: 1
 Ligature2: "programming_symbols" slash asterisk
 LCarets2: 1 0
 EndChar
@@ -6245,6 +6253,7 @@ LayerCount: 2
 Fore
 Refer: 59 47 S 1 0 0 1 422 0 2
 Refer: 89 42 S 1 0 0 1 58 -111 2
+Validated: 1
 Ligature2: "programming_symbols" asterisk slash
 LCarets2: 1 0
 EndChar
@@ -6260,6 +6269,7 @@ Fore
 Refer: 89 42 N 1 0 0 1 859 200 2
 Refer: 89 42 N 1 0 0 1 417 197 2
 Refer: 59 47 N 1 0 0 1 53 0 2
+Validated: 1
 Ligature2: "programming_symbols" slash asterisk asterisk
 LCarets2: 2 0 0
 EndChar
@@ -6275,6 +6285,7 @@ Fore
 Refer: 89 42 N 1 0 0 1 513 -107.73 2
 Refer: 89 42 N 1 0 0 1 71 -110.73 2
 Refer: 59 47 N 1 0 0 1 873 0 2
+Validated: 1
 Ligature2: "programming_symbols" asterisk asterisk slash
 LCarets2: 2 0 0
 EndChar
@@ -6289,6 +6300,7 @@ LayerCount: 2
 Fore
 Refer: 59 47 S 1 0 0 1 339 0 2
 Refer: 59 47 S 1 0 0 1 125 0 2
+Validated: 1
 Ligature2: "programming_symbols" slash slash
 LCarets2: 1 0
 EndChar
@@ -6304,6 +6316,7 @@ Fore
 Refer: 59 47 N 1 0 0 1 677 0 2
 Refer: 59 47 N 1 0 0 1 464 0 2
 Refer: 59 47 N 1 0 0 1 251 0 2
+Validated: 1
 Ligature2: "programming_symbols" slash slash slash
 LCarets2: 2 0 0
 EndChar
@@ -6316,28 +6329,29 @@ LayerCount: 2
 Fore
 Refer: 86 61 S 1 0 0 1 400.5 0 2
 Refer: 73 37 N 1 0 0 1 -0.5 -59 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "programming_symbols" percent equal
 EndChar
 
 StartChar: greater_end
 Encoding: 290 -1 290
-Width: 480
-Flags: W
+Width: 464
+Flags: HW
 HStem: 243 79<0 271>
 LayerCount: 2
 Fore
 SplineSet
-159 74 m 5
- 159 166 l 5
- 271 243 l 5
+143 74 m 1
+ 143 166 l 1
+ 255 243 l 1
  0 243 l 1
  0 322 l 1
- 271 322 l 5
- 159 391 l 5
- 159 482 l 5
- 266 417 373 349 479 284 c 5
- 159 74 l 5
+ 255 322 l 1
+ 143 391 l 1
+ 143 482 l 1
+ 250 417 357 349 463 284 c 1
+ 143 74 l 1
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
