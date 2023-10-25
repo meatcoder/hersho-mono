@@ -8,7 +8,7 @@ It is very much a work in progress. It is currently usable but unfinished. The p
 
 ## Sample
 
-![Font Preview](https://github.com/meatcoder/hersho-mono/releases/latest/download/HershoMonoNF-Regular.png)
+![Font Preview](https://meatcoder.github.io/hersho-mono/HershoMonoNF-Regular.png)
 
 ## Design Inspirations
 
