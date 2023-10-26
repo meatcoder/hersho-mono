@@ -332,7 +332,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 81 27 9
+WinInfo: 54 27 9
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 522190 261095 174063 489685 1048576 174063 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
@@ -5160,7 +5160,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 N 1 0 0 1 -49.3625 -27 2
+Refer: 253 768 N 1 0 0 1 -17.3625 -27 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5172,7 +5172,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 28.6375 -37 2
+Refer: 250 769 N 1 0 0 1 90.6375 -37 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5184,7 +5184,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 N 1 0 0 1 -3.36251 68 2
+Refer: 257 770 N 1 0 0 1 27.6375 68 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -5196,7 +5196,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -2.36251 274 2
+Refer: 258 771 N 1 0 0 1 26.6375 274 2
 Refer: 0 111 N 1 0 0 1 3 0 3
 Validated: 1
 EndChar
@@ -5208,7 +5208,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -7.36251 -39 2
+Refer: 248 776 S 1 0 0 1 42.6375 -39 2
 Refer: 0 111 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
