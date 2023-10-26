@@ -26,18 +26,19 @@ In crafting Hersho Mono, the designer reimagined these classics, stripping them 
 
 ## Current Availability
 
-- **Regular Variant**: Currently, only the regular variant is available.
+- Regular
+- Italic
 
 ## Planned Updates
 
 - **Support for Additional Languages**: Open for contributions, especially for Chinese and Japanese characters.
 - **Ligatures**: 
   - Legibility-focused spacing tweaks
-  - Common programming symbol combinations
+  - Common programming symbol combinations (currently in progress)
   - Enhanced display of common terminal character combinations
 - **Font Variants**:
-  - Italic
   - Bold
+  - Bold Italic
  
 ## Download
 
