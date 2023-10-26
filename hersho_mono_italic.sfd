@@ -4487,6 +4487,7 @@ LayerCount: 2
 Fore
 Refer: 253 768 S 1 0 0 1 10.3601 240 2
 Refer: 30 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -4498,6 +4499,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 100.36 240 2
 Refer: 30 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -4509,6 +4511,7 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 47.3601 335 2
 Refer: 30 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -4520,6 +4523,7 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 54.3601 238 2
 Refer: 30 69 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -4531,6 +4535,7 @@ LayerCount: 2
 Fore
 Refer: 253 768 S 1 0 0 1 4.00023 241 2
 Refer: 32 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -4542,6 +4547,7 @@ LayerCount: 2
 Fore
 Refer: 250 769 N 1 0 0 1 98.0002 241 2
 Refer: 32 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Icircumflex
@@ -4553,6 +4559,7 @@ LayerCount: 2
 Fore
 Refer: 257 770 N 1 0 0 1 52.0002 336 2
 Refer: 32 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Idieresis
@@ -4564,38 +4571,40 @@ LayerCount: 2
 Fore
 Refer: 248 776 N 1 0 0 1 55.0002 238 2
 Refer: 32 73 N 1 0 0 1 0 0 3
+Validated: 1
 EndChar
 
 StartChar: Eth
 Encoding: 204 208 200
-Width: 464
+Width: 429
 VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
 SplineSet
-95 1 m 5
- 95 298 l 5
- 53 298 l 5
- 53 366 l 5
- 95 366 l 5
- 95 656 l 5
- 251 656 l 6
- 315 656 411 508 411 328 c 4
- 411 163 314 1 251 1 c 6
- 95 1 l 5
-213 590 m 6
- 163 590 l 5
- 163 366 l 5
- 245 366 l 5
- 245 298 l 5
- 163 298 l 5
- 163 54 l 5
- 213 54 l 6
- 267 54 353 183 353 328 c 4
- 353 481 269 590 213 590 c 6
+87 1 m 5
+ 129 298 l 5
+ 90 298 l 5
+ 100 366 l 5
+ 139 366 l 5
+ 179 656 l 5
+ 325 656 l 6
+ 376.144624034 656 432.375472505 548.462683334 432.375472505 405.234317246 c 0
+ 432.375472505 380.435209722 430.689739986 354.566127899 427 328 c 4
+ 404 163 292 1 233 1 c 6
+ 87 1 l 5
+280 590 m 6
+ 233 590 l 5
+ 202 366 l 5
+ 278 366 l 5
+ 269 298 l 5
+ 192 298 l 5
+ 158 54 l 5
+ 205 54 l 6
+ 255 54 353 183 373 328 c 4
+ 376.092548121 349.507266478 377.505493804 370.145091694 377.505493804 389.732926804 c 0
+ 377.505493804 509.490497346 324.690340805 590 280 590 c 6
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -4605,7 +4614,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -36.5013 532 2
+Refer: 258 771 N 1 0 0 1 57.4987 532 2
 Refer: 33 78 N 1 0 0 1 5.00012 0 3
 Validated: 1
 EndChar
