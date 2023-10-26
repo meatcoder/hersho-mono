@@ -4485,9 +4485,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 S 1 0 0 1 -128.64 240 2
+Refer: 253 768 S 1 0 0 1 10.3601 240 2
 Refer: 30 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Eacute
@@ -4497,9 +4496,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 -52.6399 240 2
+Refer: 250 769 N 1 0 0 1 100.36 240 2
 Refer: 30 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ecircumflex
@@ -4509,9 +4507,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 -85.6399 335 2
+Refer: 257 770 N 1 0 0 1 47.3601 335 2
 Refer: 30 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Edieresis
@@ -4521,9 +4518,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -79.6399 238 2
+Refer: 248 776 N 1 0 0 1 54.3601 238 2
 Refer: 30 69 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Igrave
@@ -4533,9 +4529,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 S 1 0 0 1 -79.9998 241 2
+Refer: 253 768 S 1 0 0 1 4.00023 241 2
 Refer: 32 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Iacute
@@ -4545,9 +4540,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 S 1 0 0 1 2.00023 241 2
+Refer: 250 769 N 1 0 0 1 98.0002 241 2
 Refer: 32 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Icircumflex
@@ -4557,9 +4551,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 -34.9998 336 2
-Refer: 32 73 S 1 0 0 1 0 0 3
-Validated: 1
+Refer: 257 770 N 1 0 0 1 52.0002 336 2
+Refer: 32 73 N 1 0 0 1 0 0 3
 EndChar
 
 StartChar: Idieresis
@@ -4569,9 +4562,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 S 1 0 0 1 -36.9998 238 2
+Refer: 248 776 N 1 0 0 1 55.0002 238 2
 Refer: 32 73 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Eth
