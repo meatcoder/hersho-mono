@@ -22,6 +22,7 @@
                 fontforge-gtk
                 font-manager
                 shellcheck
+                shfmt
                 curl
                 unzip
               ];
