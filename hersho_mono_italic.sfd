@@ -4367,7 +4367,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 S 1 0 0 1 -46.5 239 2
+Refer: 253 768 S 1 0 0 1 46.5 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4379,7 +4379,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 N 1 0 0 1 47.5 239 2
+Refer: 250 769 S 1 0 0 1 128.5 239 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4390,7 +4390,7 @@ Width: 464
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 3.5 334 2
+Refer: 257 770 N 1 0 0 1 87.5 334 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4402,8 +4402,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 S 1 0 0 1 10 540 2
-Refer: 29 65 S 1 0 0 1 -3.5 0 3
+Refer: 258 771 N 1 0 0 1 97.5 540 2
+Refer: 29 65 N 1 0 0 1 -3.5 0 3
 Validated: 1
 EndChar
 
@@ -4414,7 +4414,7 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -4.5 237 2
+Refer: 248 776 S 1 0 0 1 87.5 237 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
@@ -4426,42 +4426,40 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 260 778 N 1 0 0 1 -2.5 134 2
+Refer: 260 778 N 1 0 0 1 82.5 134 2
 Refer: 29 65 N 1 0 0 1 0 0 3
 Validated: 1
 EndChar
 
 StartChar: AE
 Encoding: 194 198 190
-Width: 464
+Width: 429
 VWidth: 833
 Flags: HW
-HStem: 0 57<290 420> 162 60<162 230> 314 59<290 420> 591 62<290 420>
-VStem: 230 190<0 57 314 373> 230 60<57 162 222 314 373 591>
 LayerCount: 2
 Fore
 SplineSet
-420 653 m 1xf8
- 420 591 l 1xf8
- 290 591 l 1
- 290 373 l 1xf4
- 420 373 l 1
- 420 314 l 1xf8
- 290 314 l 1
- 290 57 l 1xf4
- 420 57 l 1
- 420 0 l 1
- 230 0 l 1xf8
- 230 162 l 1xf4
- 150 162 l 1
- 124 29 122 19 118 0 c 1
- 44 0 l 1
- 174 653 l 1
- 420 653 l 1xf8
-230 591 m 1xf4
- 162 222 l 1
- 230 222 l 1
- 230 591 l 1xf4
+481 653 m 1xf8
+ 473 591 l 1xf8
+ 352 591 l 1
+ 321 373 l 1xf4
+ 442 373 l 1
+ 434 314 l 1xf8
+ 313 314 l 1
+ 277 57 l 1xf4
+ 398 57 l 1
+ 390 0 l 1
+ 213 0 l 1xf8
+ 236 162 l 1xf4
+ 161 162 l 1
+ 118 29 115 19 109 0 c 1
+ 40 0 l 1
+ 253 653 l 1
+ 481 653 l 1xf8
+296 591 m 1xf4
+ 181 222 l 1
+ 244 222 l 1
+ 296 591 l 1xf4
 EndSplineSet
 Validated: 1
 EndChar
