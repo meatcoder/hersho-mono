@@ -22,16 +22,18 @@ jobs:
         uses: actions/cache@v2
         with:
           path: fonts
-          key: otf-${{ hashFiles('**/hersho_mono.sfd') }}
+          key: otf-${{ hashFiles('**/*.sfd') }}
 
-      - name: Build font
+      - name: Build fonts
         run: |
           if [[ ! -f fonts/HershoMono-Regular.otf ]]; then
             nix develop --command ./scripts/build.sh
           fi
 
-      - name: Lint unpatched font
-        run: nix develop --command fontlint fonts/HershoMono-Regular.otf
+      - name: Lint unpatched fonts
+        run: |
+          nix develop --command fontlint fonts/HershoMono-Regular.otf
+          nix develop --command fontlint fonts/HershoMono-Italic.otf
 
       - name: Verify version
         run: |

@@ -21,11 +21,9 @@ jobs:
         uses: actions/cache@v2
         with:
           path: fonts
-          key: otf-${{ hashFiles('**/hersho_mono.sfd') }}
-          restore-keys: |
-            otf-
+          key: otf-${{ hashFiles('**/*.sfd') }}
 
-      - name: Build font if needed
+      - name: Build fonts if needed
         run: |
           if [[ ! -f fonts/HershoMono-Regular.otf ]]; then
             nix develop --command ./scripts/build.sh
