@@ -4589,8 +4589,8 @@ SplineSet
  139 366 l 5
  179 656 l 5
  325 656 l 6
- 376.144624034 656 432.375472505 548.462683334 432.375472505 405.234317246 c 0
- 432.375472505 380.435209722 430.689739986 354.566127899 427 328 c 4
+ 376 656 432 548 432 405 c 0
+ 432 380 431 355 427 328 c 4
  404 163 292 1 233 1 c 6
  87 1 l 5
 280 590 m 6
@@ -4602,9 +4602,10 @@ SplineSet
  158 54 l 5
  205 54 l 6
  255 54 353 183 373 328 c 4
- 376.092548121 349.507266478 377.505493804 370.145091694 377.505493804 389.732926804 c 0
- 377.505493804 509.490497346 324.690340805 590 280 590 c 6
+ 376 350 378 370 378 390 c 0
+ 378 510 325 590 280 590 c 6
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: Ntilde
@@ -4626,9 +4627,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 253 768 S 1 0 0 1 -71.7792 239 2
+Refer: 253 768 S 1 0 0 1 10.2208 239 2
 Refer: 28 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Oacute
@@ -4638,9 +4638,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 250 769 S 1 0 0 1 2.22081 239 2
+Refer: 250 769 N 1 0 0 1 114.221 239 2
 Refer: 28 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Ocircumflex
@@ -4650,9 +4649,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 257 770 S 1 0 0 1 -31.7792 334 2
+Refer: 257 770 N 1 0 0 1 55.2208 334 2
 Refer: 28 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: Otilde
@@ -4662,9 +4660,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 258 771 N 1 0 0 1 -27.7792 540 2
+Refer: 258 771 N 1 0 0 1 65.2208 540 2
 Refer: 28 79 N 1 0 0 1 -13 0 3
-Validated: 1
 EndChar
 
 StartChar: Odieresis
@@ -4674,9 +4671,8 @@ VWidth: 833
 Flags: HW
 LayerCount: 2
 Fore
-Refer: 248 776 N 1 0 0 1 -28.7792 237 2
+Refer: 248 776 N 1 0 0 1 63.2208 237 2
 Refer: 28 79 N 1 0 0 1 0 0 3
-Validated: 1
 EndChar
 
 StartChar: multiply
