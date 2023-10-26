@@ -16,15 +16,26 @@ trap 'cd "$ORIGINAL_DIR"' EXIT
 mkdir -p build
 cd build
 
-# Copy source font from original location to build directory
-echo "Copying source font..."
-SRC_FONT_FILE="hersho_mono.sfd"
-cp "../$SRC_FONT_FILE" .
+# Copy source font files from original location to build directory
+echo "Copying source fonts..."
+SRC_FONT_FILES="hersho_mono_regular.sfd hersho_mono_italic.sfd" 
+for f in $SRC_FONT_FILES; do
+    cp "../$f" .
+done
 
-# Generate OTF font from SFD font
-echo "Generating OTF font..."
-OUT_FONT_FILE="HershoMono-Regular.otf"
-../scripts/generate_otf.sh "$SRC_FONT_FILE" "$OUT_FONT_FILE"
+# Generate OTF font files from SFD font
+echo "Generating OTF fonts..."
+for SRC_FONT_FILE in *.sfd; do
+		# generate output filename
+		BASE_FNAME=$(basename -s .sfd "$SRC_FONT_FILE")
+		N1=$(echo "$BASE_FNAME" | cut -d _ -f 1 )
+		N2=$(echo "$BASE_FNAME" | cut -d _ -f 2 )
+		N3=$(echo "$BASE_FNAME" | cut -d _ -f 3 )
+		OUT_FONT_FILE=$(printf "%s%s-%s.otf" "${N1^}" "${N2^}" "${N3^}") 
+		
+		# call the script to generate the OTF file
+		../scripts/generate_otf.sh "$SRC_FONT_FILE" "$OUT_FONT_FILE"
+done
 
 # Setup nerd font patcher if it doesn't already exist
 PATCHER_VERSION="3.0.2"
@@ -38,8 +49,10 @@ else
 fi
 
 # Patch font with nerd font glyphs
-echo "Patching font with nerd font glyphs..."
-fontforge --script ./font-patcher --complete "$OUT_FONT_FILE"
+echo "Patching regular font with nerd font glyphs..."
+for REGULAR_FONT_FILE in *.otf; do
+		fontforge --script ./font-patcher --complete "$REGULAR_FONT_FILE"
+done
 
 # Generate preview image for nerd font
 echo "Generating preview image for fonts..."
