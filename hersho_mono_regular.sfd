@@ -2720,16 +2720,16 @@ HStem: 150 84<-8 472> 335 84<-8 472>
 LayerCount: 2
 Fore
 SplineSet
-472 234 m 1
- 472 150 l 1
- -8 150 l 1
- -8 234 l 1
- 472 234 l 1
-472 419 m 1
- 472 335 l 1
- -8 335 l 1
- -8 419 l 1
- 472 419 l 1
+464 234 m 5
+ 464 150 l 5
+ 0 150 l 1
+ 0 234 l 1
+ 464 234 l 5
+464 419 m 5
+ 464 335 l 5
+ 0 335 l 1
+ 0 419 l 1
+ 464 419 l 5
 EndSplineSet
 Validated: 1
 Substitution2: "lengthen_dashes-1" narrow_equal
