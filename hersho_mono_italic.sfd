@@ -45,7 +45,7 @@ HheadDOffset: 1
 OS2Vendor: 'PfEd'
 Lookup: 6 0 0 "fixup_arrows_and_dashes" { "catch_short_options"  "catch_long_options"  "do_ht_comment_open"  "fixup_short_dashes_pre"  "fixup_short_dashes_post"  "fixup_mid_arrows"  "fixup_end_arrows"  "fixup_start_arrows"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "fixup_double_arrows" { "fixup_double_greater_start"  "fixup_double_less_start"  "fixup_double_bar_start"  "fixup_double_greater_end"  "fixup_double_less_end"  "fixup_double_bar_end"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
-Lookup: 6 0 0 "fixup_arrowhead_vs_operator" { "do_logical_or"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
+Lookup: 6 0 0 "fixup_arrowhead_vs_operator" { "do_logical_or"  "do_double_plus_pre"  "do_double_plus_post"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 5 0 0 "resolve_arrows_operator_ambiguity" { "do_logical_or_equals"  "do_greater_greater_greater"  "do_less_less_less"  "do_greater_greater_equal"  "do_less_less_equal"  "do_equal_operator"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 6 0 1 "colons_tweaks" { "fixup_colon_with_numerals"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 4 0 1 "auto ligatures" { "programming_symbols"  } ['liga' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
@@ -59,6 +59,40 @@ Lookup: 1 0 0 "lengthen_dashes" { "lengthen_dashes-1"  } []
 Lookup: 1 0 0 "raise_colon" { "raise_colon-1"  } []
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "do_double_plus_post" 3 3 3 1
+  Class: 4 plus
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 4 plus
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 4 plus
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 2 1 0
+  ClsList: 1 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "called_ligatures"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "do_double_plus_pre" 3 3 3 1
+  Class: 4 plus
+  Class: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  BClass: 4 plus
+  BClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+  FClass: 4 plus
+  FClass: 153 zero one two three four five six seven eight nine A B C D E F G H I J K L M N O P Q R S T U V W X Y Z a b c d e f g h i j k l m n o p q r s t u v w x y z
+ 2 0 1
+  ClsList: 1 1
+  BClsList:
+  FClsList: 2
+ 1
+  SeqLookup: 0 "called_ligatures"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 ChainSub2: glyph "do_ht_comment_open" 0 0 0 1
  String: 4 less
  BString: 0 
@@ -2820,7 +2854,7 @@ StartChar: asterisk
 Encoding: 41 42 89
 Width: 464
 VWidth: 833
-Flags: HW
+Flags: W
 HStem: 351 20G<65.8889 134.564 329.5 396.667>
 VStem: 194 75<333 465>
 LayerCount: 2
@@ -5874,7 +5908,8 @@ SplineSet
  356 322 l 1
  584 322 l 1
 EndSplineSet
-Ligature2: "programming_symbols" plus plus
+Validated: 1
+Ligature2: "called_ligatures-1" plus plus
 LCarets2: 1 0
 EndChar
 
@@ -6301,9 +6336,9 @@ EndChar
 StartChar: c_impt_comment_start
 Encoding: 285 -1 285
 Width: 1392
-Flags: HW
-HStem: 548 20G<490.889 559.564 754.5 821.667> 551 20G<932.889 1001.56 1196.5 1263.67>
-VStem: 127 332 619 75<530 662> 1061 75<533 665>
+Flags: W
+HStem: 548 20G<482.889 551.564 746.5 813.667> 551 20G<924.889 993.564 1188.5 1255.67> 643 20G<357.511 451>
+VStem: 119 332 611 75<530 662> 1053 75<533 665>
 LayerCount: 2
 Fore
 Refer: 89 42 N 1 0 0 1 859 200 2
@@ -7147,6 +7182,7 @@ SplineSet
  100 419 l 1
  400 419 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: long_dash
@@ -7188,6 +7224,7 @@ SplineSet
  283 195 244 156 209 156 c 0
  179 156 152 184 152 216 c 4
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: colon_slash_slash
