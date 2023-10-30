@@ -8,7 +8,16 @@ It is very much a work in progress. It is currently usable but unfinished. The p
 
 ## Sample
 
-![Font Preview](https://meatcoder.github.io/hersho-mono/HershoMonoNF-Regular.png)
+![Font Preview Regular](https://meatcoder.github.io/hersho-mono/HershoMonoNF-Regular.png)
+
+![Font Preview Italic](https://meatcoder.github.io/hersho-mono/HershoMonoNF-Italic.png)
+
+## Downloads
+
+- [HershoMono-Regular.otf](https://meatcoder.github.io/hersho-mono/HershoMono-Regular.otf)
+- [HershoMono-Italic.otf](https://meatcoder.github.io/hersho-mono/HershoMono-Italic.otf)
+- [HershoMonoNerdFont-Regular.otf](https://meatcoder.github.io/hersho-mono/HershoMonoNerdFont-Regular.otf)
+- [HershoMonoNerdFont-Italic.otf](https://meatcoder.github.io/hersho-mono/HershoMonoNerdFont-Italic.otf)
 
 ## Design Inspirations
 
